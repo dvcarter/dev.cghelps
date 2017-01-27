@@ -20,24 +20,36 @@ const Header = (props, { metadata: { pkg } }) => (
       </div>
       <div className={ styles.navPart2 }>
         {
-          pkg.twitter &&
-          <a
-            href={ `https://twitter.com/${pkg.twitter}` }
-            className={ styles.link }
-          >
-            <Svg svg={ twitterSvg } cleanup />
-            { "Twitter" }
-          </a>
+            <a
+                href={`#`}
+                className={ styles.link }
+            >
+            { "Get Help" }
+            </a>
         }
         {
-          pkg.repository &&
-          <a
-            href={ pkg.repository }
-            className={ styles.link }
-          >
-            <Svg svg={ gitHubSvg } cleanup />
-            { "GitHub" }
-          </a>
+            <a
+                href={`#`}
+                className={ styles.link}
+            >
+            { "Get Involved" }
+            </a>
+        }
+        {
+            <a 
+                href={`https://donatenow.networkforgood.org/commongroundhelps?code=website`}
+                className={ styles.link}
+            >
+            { "Donate" }
+            </a>
+        }
+        {
+            <a 
+                href={`#`}
+                className={styles.link}
+            >
+            {'About Us'}
+            </a>
         }
       </div>
     </nav>

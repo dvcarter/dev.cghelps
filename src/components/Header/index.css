@@ -7,8 +7,9 @@
   /* stretch */
   left: 0;
   right: 0;
-
-  color: var(--colorNeutralLight);
+  background-color: #fff;  /* edit */
+  color: #696969;
+  /* color: var(--colorNeutralLight); */
 }
 
 .nav {
@@ -41,7 +42,8 @@
   &:focus {
     color: inherit;
     opacity: 1;
-    border-bottom-color: var(--colorNeutralLight);
+    /* edit */
+    /* border-bottom-color: var(--colorNeutralLight); */
   }
 }
 
