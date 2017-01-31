@@ -21,7 +21,7 @@ const Header = (props, { metadata: { pkg } }) => (
       <div className={ styles.navPart2 }>
         {
             <a
-                href={`#`}
+                href={`/get-help`}
                 className={ styles.link }
             >
             { "Get Help" }
@@ -29,7 +29,7 @@ const Header = (props, { metadata: { pkg } }) => (
         }
         {
             <a
-                href={`#`}
+                href={`/get-involved`}
                 className={ styles.link}
             >
             { "Get Involved" }
@@ -45,7 +45,7 @@ const Header = (props, { metadata: { pkg } }) => (
         }
         {
             <a 
-                href={`#`}
+                href={`/about-us`}
                 className={styles.link}
             >
             {'About Us'}
