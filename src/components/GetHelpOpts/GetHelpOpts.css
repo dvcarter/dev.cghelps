@@ -6,6 +6,29 @@
     text-align: center;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width:100%;
+    font-size: 34px;
+    font-weight: 700;
+    padding-bottom: -40px;
+    padding-left: 40px;
+}
+
+hr {
+    margin: 10px;
+}
+.topline {
+    margin-bottom: -15px;
+}
+.bottomline {
+    margin-top: -15px;
+}
+
 .options {
     display: flex;
     justify-content: center;
@@ -27,3 +50,20 @@ img {
     width: 25%;
     height: auto;
 }
+
+button {
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color:red ;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #8b0000;
+}
+
