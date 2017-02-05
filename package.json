@@ -132,6 +132,8 @@
     "phenomic": "^0.20.2"
   },
   "dependencies": {
-    "flexbox-react": "^4.2.1"
+    "flexbox-react": "^4.2.1",
+    "react-fontawesome": "^1.5.0",
+    "react-icons": "^2.2.3"
   }
 }

@@ -6,7 +6,6 @@ hero: https://farm4.staticflickr.com/3949/15589950511_3675b15e59_k.jpg
 cta:
   label: Donate Now
   link: "about"
----
 getHelpOpts:
 - name: call-helps
   title: Call

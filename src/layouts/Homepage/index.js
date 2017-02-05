@@ -4,7 +4,7 @@ import LatestPosts from "../../components/LatestPosts"
 import Page from "../Page"
 
 const Homepage = (props) => {
-    const getHelpOpts = props.head.getHelpsOpts
+    const getHelpOpts = props.head.getHelpOpts
 
   return (
     <Page { ...props }>

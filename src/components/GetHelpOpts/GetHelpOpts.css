@@ -1,3 +1,23 @@
 .help {
-    background: #e9ebee;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 60px;
+   
+    height: 230px;
+    width: 260px;
+}
+
+.glyphs {
+    display: flex;
+    flex-direction: center;
 }
