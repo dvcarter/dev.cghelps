@@ -9,6 +9,7 @@
 .options {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin-right: 20px;
     margin-left: 60px;
@@ -20,4 +21,9 @@
 .glyphs {
     display: flex;
     flex-direction: center;
+}
+
+img {
+    width: 25%;
+    height: auto;
 }

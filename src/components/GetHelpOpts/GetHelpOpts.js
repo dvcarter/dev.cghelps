@@ -7,10 +7,7 @@ const GetHelpOpts = ({ getHelpOpts }) => {
             <div className= {styles.help}>
                     { getHelpOpts.map((helps) => (
                         <div className={styles.options}>
-                        {/*  <h3>{helps.name}</h3> */}
-                            <FaPhone
-                                size='70'
-                            />
+                            <img src={helps.image} />
                             <h4>{helps.description}</h4>
                         </div>
                     ))}

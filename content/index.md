@@ -10,16 +10,16 @@ getHelpOpts:
 - name: call-helps
   title: Call
   description: Call goes here
-  <!-- image: /assets/ -->
+  image: /assets/telephone-handle-silhouette.svg    
 
 - name: chat-helps
   title: Chat
   description: Chat goes here
-  <!-- image: /assets/ -->
+  image: /assets/speech-bubbles-comment-option.svg
 
 - name: text-helps
   title: Text
   description: Text goes here
-  <!-- image: /assets/ -->
+  image: /assets/mobile-phone.svg
  
 ---
