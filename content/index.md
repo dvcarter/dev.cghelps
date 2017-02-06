@@ -13,6 +13,12 @@ getHelpOpts:
   image: /assets/telephone-handle-silhouette.svg
   btn: Call 1-800-231-1127
 
+- name: visit-helps
+  title : Visit
+  description: If you'd need in-person support, please check out our available centers
+  image: /assets/group-profile-users.svg
+  btn: Find Crisis Center
+
 - name: chat-helps
   title: Chat
   description: If you'd like to speak with someone via chat

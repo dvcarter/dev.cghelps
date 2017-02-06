@@ -51,6 +51,10 @@ img {
     height: auto;
 }
 
+.svgClass {
+    background-color: #e9ebee;
+}
+
 .descriptions {
     display: block;
    /* background-color: #e9ebee; */

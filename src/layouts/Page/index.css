@@ -13,6 +13,8 @@
 }
 
 .hero {
+  margin: 0 auto;
+  width: 100vh;
   /* fallback, mainly visible when hero image is loading */
   background-color: var(--colorSecondary);
   /* fallback when there is no hero image */
