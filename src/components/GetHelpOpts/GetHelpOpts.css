@@ -36,8 +36,8 @@ hr {
     flex-direction: column;
     margin-right: 20px;
     margin-left: 60px;
-   
-    height: 230px;
+   /* border: 1px solid black; */
+    height: 250px;
     width: 260px;
 }
 
@@ -51,8 +51,17 @@ img {
     height: auto;
 }
 
-button {
-    margin-top: 20px;
+.descriptions {
+    display: block;
+   /* background-color: #e9ebee; */
+    height: auto;
+    width: auto;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.button{
+    margin-top: 10px;
     border: none;
     border-radius: 8px;
     background-color:red ;
@@ -63,7 +72,18 @@ button {
     font-size: 16px;
 }
 
+
+/* select only middle children */
+.help *:not(:first-child):not(:last-child) .button {
+    background-color: blue;
+}
+
+
 button:hover {
     background-color: #8b0000;
+}
+
+.help *:not(:first-child):not(:last-child) .button:hover {
+    background-color: #00008b;
 }
 
