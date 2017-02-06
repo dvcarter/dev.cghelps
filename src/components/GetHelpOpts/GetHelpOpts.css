@@ -34,8 +34,8 @@ hr {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 20px;
-    margin-left: 60px;
+    /*margin-right: 10px;
+    margin-left: 50px; */
    /* border: 1px solid black; */
     height: 250px;
     width: 260px;
@@ -65,15 +65,15 @@ img {
 }
 
 .button{
-    margin-top: 10px;
+    margin-top: 15px;
     border: none;
     border-radius: 8px;
     background-color:red ;
     color: white;
-    padding: 12px 32px;
+    padding: 12px 40px;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.25vh;
 }
 
 
