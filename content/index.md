@@ -9,19 +9,19 @@ cta:
 getHelpOpts:
 - name: call-helps
   title: Call
-  description: Call goes here
+  description: If you'd like to speak to someone over the phone
   image: /assets/telephone-handle-silhouette.svg
-  btn: Call
+  btn: Call 1-800-231-1127
 
 - name: chat-helps
   title: Chat
-  description: Chat goes here
+  description: If you'd like to speak with someone via chat
   image: /assets/speech-bubbles-comment-option.svg
-  btn: Chat
+  btn: Chat Sign-in
 
 - name: text-helps
   title: Text
-  description: Text goes here
+  description: If you'd like to send someone a quick and confidential text
   image: /assets/mobile-phone.svg
-  btn: Text
+  btn: Text "Hello"
 ---
