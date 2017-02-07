@@ -10,7 +10,7 @@ const GetHelpOpts = ({ getHelpOpts }) => {
                 <div className= {styles.help}>
                     { getHelpOpts.map((helps) => (
                         <div className={styles.options}>
-                            <img src={helps.image} />
+                            <img className={styles.svgClass} src={helps.image} />
                             <div className={styles.descriptions}> {helps.description}</div>
                             <button className={styles.button}>{helps.btn}</button>
                         </div>

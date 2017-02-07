@@ -52,8 +52,10 @@ img {
 }
 
 .svgClass {
-    background-color: #e9ebee;
+    opacity: 0.4;
+    filter: grayscale(100%);;
 }
+
 
 .descriptions {
     display: block;
@@ -78,7 +80,7 @@ img {
 
 
 /* select only middle children */
-.help *:not(:first-child):not(:last-child) .button {
+.help *:not(:first-child):not(:nth-child(3)) .button {
     background-color: blue;
 }
 
@@ -87,7 +89,7 @@ button:hover {
     background-color: #8b0000;
 }
 
-.help *:not(:first-child):not(:last-child) .button:hover {
+.help *:not(:first-child):not(:nth-child(3)) .button:hover {
     background-color: #00008b;
 }
 
