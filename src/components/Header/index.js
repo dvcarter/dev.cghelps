@@ -1,6 +1,7 @@
 import React, { PropTypes } from "react"
 import { Link } from "phenomic"
 import Svg from "react-svg-inline"
+import Logo from "./cg-logo.png"
 
 import twitterSvg from "../icons/iconmonstr-twitter-1.svg"
 import gitHubSvg from "../icons/iconmonstr-github-1.svg"
@@ -15,7 +16,8 @@ const Header = (props, { metadata: { pkg } }) => (
           className={ styles.link }
           to={ "/" }
         >
-          { "Home" }
+          {/* "Home" */}
+          <img className={styles.logo} src={Logo}/>
         </Link>
       </div>
       <div className={ styles.navPart2 }>
