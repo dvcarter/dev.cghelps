@@ -1,82 +1,166 @@
-.help {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    padding: 0;
-    text-align: center;
+/* Wide */
+@media only screen and (min-width: 961px) {
+    .help {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 0;
+        text-align: center;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 40px;
+        width:100%;
+        font-size: 34px;
+        font-weight: 700;
+        padding-bottom: -40px;
+        padding-left: 40px;
+    }   
+
+    hr {
+        margin: 10px;
+    }
+    .topline {
+        margin-bottom: -15px;
+    }
+    .bottomline {
+        margin-top: -15px;
+    }
+
+    .options {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        /*margin-right: 10px;
+        margin-left: 50px; */
+        /* border: 1px solid black; */
+        height: 250px;
+        width: 260px;
+    }
+
+    .glyphs {
+        display: flex;
+        flex-direction: center;
+    }
+
+    img {
+        width: 25%;
+        height: auto;
+    }
+
+    .svgClass {
+        opacity: 0.4;
+        filter: grayscale(10%);;
+    }
+
+
+    .descriptions {
+        display: block;
+        /* background-color: #e9ebee; */
+        height: auto;
+        width: auto;
+        padding-top: 10px;
+        font-size: 13px;
+    }
+
+    .button{
+        margin-top: 15px;
+        border: none;
+        border-radius: 8px;
+        background-color:#fa2600;
+        color: white;
+        padding: 12px 40px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.25vh;
+    }
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 40px;
-    width:100%;
-    font-size: 34px;
-    font-weight: 700;
-    padding-bottom: -40px;
-    padding-left: 40px;
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+    .help {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 0;
+        text-align: center;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 40px;
+        width:100%;
+        font-size: 34px;
+        font-weight: 700;
+        padding-bottom: -40px;
+        padding-left: 40px;
+    }
+
+        hr {
+            margin: 10px;
+        }   
+        .topline {
+            margin-bottom: 15px;
+        }   
+        .bottomline {
+            margin-top: 15px;
+        }
+        .options {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            /*margin-right: 10px;*/
+            /*         margin-left: 50px; */
+            /* border: 1px solid black; */
+            height: 100%;;
+            width: 100%;
+        }
+        .glyphs {
+            display: flex;
+            flex-direction: center;
+        }   
+        img {
+            width: 25%;
+            height: auto;
+            margin-bottom: 10px;
+        }   
+
+        .svgClass {
+            opacity: 0.4;
+            filter: grayscale(10%);;
+        }   
+
+        .descriptions {
+            position: relative;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .button{
+            position: relative;
+            margin-top: 25px;
+            border: none;
+            border-radius: 8px;
+            background-color:#fa2600;
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.25vh;
+        }
+
+
 }
 
-hr {
-    margin: 10px;
-}
-.topline {
-    margin-bottom: -15px;
-}
-.bottomline {
-    margin-top: -15px;
-}
-
-.options {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /*margin-right: 10px;
-    margin-left: 50px; */
-   /* border: 1px solid black; */
-    height: 250px;
-    width: 260px;
-}
-
-.glyphs {
-    display: flex;
-    flex-direction: center;
-}
-
-img {
-    width: 25%;
-    height: auto;
-}
-
-.svgClass {
-    opacity: 0.4;
-    filter: grayscale(10%);;
-}
-
-
-.descriptions {
-    display: block;
-   /* background-color: #e9ebee; */
-    height: auto;
-    width: auto;
-    padding-top: 10px;
-    font-size: 13px;
-}
-
-.button{
-    margin-top: 15px;
-    border: none;
-    border-radius: 8px;
-    background-color:#fa2600;
-    color: white;
-    padding: 12px 40px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.25vh;
-}
 
 
 /* select only middle children */
