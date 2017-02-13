@@ -23,3 +23,5 @@ npm start
 ```sh
 npm run build
 ```
+
+### p.s. there are some tweaks that need to be done
