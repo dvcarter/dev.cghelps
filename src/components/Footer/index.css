@@ -1,5 +1,8 @@
 .footer {
   text-align: center;
+  background-color: #f1f2f2;
+  height: 50%;
+  width: 100vh;
 }
 
 .phenomicReference {
@@ -12,3 +15,40 @@
 .phenomicReferenceName {
   font-weight: 100;
 }
+
+@media (max-width: 480px) {
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #f1f2f2;
+        height: 50%;
+        width: 100vh;
+    }   
+} /* Narrow */
+
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: #f1f2f2;
+        height: 50%;
+        width: 100vh;
+    }
+} /* Medium */
+
+
+@media only screen and (min-width: 961px) {
+
+    .footer {
+          text-align: center;
+          background-color: #f1f2f2;
+          height: 50%;
+          width: 100%;
+    }
+
+} /* Wide */

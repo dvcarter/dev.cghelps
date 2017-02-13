@@ -15,7 +15,7 @@ getHelpOpts:
 
 - name: visit-helps
   title : Visit
-  description: If you'd need in-person support, check out our available centers
+  description: If you need in-person support, check out our centers
   image: /assets/group-profile-users.svg
   btn: Find Crisis Center
 

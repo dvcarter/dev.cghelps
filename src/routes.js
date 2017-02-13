@@ -6,6 +6,7 @@ import AppContainer from "./AppContainer"
 import Page from "./layouts/Page"
 import PageError from "./layouts/PageError"
 import Homepage from "./layouts/Homepage"
+import GetHelp from "./layouts/GetHelpPage"
 import Post from "./layouts/Post"
 
 
@@ -16,6 +17,7 @@ const PageContainer = (props) => (
       Page,
       PageError,
       Homepage,
+      GetHelp,
       Post,
     }}
   />

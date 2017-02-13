@@ -4,7 +4,7 @@
 
 .header {
   position: absolute;
-  /* stretch */
+  width: 100%;
   left: 0;
   right: 0;
   background-color: #fff;  /* edit */
@@ -18,14 +18,27 @@
   justify-content: space-between;
   max-width: calc(var(--maxWidth) + (var(--nav-item-padding) * 2));
   margin: 0 auto;
+  width: 100vh;
   padding: 0;
-  line-height: 3rem;
+  line-height: 2rem;
 }
+
 
 .navPart1,
 .navPart2 {
   display: flex;
   flex-direction: row;
+}
+
+.navPart1 {
+    padding: 5px;
+}
+.navPart1 > img {
+    width: auto;
+}
+
+.navPart2 > a {
+    white-space: nowrap;
 }
 
 .link {
@@ -56,7 +69,6 @@
   vertical-align: middle;
 }
 
-.logo {
-    height: 95px;
-    width: 132px;
-}
+/* @media only screen and (max-width: 480px) {} /* Narrow */
+/* @media only screen and (min-width: 481px) and (max-width: 960px) {} /* Medium */
+/* @media only screen and (min-width: 961px) {} /* Wide */
