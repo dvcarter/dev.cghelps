@@ -24,4 +24,4 @@ npm start
 npm run build
 ```
 
-### p.s. there are some tweaks that need to be done
+### p.s. There are some tweaks that need to be done
