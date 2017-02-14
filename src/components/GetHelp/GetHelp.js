@@ -4,9 +4,11 @@ import styles from './GetHelp.css'
 const GetHelp = ({ getHelp }) => {
     return (
                 <div>
-                    {getHelp.map((help) => (
-                            <div> {help.description} </div>
-                    ))}
+                    <div className={styles.holder}>
+                        {getHelp.map((help) => (
+                            <div className={styles.change}> {help.description} </div>
+                        ))}
+                    </div>
                 </div>
     )
 }

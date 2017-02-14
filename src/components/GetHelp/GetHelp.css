@@ -1,3 +1,13 @@
+.holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+}
+
 .change {
     background-color: red;
+    width: 100%;
 }
