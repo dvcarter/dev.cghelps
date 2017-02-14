@@ -8,7 +8,7 @@ const GetHelpPage = (props) => {
         return (
             <Page {...props }>
                 <GetHelp
-                    getHelp = { getHelp }
+                    getHelp={ getHelp }
                 />
             </Page>
         )
