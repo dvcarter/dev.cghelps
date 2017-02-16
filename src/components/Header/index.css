@@ -2,7 +2,7 @@
   --nav-item-padding: 0.5rem;
 }
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 992px) {
     .header {
       position: absolute;
       height: 82px;
@@ -80,9 +80,10 @@
     }
 }
 
-@media only screen and (min-width:768px) and (max-width: 960px) {
+@media only screen and (min-width:768px) and (max-width: 991px) {
    .header {
        position: fixed;
+       height: 9%;
        width: 100%;
        left: 0;
        right: 0;
@@ -109,19 +110,19 @@
 
     .navPart1 {
         padding: 5px;
-        width: 50%;
-        margin-left: 10px;
+        width: 35%;
+        margin-left: 15px;
     }   
     .navPart1 > img {
         width: 100%;
     }   
     .navPart2 {
-        margin-top: 1.5em;
-        width: 50%;
-        margin-right: 1.625em;
+        width: 55%;
+        margin-right: 2.625em;
     }
 
    .navPart2 > a {
+       height: 100%;
        white-space: nowrap;
    }
    .link {
@@ -184,17 +185,18 @@
     }
     .navPart1 {
         padding: 5px;
-        height: auto;
-        width: 55%;
+        height: 100%;
+        width: 50%;
         margin-left: 30px;
     }
     .navPart1 > img {
-        width: 100%;
+        width: 50%;
+        height: 50px;
     }
     .navPart2 {
         margin-top: 1.5em;
-        width: 43%;
-        margin-right: .63em;
+        width: 50%;
+        margin-right: 1.96em;
     }
     .navPart2 > a {
         white-space: nowrap;

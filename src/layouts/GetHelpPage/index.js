@@ -7,6 +7,7 @@ const GetHelpPage = (props) => {
 
         return (
             <Page {...props }>
+               
                 <GetHelp
                     getHelp={ getHelp }
                 />
@@ -15,7 +16,9 @@ const GetHelpPage = (props) => {
 }
 
 GetHelpPage.propTypes = {
-    head: PropTypes.object.isRequired,
+//    children: PropTypes.node,
+      head: PropTypes.object.isRequired,
+//    body: PropTypes.string,
 }
 
 export default GetHelpPage

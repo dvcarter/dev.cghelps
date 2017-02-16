@@ -1,25 +1,25 @@
 import React, { PropTypes } from 'react'
-import styles from './GetHelp.css'
+import styles from './GetInvolved.css'
 
-const GetHelp = ({ getHelp }) => {
+const GetInvolved = ({ getInvolved }) => {
     return (
                 <div>
                     <div className={styles.title}>
-                        Help is here
+                        Give a Hand
                     </div>
                     <div className={styles.holder}>
-                        {getHelp.map((helper) => (
+                        {getInvolved.map((involver) => (
                             <div className={styles.options}>
-                            {helper.description} 
+                                {involver.description}
                             </div>
-                        ))} 
+                        ))}
                     </div>
                 </div>
     )
 }
 
-GetHelp.propTypes = {
-   getHelp: PropTypes.array.isRequired,
+GetInvolved.propTypes = {
+    getInvolved: PropTypes.array.isRequired,
 }
 
-export default GetHelp
+export default GetInvolved

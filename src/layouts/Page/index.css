@@ -9,22 +9,44 @@
   align-self: center;
   width: 100%;
   max-width: var(--maxWidth);
-  padding: 1rem 0.75rem;
+ /* padding: 1rem 0.75rem; */
 }
 
-.hero {
-  margin: 0 auto;
-  width: 100vh;
-  /* fallback, mainly visible when hero image is loading */
-  background-color: var(--colorSecondary);
-  /* fallback when there is no hero image */
-  background:
-    radial-gradient(
-      ellipse at 50% 50%,
-      color(var(--colorSecondary) l(+ 10%)) 15%,
-      var(--colorSecondary) 70%
-    );
+@media only screen and (max-width:575px) {}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .hero {
+        display: flex;
+        justify-content: right;
+        margin: 0 auto;
+        width: 100%;
+        background-color: var(--colorSecondary);
+    }
+
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero {
+        width: 100%;
+        background-color: var(--colorSecondary);
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+
+    .hero {
+    margin: 0 auto;
+    width: 100vh;
+    /* fallback, mainly visible when hero image is loading */
+    background-color: var(--colorSecondary);
+    /* fallback when there is no hero image */
+    background:
+        radial-gradient(
+        ellipse at 50% 50%,
+        color(var(--colorSecondary) l(+ 10%)) 15%,
+        var(--colorSecondary) 70%
+        );
+    }
+}
+
 
 .header {
   display: flex;
