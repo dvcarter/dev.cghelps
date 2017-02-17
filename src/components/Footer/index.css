@@ -1,22 +1,18 @@
+
+
+@media only screen and (min-width: 1200px) {
+
 .footer {
   text-align: center;
   background-color: #f1f2f2;
   height: 50%;
-  width: 100vh;
+  width: 100%;
 }
 
-.phenomicReference {
-  font-size: 0.75rem;
-  opacity: 0.6;
-  color: inherit;
-  text-decoration: none;
+
 }
 
-.phenomicReferenceName {
-  font-weight: 100;
-}
-
-@media (max-width: 480px) {
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
 
     .footer {
         display: flex;
@@ -25,24 +21,24 @@
         text-align: center;
         background-color: #f1f2f2;
         height: 50%;
-        width: 100vh;
+        width: 100%;
     }   
-} /* Narrow */
+}
 
 
-@media only screen and (min-width: 481px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer {
         display: flex;
         justify-content: center;
         text-align: center;
         background-color: #f1f2f2;
         height: 50%;
-        width: 100vh;
+        width: 100%;
     }
-} /* Medium */
+}
 
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 576px) and (max-width: 767px){
 
     .footer {
           text-align: center;
@@ -51,4 +47,20 @@
           width: 100%;
     }
 
-} /* Wide */
+}
+
+@media only screen and (max-width: 575px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        background-color: #f1f2f2;
+        padding: 5px;
+    }
+
+
+}

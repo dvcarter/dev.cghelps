@@ -1,8 +1,40 @@
 :root {
   --nav-item-padding: 0.5rem;
 }
+@media only screen and (min-width: 1200px) {
 
-@media only screen and (min-width: 992px) {
+    .header {
+        position:absolute;
+        height: 82px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        color: #696969;
+        padding: 5px;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: calc(var(--maxWidth) + (var(--nav-item-padding) * 2));
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+        line-height: 2rem;
+    }
+
+    .navPart1, .navPart2 {
+        display: flex;
+        flex-direction: row;
+    }
+    .navPart1 {
+        padding: 5px;
+        height: auto;
+
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
     .header {
       position: absolute;
       height: 82px;
@@ -36,8 +68,9 @@
     .navPart1 {
         padding: 5px;
         height: auto;
-        width: 55%;
-        margin-left: 30px;
+        width:55%;
+        margin-right: 10px;
+        margin-left: 50px;
     }
     .navPart1 > img {
         width: 100%;
@@ -45,7 +78,8 @@
     .navPart2 {
         margin-top: 1.5em;
         width: 43%;
-        margin-right: .63em;
+        margin-left: 0.63em;
+        margin-right:2.63em;
     }
     .navPart2 > a {
         white-space: nowrap;
@@ -80,10 +114,10 @@
     }
 }
 
-@media only screen and (min-width:768px) and (max-width: 991px) {
+ @media only screen and (min-width:768px) and (max-width: 991px) {
    .header {
-       position: fixed;
-       height: 9%;
+       position: absolute;
+       height: 82px;
        width: 100%;
        left: 0;
        right: 0;
@@ -110,19 +144,20 @@
 
     .navPart1 {
         padding: 5px;
-        width: 35%;
-        margin-left: 15px;
+        height: auto;
+        width: 55%;
+        margin-left: 30px;
     }   
     .navPart1 > img {
         width: 100%;
     }   
     .navPart2 {
-        width: 55%;
-        margin-right: 2.625em;
+        margin-right: 1.5em;
+        width: 43%;
+        margin-left: 0.63em;
     }
 
    .navPart2 > a {
-       height: 100%;
        white-space: nowrap;
    }
    .link {
@@ -196,7 +231,7 @@
     .navPart2 {
         margin-top: 1.5em;
         width: 50%;
-        margin-right: 1.96em;
+        margin-right: 1.96em; 
     }
     .navPart2 > a {
         white-space: nowrap;
@@ -229,5 +264,37 @@
     }
 
 
- } /* Narrow */
-/* @media only screen and (min-width: 481px) and (max-width: 960px) {} /* Medium */
+ } 
+ @media only screen and (max-width: 575px) {
+    .header {
+        display: flex;
+        height: 82px;
+        width:100%;
+        left: 0;
+        right:0;
+        background-color: #fff;
+        padding: 5px;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .navPart1 {
+        width: 50%;
+    }
+
+    .navPart1  img {
+        width: 130px;
+        margin: 5px;
+    }
+    .navPart2 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+
+}
