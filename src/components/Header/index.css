@@ -267,6 +267,7 @@
  } 
  @media only screen and (max-width: 575px) {
     .header {
+        position: fixed;
         display: flex;
         height: 82px;
         width:100%;
@@ -274,6 +275,7 @@
         right:0;
         background-color: #fff;
         padding: 5px;
+        z-index:99;
     }
     .nav {
         display: flex;
@@ -283,7 +285,7 @@
     }
 
     .navPart1 {
-        width: 50%;
+        width: 40%;
     }
 
     .navPart1  img {
@@ -292,8 +294,16 @@
     }
     .navPart2 {
         display: flex;
+        align-items: center;
         flex-direction: column;
-        width: 50%;
+        flex-wrap: wrap;
+        height: 20px;;
+        width: 60%;
+        font-size: 10%;
+    }
+    .navPart2 a {
+        border: 1px solid black;
+        padding: 10px;
     }
 
 

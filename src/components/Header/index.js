@@ -39,6 +39,14 @@ const Header = () => (
         }
         {
             <a 
+                href={`/resources`}
+                className={styles.link}
+            >
+            { "Resources" }
+            </a>
+        }
+        {
+            <a 
                 href={`https://donatenow.networkforgood.org/commongroundhelps?code=website`}
                 className={ styles.link}
             >

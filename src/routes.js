@@ -8,6 +8,7 @@ import PageError from "./layouts/PageError"
 import Homepage from "./layouts/Homepage"
 import GetHelp from "./layouts/GetHelpPage"
 import GetInvolved from "./layouts/GetInvolvedPage"
+import Resources from "./layouts/ResourcePage"
 import Post from "./layouts/Post"
 
 
@@ -20,6 +21,7 @@ const PageContainer = (props) => (
       Homepage,
       GetHelp,
       GetInvolved,
+      Resources,
       Post,
     }}
   />
