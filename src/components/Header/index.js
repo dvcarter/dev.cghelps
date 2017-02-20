@@ -2,6 +2,9 @@ import React, { PropTypes } from "react"
 import { Link } from "phenomic"
 // import Svg from "react-svg-inline"
 import Logo from "./cg-logo.png"
+import Phone from "./telephone-handle-silhouette.png"
+import People from "./group-profile-users.png"
+import Resource from "./plus-button.png"
 
 // import twitterSvg from "../icons/iconmonstr-twitter-1.svg"
 // import gitHubSvg from "../icons/iconmonstr-github-1.svg"
@@ -26,7 +29,10 @@ const Header = () => (
                 href={`/get-help`}
                 className={ styles.link }
             >
-            { "Get Help" }
+            <span className={styles.text}>{ "Get Help" }</span>
+            <span className={styles.icon}>
+                    <img src={Phone}/>
+            </span>
             </a>
         }
         {
@@ -34,7 +40,10 @@ const Header = () => (
                 href={`/get-involved`}
                 className={ styles.link}
             >
-            { "Get Involved" }
+            <span className={styles.text}>{ "Get Involved" }</span>
+            <span className={styles.icon}>
+                <img src={People}/>
+            </span>
             </a>
         }
         {
@@ -42,7 +51,10 @@ const Header = () => (
                 href={`/resources`}
                 className={styles.link}
             >
-            { "Resources" }
+            <span className={styles.text}>{ "Resources" }</span>
+            <span className={styles.icon}>
+                <img src={Resource}/>
+            </span>
             </a>
         }
         {
@@ -50,7 +62,9 @@ const Header = () => (
                 href={`https://donatenow.networkforgood.org/commongroundhelps?code=website`}
                 className={ styles.link}
             >
-            { "Donate" }
+            <span className={styles.text}>
+                { "Donate" }
+            </span>
             </a>
         }
         {
@@ -58,7 +72,9 @@ const Header = () => (
                 href={`/about-us`}
                 className={styles.link}
             >
-            {'About Us'}
+                <span className={styles.text}>
+                    {'About Us'}
+                </span>
             </a>
         }
       </div>

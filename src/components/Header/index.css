@@ -1,8 +1,21 @@
 :root {
   --nav-item-padding: 0.5rem;
 }
-@media only screen and (min-width: 1200px) {
 
+span.icon > img {
+    opacity: 0.4;
+    filter: grayscale(10%);
+    height: 32px;
+    width: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+    span.text {
+        display: inline-block;
+    }
+    span.icon {
+        display: none;
+    }
     .header {
         position:absolute;
         height: 82px;
@@ -30,11 +43,33 @@
     }
     .navPart1 {
         padding: 5px;
-        height: auto;
+        height: 50%;
+        width: 50%;
+        margin-left: 2.5%;
+    }
 
+    .navPart1  img {
+        height: auto;
+        width: 130px;
+    }
+    .navPart2 {
+        margin-top: 1.5em;
+        width: 50%;
+        margin-right: -2%;
+    }
+    .navPart2 > a {
+        white-space: nowrap;
+        margin-right: 15px;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    span.text {
+        display: inline-block;
+    }
+    .icon {
+        display: none;
+    }
+    
     .header {
       position: absolute;
       height: 82px;
@@ -67,22 +102,24 @@
 
     .navPart1 {
         padding: 5px;
-        height: auto;
-        width:55%;
-        margin-right: 10px;
-        margin-left: 50px;
+        height: 50%;
+        width:50%;
+        margin-right: 5px;
+        margin-left: 18px;
     }
-    .navPart1 > img {
-        width: 100%;
+    .navPart1 img {
+        height: auto;
+        width: 130px;
     }
     .navPart2 {
         margin-top: 1.5em;
-        width: 43%;
-        margin-left: 0.63em;
-        margin-right:2.63em;
+        width: 50%;
+        margin-right: 40px;
+        margin-left: 10px;
     }
     .navPart2 > a {
         white-space: nowrap;
+        margin-right: 15px;
     }
 
     .link {
@@ -115,26 +152,30 @@
 }
 
  @media only screen and (min-width:768px) and (max-width: 991px) {
-   .header {
-       position: absolute;
-       height: 82px;
+    span.text {
+        display: inline-block;
+    }
+    span.icon {
+        display: none;
+    }
+     
+    .header {
+       position:fixed;
+       height: 72px;
        width: 100%;
        left: 0;
        right: 0;
        background-color: #fff;  /* edit */
        color: #696969;
        padding: 5px;
+       z-index: 9999;
        /* color: var(--colorNeutralLight); */
    }
    .nav {
        display: flex;
        flex-direction: rown;
-       justify-content: space-between;
-       max-width: calc(var(--maxWidth) + (var(--nav-item-padding) * 2));
        margin: 0 auto;
        width: 100%;
-       padding: 0;
-       line-height: 2rem;
    }
    .navPart1,
    .navPart2 {
@@ -144,21 +185,28 @@
 
     .navPart1 {
         padding: 5px;
-        height: auto;
-        width: 55%;
-        margin-left: 30px;
+        width: 40%;
     }   
-    .navPart1 > img {
-        width: 100%;
+    .navPart1  img {
+        height: auto;
+        width: 130px;
     }   
     .navPart2 {
-        margin-right: 1.5em;
-        width: 43%;
-        margin-left: 0.63em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 60%;
+        margin-right:3.5%;
     }
 
-   .navPart2 > a {
+   .navPart2  a {
        white-space: nowrap;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100%;
+       padding: 14px;
    }
    .link {
        display: flex;
@@ -191,8 +239,15 @@
 
 
  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    span.text {
+        display: none;
+    }
+    span.icon {
+        display: inline-block;
+    }
     .header {
-        position: absolute;
+        position: fixed;
+        display: flex;
         height: 82px;
         width: 100%;
         left: 0;
@@ -200,17 +255,14 @@
         background-color: #fff;  /* edit */
         color: #696969;
         padding: 5px;
+        z-index: 99;
         /* color: var(--colorNeutralLight); */
     }
     .nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        max-width: calc(var(--maxWidth) + (var(--nav-item-padding) * 2));
         margin: 0 auto;
         width: 100%;
-        padding: 0;
-        line-height: 2rem;
     }
     
     .navPart1,
@@ -224,16 +276,18 @@
         width: 50%;
         margin-left: 30px;
     }
-    .navPart1 > img {
+    .navPart1  img {
         width: 50%;
-        height: 50px;
     }
     .navPart2 {
-        margin-top: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         width: 50%;
-        margin-right: 1.96em; 
+        font-size: 20%;
     }
-    .navPart2 > a {
+    .navPart2  a {
         white-space: nowrap;
     }
     
@@ -266,6 +320,12 @@
 
  } 
  @media only screen and (max-width: 575px) {
+     span.text {
+         display: none;
+     }
+    span.icon {
+        display: inline-block;    
+    }
     .header {
         position: fixed;
         display: flex;
@@ -295,15 +355,26 @@
     .navPart2 {
         display: flex;
         align-items: center;
-        flex-direction: column;
+        justify-content: center;
+        flex-direction: row;
         flex-wrap: wrap;
-        height: 20px;;
         width: 60%;
         font-size: 10%;
     }
     .navPart2 a {
-        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 100%;
+        width: 50px;
         padding: 10px;
+        margin-top: 5px;
+        /*border: 1px solid black;*/
+        border-left: thick solid #f7f7f7;
+    }
+
+    .navPart2 *:last-child {
+        border-style: none;
     }
 
 
