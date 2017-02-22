@@ -1,10 +1,12 @@
 import React, { PropTypes } from "react"
 import { Link } from "phenomic"
+// import MediaQuery from "react-responsive"
 // import Svg from "react-svg-inline"
 import Logo from "./cg-logo.png"
 import Phone from "./telephone-handle-silhouette.png"
 import People from "./group-profile-users.png"
 import Resource from "./plus-button.png"
+import Menu from "./menu-alt.png"
 
 // import twitterSvg from "../icons/iconmonstr-twitter-1.svg"
 // import gitHubSvg from "../icons/iconmonstr-github-1.svg"
@@ -58,14 +60,46 @@ const Header = () => (
             </a>
         }
         {
-            <a 
-                href={`https://donatenow.networkforgood.org/commongroundhelps?code=website`}
-                className={ styles.link}
-            >
-            <span className={styles.text}>
-                { "Donate" }
+            <span className={styles.text}> 
+                <a 
+                    href={`https://donatenow.networkforgood.org/commongroundhelps?code=website`}
+                    className={ styles.link}
+                >
+                    <span className={styles.text}>
+                    { "Donate" }
+                    </span>
+                </a>
             </span>
-            </a>
+        }
+        { /*<MediaQuery maxWidth={575}>
+            <div className={styles.wrapper}>
+                <div className={styles.content}>
+                    <ul>
+                        <a href={`#`}>
+                            <li>
+                                a
+                            </li>
+                        </a>
+                        <a href={`#`}>
+                            <li>
+                                b
+                            </li>
+                        </a>
+                        <a href={`#`}>
+                            <li>
+                                c
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <span className={styles.icon}>
+                    <img src={Menu}/>
+                </span>
+            </div>
+         </MediaQuery> */
+        <span className={styles.icon}>
+            <img src={Menu}/>
+        </span>
         }
         {
             <a 

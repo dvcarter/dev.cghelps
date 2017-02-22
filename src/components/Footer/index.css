@@ -41,10 +41,18 @@
 @media only screen and (min-width: 576px) and (max-width: 767px){
 
     .footer {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
           text-align: center;
           background-color: #f1f2f2;
           height: 50%;
           width: 100%;
+    }
+    .footerItems { 
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
     }
 
 }
@@ -62,5 +70,12 @@
         padding: 5px;
     }
 
+    .footerItems {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 5px;
+    }
 
 }
