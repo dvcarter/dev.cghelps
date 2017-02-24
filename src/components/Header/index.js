@@ -1,6 +1,6 @@
 import React, { PropTypes } from "react"
 import { Link } from "phenomic"
-import MediaQuery from "react-responsive"
+// import MediaQuery from "react-responsive"
 // import Svg from "react-svg-inline"
 import Logo from "./cg-logo.png"
 import Phone from "./telephone-handle-silhouette.png"
