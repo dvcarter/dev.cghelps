@@ -79,9 +79,7 @@ const Header = () => (
             </a>
             </div>
         }
-        { <MediaQuery maxWidth={575}>
-                <span className={styles.icon}> <img className={styles.menu} src={Menu}/></span>
-        </MediaQuery>
+        { <span className={styles.icon}> <img className={styles.menu} src={Menu}/></span>
         }
       </div>
     </nav>
