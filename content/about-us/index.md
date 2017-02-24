@@ -1,5 +1,5 @@
 ---
-title: About Phenomic base theme
+title: About Us
 hero: https://farm4.staticflickr.com/3949/15589950511_3675b15e59_k.jpg
 # hero credit: https://www.flickr.com/photos/pslee999/15589950511/
 cta:
@@ -9,24 +9,37 @@ cta:
     big: true
 ---
 
-You are currently viewing Phenomic base theme.
+# Our Story
+Common Ground is the product of a 1998 merger of two agencies, Common Ground and The Sanctuary, Inc., that had served Oakland County since the early 1970s. The merger allowed those in the community experiencing a crisis a single source of help. The unified approach to meeting community needs enabled both organizations to expand their services significantly.
 
-For now [Phenomic does not provide a native way to extend themes](https://github.com/MoOx/phenomic/issues/508) but since it's based on
-React and uses a component approach, it's pretty easy to make your own reusable collection of layouts and components.
+Common Ground was founded in 1971 by a group of students, parents and community leaders who were concerned about an increase in substance abuse and suicide among young people.
+
+United Community Services volunteers began The Sanctuary, Inc. in response to the growing number of runaway youth in Oakland County. The residential counseling program for runaway and homeless youth, ages 10-17, opened in 1974. The program offered youth two weeks in which to resolve the conflicts that led them to leave home.
+
+Today, Common Ground is a 24-hour crisis services agency dedicated to helping youths, adults and families in crisis. Through its crisis line and in person, Common Ground provides professional and compassionate service to more than 80,000 people a year.
 
 ---
+# Careers
+---
+# Volunteer info here
+---
+# Locations
+---
+# Notice of Privacy
+---
 
-This website is made with [Phenomic](https://phenomic.io/).
+<!-- This website is made with [Phenomic](https://phenomic.io/).
 
 If you are curious about it, you can take a look at
 [existing websites that use Phenomic](https://phenomic.io/showcase/),
 some projects share their source code!
-
+-->
 <!-- demo to show you that you can use "assets" folder -->
-<small>
+<!--<small>
   Built with
   <a href="https://facebook.github.io/react/">
     <img alt="" src="../assets/react.svg" width="16" height="16" />
     React
   </a>.
 </small>
+-->

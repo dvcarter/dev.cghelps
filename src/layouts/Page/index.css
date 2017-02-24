@@ -73,6 +73,7 @@
 @media only screen and (min-width: 1200px) {
     .hero {
         margin: 0 auto;
+        height: 50vh;
         width: 100vh;
         background-color: var(--colorSecondary);
     }
@@ -88,7 +89,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   padding: 5rem 0;
   padding: 10vh 0;
   text-align: center;

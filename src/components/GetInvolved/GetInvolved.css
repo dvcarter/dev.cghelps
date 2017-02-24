@@ -81,6 +81,86 @@
         margin-right: 15px;
     }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {}
-@media only screen and (max-width: 1200px) {}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .holder {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            background-color: #dfe3ee;
+        }
+        .options {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f7f7f7;
+            height: 200px;
+            width: 100%;
+            margin: 15px 15px 0 15px;
+        }
+}
+@media only screen and (min-width: 1200px) {
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 190%;
+            margin: 20px 0 20px 0;
+        }
 
+        .holder {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            /*background-color: #dfe3ee;*/
+        }
+
+        .options {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #f7f7f7;
+            height: 80%;
+            width: 100%;
+            margin: 15px 15px 0 15px;
+            font-size: 50%;
+        }
+        .subtitle {
+            font-size: 170%;
+        }
+        .options img {
+            height: 140px;
+            width: 100%;
+        }
+        .descriptions {
+            font-size: 40%;
+        }
+
+        .button {
+            margin-top: 10px;
+            border:none;
+            text-align: center;
+            border-radius: 8px;
+            background-color: red;
+            color: white;
+            text-decoration:none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            width: 75%;
+            height: 20%;
+            padding: 10px 0 10px 0;
+        }
+
+}

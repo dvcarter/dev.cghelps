@@ -12,7 +12,9 @@ const GetHelpOpts = ({ getHelpOpts }) => {
                         <div className={styles.options}>
                             <img className={styles.svgClass} src={helps.image} />
                             <div className={styles.descriptions}> {helps.description}</div>
-                            <button className={styles.button}>{helps.btn}</button>
+                            <a href={helps.btn.link}>
+                                <button className={styles.button}>{helps.btn.label}</button>
+                            </a>
                         </div>
                     ))}
                 </div>

@@ -5,12 +5,16 @@ const GetHelp = ({ getHelp }) => {
     return (
                 <div>
                     <div className={styles.title}>
-                        Help is here
+                        <h1>Help is here</h1>
                     </div>
                     <div className={styles.holder}>
                         {getHelp.map((helper) => (
                             <div className={styles.options}>
-                            {helper.description} 
+                                <div className={styles.topics}> 
+                                   <h2> {helper.subtitle}</h2>
+                                    {helper.description}
+                                </div>
+                                <img className={styles.imgs} src={helper.image} />
                             </div>
                         ))} 
                     </div>
