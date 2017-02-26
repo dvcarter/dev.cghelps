@@ -11,7 +11,7 @@ const GetHelp = ({ getHelp }) => {
                         {getHelp.map((helper) => (
                             <div className={styles.options}>
                                 <div className={styles.topics}> 
-                                   <h2> {helper.subtitle}</h2>
+                                   <h2 className={styles.subtitle}> {helper.subtitle}</h2>
                                     {helper.description}
                                 </div>
                                 <img className={styles.imgs} src={helper.image} />

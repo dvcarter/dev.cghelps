@@ -9,33 +9,33 @@ cta:
   link: "about-us"
 getHelpOpts:
 - name: call-helps
-  title: Call
-  description: If you'd like to speak to someone over the phone
+  title: CALL
+  description: Are you facing a crisis? Call us for free and confidential counseling, information, and referrals
   image: /assets/telephone-handle-silhouette.svg
   btn: 
         label: "Call 1.800.231.1127"
         link: tel:18002311127
-- name: visit-helps
-  title : Visit
-  description: If you need in-person support, check out our centers
-  image: /assets/group-profile-users.svg
+- name: text-helps
+  title : TEXT
+  description: If you're not ready to talk, you can use a mobile phone to text with us instead 
+  image: /assets/mobile-phone.svg
   btn: 
-        label: Find Crisis Center
-        link: "donate-today"
+        label: Text "Hello"
+        link: sms:18002311127
 
 - name: chat-helps
-  title: Chat
-  description: If you'd like to speak with someone via chat
+  title: CHAT
+  description: From 4pm to 10pm Monday through Friday, you can use our online chat service
   image: /assets/speech-bubbles-comment-option.svg
   btn: 
         label: Chat Sign-in
         link: "get-help/chat-with-us"
 
-- name: text-helps
-  title: Text
-  description: If you'd like to send someone a quick and confidential text
-  image: /assets/mobile-phone.svg
+- name: visit-helps
+  title: VISIT
+  description: You're also welcome to visit one of our Oakland County facilities to talk with us in person.
+  image: /assets/group-profile-users.svg
   btn: 
-        label: Text "Hello"
-        link: sms:18002311127
+        label: Find Crisis Center
+        link: "get-help/visit-us-today"
 ---

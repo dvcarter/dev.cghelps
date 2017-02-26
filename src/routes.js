@@ -10,7 +10,7 @@ import GetHelp from "./layouts/GetHelpPage"
 import GetInvolved from "./layouts/GetInvolvedPage"
 import Resources from "./layouts/ResourcePage"
 import Post from "./layouts/Post"
-
+import Locations from "./layouts/LocationsPage"
 
 const PageContainer = (props) => (
   <PhenomicPageContainer
@@ -22,6 +22,7 @@ const PageContainer = (props) => (
       GetHelp,
       GetInvolved,
       Resources,
+      Locations,
       Post,
     }}
   />
