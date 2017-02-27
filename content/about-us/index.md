@@ -20,6 +20,7 @@ Today, Common Ground is a 24-hour crisis services agency dedicated to helping yo
 
 ---
 # Careers
+[Search Open Positions](http://commongroundhelps.applicantpro.com)
 ---
 # Volunteer info here
 ---

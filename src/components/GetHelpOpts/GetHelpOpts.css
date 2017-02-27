@@ -369,7 +369,8 @@
         align-items: center;
         flex-direction: column;
         padding: 0;
-        width: 100%;;
+        width: 100%;
+        margin-top: 50px;
     }
 
  .title {
@@ -382,7 +383,11 @@
      font-size: 34px;
      font-weight: 700;
      padding-bottom: -40px;
+     margin-top: 10px;
  }
+        .subtitle {
+            font-size: 175%;
+        }
 
         hr {
             width: 100%;
@@ -422,7 +427,8 @@
             opacity: 0.4;
             filter: grayscale(10%);
         }
-        .descriptions {                                                     
+        .descriptions { 
+            font-size: 2em;
             position: relative;
             margin-top: 5px;
             margin-bottom: 5px;
@@ -439,7 +445,9 @@
               padding: 15px 20px;
               text-decoration: none;
               display: inline-block;
-              font-size: 1.25vh;
+              /*font-size: 1.25vh;*/
+              font-size: 175%;
+
           }
     }
 

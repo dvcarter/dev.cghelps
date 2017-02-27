@@ -32,13 +32,21 @@
           max-width: 100%;
       }
   }
+
+  .hero {
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--colorSecondary);
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .hero {
         display: flex;
         justify-content: right;
         margin: 0 auto;
-        height:400px;
+        /*height:400px; */
         width: 100%;
         background-color: var(--colorSecondary);
     }
@@ -87,6 +95,8 @@
 
 
 .header {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -101,6 +111,7 @@
 }
 
 .heading {
+  margin: 160px 0 0 0;
   color: var(--colorNeutralLight);
   text-shadow:
     0 0 10px var(--colorPrimaryDark),

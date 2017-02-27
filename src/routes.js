@@ -11,6 +11,7 @@ import GetInvolved from "./layouts/GetInvolvedPage"
 import Resources from "./layouts/ResourcePage"
 import Post from "./layouts/Post"
 import Locations from "./layouts/LocationsPage"
+import Groups from "./layouts/GroupPage"
 
 const PageContainer = (props) => (
   <PhenomicPageContainer
@@ -23,6 +24,7 @@ const PageContainer = (props) => (
       GetInvolved,
       Resources,
       Locations,
+      Groups,
       Post,
     }}
   />
