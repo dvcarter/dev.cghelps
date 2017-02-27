@@ -36,7 +36,11 @@
         margin: 1px 5px 115px 5px;
         border-bottom: 0.25px solid #dfe3ee;
     }
-
+    .imgs {
+        width: 25%;
+        height: auto;
+        margin-bottom: 50px;
+    }
     .description {
         width: 100%;
         margin-bottom: 80px;

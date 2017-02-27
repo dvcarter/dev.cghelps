@@ -11,8 +11,10 @@ const GetInvolved = ({getInvolved }) => {
                         {getInvolved.map((involver) => (
                             <div className={styles.options}>
                                 <img className={styles.imgs} src={involver.image}/>
-                                <h3 className={styles.subtitle}> {involver.subtitle} </h3>
-                                <div className={styles.descriptions}>{involver.description} </div>
+                                <div className={styles.topics}>
+                                    <h3 className={styles.subtitle}> {involver.subtitle} </h3>
+                                    <div className={styles.description}>{involver.description} </div>
+                                </div>
                                 <button className={styles.button}>
                                    <a href={involver.btn.link}> {involver.btn.label}
                                    </a>
