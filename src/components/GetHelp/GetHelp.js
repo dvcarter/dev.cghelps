@@ -12,7 +12,7 @@ const GetHelp = ({ getHelp }) => {
                             <div className={styles.options}>
                                 <div className={styles.topics}> 
                                    <h2 className={styles.subtitle}> {helper.subtitle}</h2>
-                                    {helper.description}
+                                   <div className={styles.description}>{helper.description}</div>
                                 </div>
                                 <img className={styles.imgs} src={helper.image} />
                             </div>

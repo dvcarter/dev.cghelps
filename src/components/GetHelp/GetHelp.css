@@ -9,6 +9,7 @@
         font-weight: 500;
         font-size: 150%;
         color: #c6b3e1;
+        margin-left: 10px;
     }
 
     .holder {
@@ -19,6 +20,7 @@
         height: 100%;
         width: 100%;
         /*background-color: #dfe3ee;*/
+        margin: 30px 0 20px 0;
     }
     .options {
         display: flex;
@@ -29,8 +31,23 @@
         /*background-color: #f7f7f7;*/
         height: 200px;
         width: 100%;
-        margin: 15px 15px 0 15px;
+        margin: 25px 15px 60px 15px;
+        padding: 20px;
         border-bottom: 0.25px solid #dfe3ee;
+    }
+    .description {
+        position: relative;
+        width: 100%;
+        padding: 0 10px 80px 10px;
+        margin: -15px 0 15px 0;
+    }
+    .imgs {
+        width: 20%;
+        height: auto;
+    }
+
+    .topics {
+        margin-right: 55px;
     }
 
 }

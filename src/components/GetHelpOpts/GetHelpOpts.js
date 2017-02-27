@@ -6,7 +6,7 @@ const GetHelpOpts = ({ getHelpOpts }) => {
 
             <div>
                 <div className= {styles.title}> Get Help</div>
-                <hr className={styles.topline} />
+                {/* <hr className={styles.topline} /> */}
                 <div className= {styles.help}>
                     { getHelpOpts.map((helps) => (
                         <div className={styles.options}>

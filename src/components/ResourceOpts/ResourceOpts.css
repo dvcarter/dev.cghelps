@@ -12,6 +12,7 @@
     h3.subtitle {
         font-weight: 500;
         font-size: 150%;
+        margin: 10px 10px 5px 10px;
     }
     .holder {
         display: flex;
@@ -33,29 +34,30 @@
         /*background-color:#f7f7f7; */
         width: 100%;
         padding: 40px 0 10px 0;
-        margin: 10px 15px 25px 15px;
+        margin: 10px 25px 25px 25px;
     }
 
     .imgs {
-        width: 100%;
+        width: 90%;
         height: auto;
         margin-bottom: 10px;
     }
     .description {
         position: relative;
         width: 100%;
-        padding: 0 10px 10px 10px;
-        margin: 5px 0 5px 0;
+        padding: 0 10px 0 10px;
+        margin: -5px 0 5px 0;
     }
 
     .resourcer {
-        width: 75%;
+        width: 100%;
         font-style: italic;
-        font-size: 1.25vh;
+        font-size: 10px;
+        margin: -15px 10px 0 10px;
     }
 
     .topics {
-        margin: 10px;
+        margin: -5px 10px 0 10px;
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
