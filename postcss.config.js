@@ -22,4 +22,5 @@ module.exports = (config) => [
     ...!config.production ? [
       require("postcss-browser-reporter")(),
     ] : [],
+    require('autoprefixer')
   ]

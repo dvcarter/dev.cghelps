@@ -61,6 +61,40 @@ span.icon > img {
         white-space: nowrap;
         margin-right: 15px;
     }
+
+    .dd {
+        position: relative;
+        display: inline-block;
+    }
+    .ddButton{
+        padding: 16px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .ddContent {
+        display:none;
+        position:absolute;
+        background-color: #f9f9f9;
+        min-width: 330px;
+        z-index: 1;
+    }
+
+    .ddContent a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .ddContent a:hover {
+        background-color: red;
+    }
+    .dd:hover .ddContent {
+        display: block;
+    }
+    .dd:hover .ddButton {
+        background-color: blue;
+    }
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     span.text, div.text {

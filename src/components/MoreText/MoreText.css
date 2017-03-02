@@ -1,3 +1,16 @@
+.MoreText {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
 .thingy {
     margin-top: 2em;
     font-size: 4em;

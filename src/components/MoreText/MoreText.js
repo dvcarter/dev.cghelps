@@ -1,42 +1,52 @@
-import React, {PropTypes} from 'react'
-import styles from './MoreText.css'
-import Transition from 'react-inline-transition-group'
+import React, { PropTypes,Component} from 'react'
+import styles from "./MoreText.css"
 
-var MoreText = React.createClass ({
-    getInitialState() {
-        return {thingIsVisible: false }
-    },
-    appear(visible) {
-        this.setState({thingIsVisible: visible});
-    },
-    propTypes: {
-        visible: PropTypes.bool.isRequired,
-    },
-    render() {
-                return (
-                        <div>
-                            <span onClick={this.appear.bind(null, true)}>learn more</span>
-                            <TheThing visible={this.state.thingIsVisible} />
+
+
+
+const More = ({ moreText }) => {
+    return (
+            <div>
+                { moreText.map((morer) => (
+                        <div> 
+                            {morer.subtitle}
                         </div>
-            )
+                ))}
+            </div>
+    )
+}
+
+More.propTypes = {
+    more: PropTypes.array.isRequired,
+}
+
+
+class MoreText extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            count: false
+        }
     }
-
-});
-
-
-var TheThing = React.createClass({
-        render() {
-            var component;
-            if (this.props.visible) {
-                component = <div> thing </div>;
-            }
-        return (
-                <Transition transitionName="thing">
-                    {component}
-                </Transition>
-        )
+    handleClick(e) {
+        e.preventDefault();
+        this.setState({
+            count: !this.state.count
+        })
     }
-});
+    render() {
+                return (    <div>
+                                <span className={styles.MoreText} onClick={this.handleClick.bind(this)}>learn more</span>
+                                {this.state.count && 
+                                    <MoreText>
+                                        <div> "Hats"</div>
+                                    </MoreText>
+                                }
+                            </div>
+                )
+    }
+}
+
 
 
 export default MoreText

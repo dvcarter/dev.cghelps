@@ -11,7 +11,7 @@ const Homepage = (props) => {
       <GetHelpOpts
         getHelpOpts={ getHelpOpts }
       />
-      <LatestPosts />
+      <LatestPosts numberOfPosts="2"/>
     </Page>
     )
 }

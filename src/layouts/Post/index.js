@@ -26,7 +26,7 @@ const Post = (props) => {
       }
     >
       <hr />
-      <LatestPosts />
+      <LatestPosts numberOfPosts="2"/>
     </Page>
   )
 }

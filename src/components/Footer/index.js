@@ -1,6 +1,9 @@
 import React from "react"
 
 import styles from "./index.css"
+import FaceBook from "./facebook-logo.png"
+import LinkedIn from "./linkedin-logo.png"
+import Twitter from "./twitter-logo.png"
 import Carf from "./CARF-logo.png"
 
 
@@ -8,6 +11,26 @@ const Footer = () => (
   <footer className={ styles.footer }>
     { /* If you like Phenomic, this is a way to share the love ;) */ }
     <div className={ styles.footerItems}>
+        <div className={styles.socialItems}>
+            {<a 
+                href={'https://www.facebook.com/commongroundhelps/'}
+                className={styles.socialItem}>
+                    <span><img src={FaceBook}/></span>
+            </a>
+            } 
+            { <a
+                href={'https://www.linkedin.com/company/commongroundhelps'}
+                className={styles.socialItem}>
+                    <span><img src={LinkedIn}/></span>
+            </a>
+            }
+            { <a
+                href={'https://twitter.com/cghelps'}
+                className={styles.socialItem}>
+                    <span><img src={Twitter}/></span>
+            </a>
+            }
+        </div>
         {<a
                href={ `#` }
                 className={ styles.items }

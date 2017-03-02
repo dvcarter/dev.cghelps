@@ -28,14 +28,14 @@ const Header = () => (
       <div className={ styles.navPart2 }>
         {
             <a
-                href={`/get-help`}
-                className={ styles.link }
+                    href={`/get-help`}
+                    className={ styles.link }
             >
-            <span className={styles.text}>{ "Get Help" }</span>
-            <span className={styles.icon}>
-                    <img src={Phone}/>
-            </span>
-            </a>
+                    <span className={styles.text}>{ "Get Help" }</span>
+                    <span className={styles.icon}>
+                        <img src={Phone}/>
+                    </span>
+        </a>
         }
         {
             <a
