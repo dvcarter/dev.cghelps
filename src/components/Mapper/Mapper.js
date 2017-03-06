@@ -1,35 +1,31 @@
 import React, { PropTypes, Component } from 'react'
-import shouldPureComponentUpdate from 'react-pure-render-utils/function'
-
 import GoogleMap from 'google-map-react'
+import styles from "./Mapper.css"
+
+// needed
+// communication with locations sibling to change location based on front-matter content
 
 export default class Mapper extends Component {
-    static propTypes = {
-        center: PropTypes.array,
-        zoom: PropTypes.number,
-        greatPlaceCoords: PropTypes.any
+    state = {
+        center: [42.617848, -83.317782],
+        zoom: 15,
     };
 
-    static defaultProps = {
-        center: [42.483197, -83.151692],
-        zoom: 9,
-        greatPlaceCoords: {lat: 42.483197, lng: -83.151692}
-    };
-
-
-    shouldComponentUpdate = ShouldPureComponentUpdate;
-
-    constructor(props) {
-        super(props);
+    _onChange = ({center, zoom}) => {
+        this.setState({
+            center: center,
+            zoom: zoom,
+        });
     }
-
 
     render() {
         return (
                 <GoogleMap
-                    apiKey="AIzaSyAWRK-Yt3gy6fKVS2zBjxobe1pqN3lGKbQ"
-                    center={this.props.center}
-                    zoom={this.props.zoom}>
+                    _onChange={this._onChange}
+                    bootstrapURLKeys={{key:'AIzaSyAWRK-Yt3gy6fKVS2zBjxobe1pqN3lGKbQ'}}
+                    center={this.state.center}
+                    zoom={this.state.zoom}>
+                    <div className={styles.mapbox20} lat={42.617848} lng={-83.317782}>                             here </div>
                 </GoogleMap>
         );
     }

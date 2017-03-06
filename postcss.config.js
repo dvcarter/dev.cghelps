@@ -1,4 +1,4 @@
-module.exports = (config) => [
+module.exports = (config, hotLoadedVariables) => [
     require("stylelint")(),
     require("postcss-cssnext")({
       browsers: "last 2 versions",
@@ -22,5 +22,4 @@ module.exports = (config) => [
     ...!config.production ? [
       require("postcss-browser-reporter")(),
     ] : [],
-    require('autoprefixer')
   ]

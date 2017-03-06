@@ -45,14 +45,15 @@
     }
 
     img {
-        width: 5%;
+        width: 15%;
         height: auto;
         margin-right: 10px;
         margin-bottom: 10px;
     }
     .svgClass {
-        opacity: 0.4;
-        filter: grayscale(10%);
+        width: 15%;
+        /*opacity: 0.4;
+        filter: grayscale(10%);*/
     }
     .subtitle {
         width: 5%;
@@ -143,15 +144,15 @@
     }
 
     img {
-        width: 5%;
+        width: 10%;
         height: auto;
-        margin-right: 10px;
+        margin-right: -20px;
         margin-bottom: 10px;
     }
 
     .svgClass {
-        opacity: 0.4;
-        filter: grayscale(10%);
+        /*opacity: 0.4;
+        filter: grayscale(10%);*/
     }
     
     .subtitle {
@@ -230,14 +231,14 @@
         flex-direction: center;
     }
     img {
-        width: 5%;
+        width: 10%;
         height: auto;
         margin-right: 10px;
         margin-bottom: 10px;
     }
     .svgClass {
-        opacity: 0.4;
-        filter: grayscale(10%);
+       /* opacity: 0.4;
+        filter: grayscale(10%);*/
     }
     .subtitle {
         width: 5%;
@@ -293,6 +294,10 @@
         padding-left: 40px;
     }
 
+        .subtitle {
+            font-size: 275%;
+        }
+
         hr {
             width: 100%;
             margin-top: 10px;
@@ -326,12 +331,12 @@
             flex-direction: center;
         }   
         .svgClass {
-            width: 5%;
+            width: 15%;
             height: auto;
             margin-right: 10px;
             margin-bottom: 10px;
-            opacity: 0.4;
-            filter: grayscale(10%);;
+            /*opacity: 0.4;
+            filter: grayscale(10%);*/
         }   
 
         .descriptions {
@@ -386,7 +391,7 @@
      margin-top: 10px;
  }
         .subtitle {
-            font-size: 175%;
+            font-size: 275%;
         }
 
         hr {
@@ -421,11 +426,11 @@
             flex-direction: center;
         }
         .svgClass {
-            width: 25%;
+            width: 45%;
             height: auto;
-            margin-bottom: 10px;
-            opacity: 0.4;
-            filter: grayscale(10%);
+            margin-bottom: -5px;
+            /*opacity: 0.4;
+            filter: grayscale(10%); */
         }
         .descriptions { 
             font-size: 2em;

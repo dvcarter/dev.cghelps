@@ -44,13 +44,13 @@ const Footer = () => (
              <span> {"Contact Us"} </span>
         </a>}
         {<a
-            href={`#`}
+            href={'/about-us/privacy-policy'}
             className={styles.items}
          >
              <span> {"Privacy Policy"} </span>
         </a>}
         {<a
-            href={`#`}
+            href={"/about-us/faq"}
             className={styles.items}
         >
                <span> {"FAQ"}</span>

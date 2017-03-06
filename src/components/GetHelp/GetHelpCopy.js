@@ -15,10 +15,6 @@ const GetHelp = ({ getHelp }) => {
                                    <h2 className={styles.subtitle}> {helper.subtitle}</h2>
                                    <div className={styles.description}>{helper.description}</div>
                                    {/*<MoreText/> */}
-                                   {/* <div> {
-                                            getHelp.indexOf(helper) + " This is a string"
-                                        }
-                                   </div> */}
                                 </div>
                                 <img className={styles.imgs} src={helper.image} />
 
