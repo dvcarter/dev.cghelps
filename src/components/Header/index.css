@@ -9,7 +9,7 @@
 
 $navHeight: 80px;
 .bumper {
-  height: 74px;
+  height: 64px;
   width: 100%;
 }
 .navFixed, .navWrapper, .navItems, .navItem {
@@ -25,7 +25,7 @@ $navHeight: 80px;
   top: 0;
   z-index: 10;
   padding-top: 5px;
-  height: 74px;
+  height: 64px;
 }
 
 .navWrapper {
@@ -214,7 +214,7 @@ $lineSpacing: 10px;
 $lineHeight: 2px;
 .ham {
   position: absolute;
-  top: 15px;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
