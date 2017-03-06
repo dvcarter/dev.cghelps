@@ -219,6 +219,7 @@ $lineHeight: 2px;
   right: 0;
   bottom: 0;
   margin: auto;
+  margin-top: 20px;
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -324,7 +325,7 @@ $lineHeight: 2px;
     overflow-y: scroll;
     overflow-x: hidden;
     width: 105%;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
     }
     .navItems .subNavItems {
       background: none;
