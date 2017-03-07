@@ -12,6 +12,7 @@ import Resources from "./layouts/ResourcePage"
 import Post from "./layouts/Post"
 import Locations from "./layouts/LocationsPage"
 import Groups from "./layouts/GroupPage"
+import FaqQ from "./layouts/FAQPage"
 
 const PageContainer = (props) => (
   <PhenomicPageContainer
@@ -21,6 +22,7 @@ const PageContainer = (props) => (
       PageError,
       Homepage,
       GetHelp,
+      FaqQ,
       GetInvolved,
       Resources,
       Locations,

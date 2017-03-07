@@ -7,7 +7,7 @@ cta:
     link: "Crisis-to-Hope"
 getInvolved:
 -   subtitle: Trained Volunteering
-    image: /assets/bird-placeholder.jpg
+    image: /assets/bonding.jpg
     description: We provide extensive training to qualified volunteers interested in staffing our Resource & Crisis Helpline or Youth Residential Programs.
     btn: 
         label: volunteer

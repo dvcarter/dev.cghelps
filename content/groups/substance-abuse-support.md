@@ -7,11 +7,22 @@ route: /resources/substance-abuse-support
 groupOpts:
 - subtitle: Workshops, Classes, & Support Groups
   sub:
-        subsubtitle: AA
-        description: faith-based group healing
+        subsubtitle: Coming Soon
+        description: 
+- sub:
+        subsubtitle:
+        description:
+
+- sub:
+        subsubtitle: 
+        description:
+
+- sub:
+        subsubtitle:
+        description:
 
 - subtitle: Reading Materials
   sub:
-        subsubtitle: non-religious AA
-        description: secular group healing
+        subsubtitle: Coming Soon
+        description: 
 ---

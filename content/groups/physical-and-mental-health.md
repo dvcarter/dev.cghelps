@@ -7,14 +7,31 @@ route: /resources/physical-and-mental-health
 groupOpts:
 - subtitle: Workshops, Classes, & Support groups
   sub: 
-        subsubtitle: AA
-        description: something here
-- subtitle: Stuff
-  sub: 
-        subsubtitle: AA
-        description: somethiing here also
-- subtitle: More Stuff
+        subsubtitle: Coming Soon
+        description:
+- sub: 
+        subsubtitle: 
+        description:
+- sub:
+        subsubtitle:
+        description:
+
+- sub:
+        subsubtitle:
+        description:
+
+- subtitle: Reading Materials
   sub:
-        subsubtitle: AA
-        description: something could go here too
+        subsubtitle: Coming Soon
+        description:
+
+- sub:
+        subsubtitle: 
+        description:
+
+- subtitle: Wellness Services
+  sub:
+        subsubtitle: Coming Soon
+        description:
+
 ---

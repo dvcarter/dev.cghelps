@@ -50,7 +50,7 @@ const Footer = () => (
              <span> {"Privacy Policy"} </span>
         </a>}
         {<a
-            href={"/about-us/faq"}
+            href={"/get-help/faq"}
             className={styles.items}
         >
                <span> {"FAQ"}</span>

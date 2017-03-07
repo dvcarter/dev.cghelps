@@ -5,16 +5,13 @@ import Page from "../Page"
 
 const GetHelpPage = (props) => {
         const getHelp = props.head.getHelp
-        {/*const moreText = props.head.moreText*/}
 
         return (
             <Page {...props }>
                
                 <GetHelp
-                    getHelp={ getHelp }>
-                    {/*<MoreText
-                        moreText={ moreText}>
-                    </MoreText>*/}
+                    getHelp={ getHelp }
+                    >
                 </GetHelp>
             </Page>
         )

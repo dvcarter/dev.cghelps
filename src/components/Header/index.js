@@ -3,7 +3,7 @@ import { Link } from "phenomic"
 // import MediaQuery from "react-responsive"
 // import Svg from "react-svg-inline"
 import Logo from "./cg-logo.png"
-import Phone from "./telephone-handle-silhouette.png"
+//import Phone from "./telephone-handle-silhouette.png"
 //import People from "./group-profile-users.png"
 //import Resource from "./plus-button.png"
 //import Menu from "./menu-alt.png"
@@ -66,9 +66,6 @@ export default class Header extends Component {
                                         <img src={Logo} draggable='false'/>
                                     </Link>
                                 </div>
-                                <div className={styles.mobileOnly}>
-                                    <img src={Phone} />
-                                </div>
                                 <div ref='toggle' onClick={this.handleClick} className={styles.toggle}>
                                     <div className={styles.ham}>
                                         <div className={`${styles.bar} ${openClass}`}/>
@@ -89,6 +86,11 @@ export default class Header extends Component {
                                                 <li>
                                                     <Link to='/get-help/visit-us-today' className={styles.link}>
                                                         {"Visit"}
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link to='/get-help/faq' className={styles.link}>
+                                                        {"Frequently Asked Questions"}
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -148,7 +150,7 @@ export default class Header extends Component {
                                             </ul>
                                         </li>
                                         <li className={styles.navItem}>
-                                            <Link to='/donate-today' className={styles.link}>
+                                            <Link to='https://donatenow.networkforgood.org/commongroundhelps?code=website' className={styles.link}>
                                                 {"Donate"}
                                             </Link>
                                         </li>

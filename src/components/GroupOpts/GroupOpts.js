@@ -5,12 +5,11 @@ const GroupOpts = ({ groupOpts }) => {
     return (
             <div>
                 <div className={styles.holder}>
-                    <h1 className={styles.title}> {groupOpts.title}</h1>
                     {groupOpts.map((grouper) => (
                             <div className={styles.options}>
                                 <h3 className={styles.subtitle}>{grouper.subtitle}</h3>
                                 <div className={styles.topics}>
-                                    <h4 className={styles.subtitle}>{grouper.sub.subsubtitle}</h4>
+                                    <h4 className={styles.subsubtitle}>{grouper.sub.subsubtitle}</h4>
                                     <div className={styles.description}>{grouper.sub.description}</div>
                                 </div>
                             </div>

@@ -31,8 +31,11 @@ $navHeight: 80px;
 .navWrapper {
   font-family: "Avenir Next W00", sans-serif;
   display: flex;
+  display: -webkit-flex;
   align-items: center;
+  -webkit-align-items: center;
   justify-content: space-between;
+  -webkit-justify-content: space-between;
   left: 0;
   right: 0;
   max-width: 96rem;
@@ -50,11 +53,41 @@ $navHeight: 80px;
 .navRight,
 .navItems {
   display: flex;
+  display: -webkit-flex;
   flex-direction: row;
+  -webkit-flex-direction: row;
   align-items: center;
+  -webkit-align-items: center;
   justify-content: center;
+  -webkit-justify-content: center;
 }
 
+@media only screen and (min-width: 1200px) {
+    .navLeft {
+        margin:0 -150px 0 270px;
+    }
+    .navRight {
+        margin: 0 250px 0 250px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .navLeft {
+        margin: 0 100px 0 50px;
+    }
+    .navRight {
+        margin: 0 50px 0 30px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    .navLeft {
+        margin: 0 20px 0 -5px;
+    }
+    .navRight {
+        margin: 0 10px 0 30px;
+    }
+}
 .logo, .logo img {
   max-height: 35px;
   width: 80px;
@@ -81,12 +114,17 @@ $navHeight: 80px;
     white-space: nowrap;
     position: relative;
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+    -webkit-align-items: center;
     justify-content: center;
+    -webkit-justify-content: center;
   }
 .link {
   display: flex;
+  display: -webkit-flex;
   align-items: center;
+  -webkit-align-items: center;
   padding: 7px 9px 12px 9px;
   /* color: inherit; */
   color: black;
@@ -162,6 +200,7 @@ $navHeight: 80px;
     width: 100%;
     margin-top: -1px;
     justify-content: flex-start;
+    -webkit-justify-content: flex-start;
     padding: 7px;
     padding-left: 15px;
     /*color: rgba(0,0,0,.64);*/
@@ -321,6 +360,7 @@ $lineHeight: 2px;
   .navItems {
     margin-top: 70px;
     flex-direction: column;
+    -webkit-flex-direction: column;
     height: 103vh;
     overflow-y: scroll;
     overflow-x: hidden;
