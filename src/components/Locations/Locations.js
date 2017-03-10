@@ -36,10 +36,17 @@ export default class Locations extends Component {
                                             bootstrapURLKeys={{key:'AIzaSyAWRK-Yt3gy6fKVS2zBjxobe1pqN3lGKbQ'}}
                                             center={hat.concat(locator.placement.lat, locator.placement.lng)}
                                             zoom={locator.placement.zoom}>
-                                                <div lat={locator.placement.lat} lng={locator.placement.lng} zoom={locator.placement.zoom}>
-                                                    You are here
-                                                
+                                                <div lat={locator.placement.lat} lng={locator.placement.lng}>
+                                                        <div className={styles.pin}></div>
+                                                        <div className={styles.pulse}></div>
                                                 </div>
+                                                {/*<div className={styles.infobox} lat={locator.placement.lat} lng={locator.placement.lng} zoom={locator.placement.zoom}>
+                                                   <div className={styles.infoboxDescription}>
+                                                                {locator.subtitle}
+                                                                {locator.address}
+                                                   </div>
+                                                
+                                                </div> */}
                                         </GoogleMap>
                                         
                                     </div>
