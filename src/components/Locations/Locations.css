@@ -451,7 +451,7 @@
         width: 90%;
         margin: 5px;
     }
-
+}
     .pin {
         width: 30px;
         height: 30px;
@@ -791,7 +791,8 @@
             transform: translateY(0) rotate(-45deg);
         }
     }
-}
+/*
+} */
 
 .address {
     font-style: italic;
