@@ -10,9 +10,9 @@ locations:
   address: 751 Hendrie Blvd Royal Oak MI
   description: Common Ground operates a free and safe 24-hour shelter for at-risk youth. The Sanctuary offers a 3-week residential program, out-patient counseling, and provides trauma-informed care to youth and families in crisis. The goal of this program is family reunification. To learn more, call 1.248.547.2260.
   placement:
-            lat: 42.617848
-            lng: -83.317782
-            zoom: 9
+            lat: 42.483197
+            lng: -83.151692
+            zoom: 18
 
 - name: admin-locator
   subtitle: Administration
@@ -21,15 +21,15 @@ locations:
   placement: 
             lat: 42.617848
             lng: -83.317782
-            zoom: 12
+            zoom: 18
 
 
 - name: CRU-locator
   subtitle: Resource and Crisis Center (Ages 18+)
-  address: 19126 Wexford St Detroit Mi
+  address: 1200 N. Telegraph Rd, Pontiac, MI 48341
   description:  We offer a short-term (1 to 14 day) voluntary alternative to inpatient psyc    hiatric hospitalization for adults ready to actively participate in a trauma-informed, rec    overy focused treatment environment. Services include psychiatric medication review, group     therapy, skills groups, recovery coaching, art therapy and coordinated discharge planning    . Note- Admission to the Crisis Residential Unit requires prior authorization through our     Oakland Assessment Crisis Intervention Service (OACIS).
   placement:
-            lat: 42.617848
-            lng: -83.317782
-            zoom: 15
+            lat: 42.6255624
+            lng: -83.326717
+            zoom: 18
 ---

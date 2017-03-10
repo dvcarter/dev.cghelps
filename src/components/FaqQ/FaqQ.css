@@ -1,45 +1,57 @@
 @media only screen and  (max-width: 575px) {
     .title {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        display: -webkit-flex;
+        justify-content: left;
+        -webkit-justify-content: left;
+        align-items: left;
+        -webkit-align-items: left;
+        margin: 20px 0 -20px 20px;
     }
 
     h2.question {
         font-weight: 500;
         font-size: 150%;
         color: #c6b3e1;
-        margin-left: 10px;
+        margin: 20px 0 -5px 10px;
     }
 
     .holder {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-flex-direction: column;
+        justify-content: left;
+        -webkit-justify-content: left;
+        align-items: left;
+        -webkit-align-items: left;
         height: 100%;
         width: 100%;
         /*background-color: #dfe3ee;*/
-        margin: 30px 0 20px 0;
+        margin: -40px 0 10px -20px;
     }
     .options {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        display: -webkit-flex;
+        justify-content: left;
+        -webkit-justify-content: left;
+        align-items: left;
+        -webkit-align-items: left;
         flex-direction: row;
-        text-align: left;
+        -webkit-flex-direction: row;
         /*background-color: #f7f7f7;*/
-        height: 200px;
         width: 100%;
-        margin: 25px 15px 60px 15px;
+        margin: 2px 15px -10px 15px;
         padding: 20px;
         border-bottom: 0.25px solid #dfe3ee;
+        border-width: 0px 0px 0.25px 0px;
+        border-color: #dfe3ee;
+        border-style: none none solid none;
     }
     .description {
-        position: relative;
         width: 100%;
-        padding: 0 10px 80px 10px;
-        margin: -15px 0 15px 0;
+        padding: 0 10px 0 10px;
+        margin: 15px 10px 1px 0;
     }
     .imgs {
         width: 20%;
@@ -47,42 +59,52 @@
     }
 
     .topics {
-        margin-right: 55px;
+        margin: -15px 0 -10px 0;
     }
 
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .title {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
+        margin: 20px 0 -20px 20px;
     }
    h2.question {
        font-weight: 500;
        font-size: 150%;
        color: #c6b3e1;
+       margin: 20px 0 5px 0;
    }
     .holder {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-flex-direction: column;
+        justify-content: left;
+        -webkit-justify-content: left;
+        align-items: left;
+        -webkit-align-items: left;
         height: 100%;
         width: 100%;
         /*background-color: #dfe3ee;*/
+        margin: -10px 0 10px -20px;
     }
     .options {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        display: -webkit-flex;
+        justify-content: left;
+        -webkit-justify-content: left;
+        align-items: left;
+        -webkit-align-items: left;
         flex-direction: row;
-        text-align: left;
+        -webkit-flex-direction: row;
         /* background-color: #f7f7f7; */
-        height: 200px;
         width: 100%;
-        margin-right: 15px;
-        margin-left: 15px;
-        margin-top: 15px;
+        margin: 2px 15px -10px 15px;
         padding: 20px;
         border-bottom: 0.25px solid #dfe3ee;
     }
@@ -98,37 +120,53 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .title {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
+        margin: 20px 0 -20px 20px;
     }
    
     h2.question {
         font-weight: 500;
         font-size: 150%;
         color: #c6b3e1;
+        margin: 20px 0 -5px 10px;
     }
     .holder {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-flex-direction: column;
+        justify-content: left;
+        -webkit-justify-content: left;
+        align-items: left;
+        -webkit-align-items: left;
         height: 100%;
         width: 100%;
         /* background-color: #dfe3ee; */
+        margin: -40px 0 10px -20px;
     }
     .options {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        display: -webkit-flex;
+        justify-content: left;
+        -webkit-justify-content: left;
+        align-items: left;
+        -webkit-align-items: left;
         flex-direction: row;
+        -webkit-flex-direction: row;
         /*background-color: #f7f7f7;*/
-        height: 50%;
         width: 100%;
-        margin-left: 15px;
-        margin-right: 15px;
-        margin-top: 15px;
+        margin: 2px 15px -10px 15px;
         padding: 20px;
         border-bottom: 0.25px solid #dfe3ee;
+    }
+    .description {
+        width: 100%;
+        padding: 0 10px 0 10px;
+        margin: 15px 10px 1px 0;
     }
     .imgs {
         width: 20%;
@@ -141,39 +179,52 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .title {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
+        margin: 20px 0 -20px 20px;
     }
     h2.question {
         font-weight: 500;
         font-size: 150%;
         color: #c6b3e1;
+        margin: 20px 0 -5px 10px;
     }
     .holder {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-flex-direction: column;
+        justify-content: left;
+        -webkit-justify-content: left;
+        align-items: left;
+        -webkit-align-items: leftr;
         height: 100%;
         width: 100%;
         /*background-color: #dfe3ee; */
+        margin: -40px 0 10px -20px;
     }
     .options {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        display: -webkit-flex;
+        justify-content: left;
+        -webkit-justify-content: left;
+        align-items: left;
+        -webkit-align-items: left;
         flex-direction: row;
-        text-align: left;
+        -webkit-flex-direction: row;
         /* background-color: #f7f7f7; */
-        height: 200px;
         width: 100%;
-        margin: 15px 15px 0 15px;
+        margin: 2px 15px -10px 15px;
         padding: 20px;
         border-bottom: 0.25px solid #dfe3ee;
     }
-    .imgs {
-        width: 10%;
-        height: auto;
+    .description {
+        width: 100%;
+        padding: 0 10px 0 10px;
+        margin: 15px 10px 1px 0;
     }
     .topics {
         margin-right: 65px;
@@ -182,36 +233,51 @@
 @media only screen and (min-width: 1200px) {
     .title {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
     }
    h2.question {
         font-weight: 500;
         font-size: 150%;
         color: #c6b3e1;
+        margin: 20px 0 -5px 45px;
     }
     .holder {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
+        -webkit-flex-direction: column;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         height: 100%;
         width: 100%;
         /*background-color: #dfe3ee;*/
-        margin-bottom: 80px;
+        margin: -40px 0 80px 0;
     }
     .options {
         display: flex;
+        display: -webkit-flex;
         justify-content: left;
+        -webkit-justify-content: left;
         align-items: left;
+        -webkit-align-items: left;
         flex-direction: row;
-        text-align: left;
+        -webkit-flex-direction: row;
         /* background-color: #f7f7f7;*/
-        height: 75%;
         width: 100%;
         margin: 15px 15px 0 15px;
         padding: 20px;
         border-bottom: 0.25px solid #dfe3ee;
+    }
+    .description {
+        width: 100%;
+        padding: 0 10px 0 10px;
+        margin: 15px 10px 1px 35px;
     }
 
     .topics {

@@ -25,8 +25,11 @@ export default class Mapper extends Component {
                     bootstrapURLKeys={{key:'AIzaSyAWRK-Yt3gy6fKVS2zBjxobe1pqN3lGKbQ'}}
                     center={this.state.center}
                     zoom={this.state.zoom}>
-                    <div className={styles.mapbox20} lat={42.617848} lng={-83.317782}>                             here </div>
                 </GoogleMap>
         );
     }
+}
+
+Mapper.propTypes = {
+    locations: PropTypes.array.isRequired,
 }

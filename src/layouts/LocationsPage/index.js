@@ -1,5 +1,6 @@
 import React, { PropTypes } from "react"
 import Locations from "../../components/Locations"
+//import Mapper from "../../components/Mapper"
 import Page from "../Page"
 
 const LocationsPage = (props) => {
@@ -10,7 +11,8 @@ const LocationsPage = (props) => {
 
                     <Locations
                         locations = {locations}
-                    />
+                    >
+                    </Locations>
                 </Page>
         )
 }
