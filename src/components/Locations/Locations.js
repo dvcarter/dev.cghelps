@@ -37,8 +37,8 @@ export default class Locations extends Component {
                                             center={hat.concat(locator.placement.lat, locator.placement.lng)}
                                             zoom={locator.placement.zoom}>
                                                 <div lat={locator.placement.lat} lng={locator.placement.lng}>
-                                                        <div className={styles.pin} lat={locator.placement.lat} lng={locator.placement.lng}></div>
-                                                        <div className={styles.pulse} lat={locator.placement.lat} lng={locator.placement.lng}></div>
+                                                        <div className={styles.pin} lat={locator.placement.lat} lng={locator.placement.lng} zoom={locator.placement.zoom}></div>
+                                                        <div className={styles.pulse} lat={locator.placement.lat} lng={locator.placement.lng} zoom={locator.placement.zoom}></div>
                                                 </div>
                                                 {/*<div className={styles.infobox} lat={locator.placement.lat} lng={locator.placement.lng} zoom={locator.placement.zoom}>
                                                    <div className={styles.infoboxDescription}>
