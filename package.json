@@ -135,6 +135,7 @@
   "dependencies": {
     "flexbox-react": "^4.2.1",
     "google-map-react": "^0.22.3",
+    "normalize.css": "^5.0.0",
     "react-bootstrap": "^0.30.7",
     "react-controllable": "^0.1.1",
     "react-fontawesome": "^1.5.0",
