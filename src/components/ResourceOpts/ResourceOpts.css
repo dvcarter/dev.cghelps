@@ -1,8 +1,11 @@
 @media only screen and  (max-width: 575px) {
     .title {
         display: flex;
+        display: -webkit-flex;
         justify-content:center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         text-align: center;
         width: 100%;
         font-size: 34px;
@@ -16,9 +19,13 @@
     }
     .holder {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
+        -webkit-flex-direction: column;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         height: 100%;
         width: 100%;
         /*background-color: #dfe3ee; */
@@ -27,9 +34,13 @@
 
     .options {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         flex-direction: column;
+        -webkit-flex-direction: column;
         text-align: left;
         /*background-color:#f7f7f7; */
         width: 100%;
@@ -63,8 +74,11 @@
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .title {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         text-align: center;
         font-size: 34px;
         font-weight: 700;
@@ -78,18 +92,26 @@
 
     .holder {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
+        -webkit-flex-direction: column;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         width: 100%;
         /*background-color: #dfe3ee; */
-        margin: 30px 0 80px 0;
+        margin: 30px 0 180px 0;
     }
     .options {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         flex-direction: column;
+        -webkit-flex-direction: column;
         /*background-color: #f7f7f7; */
         width: 100%;
         padding: 40px 0 10px 0;
@@ -121,8 +143,11 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .title {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         width: 100%;
         font-size: 34px;
         font-weight: 700;
@@ -136,17 +161,23 @@
 
     .holder {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
+        -webkit-flex-direction: column;
         align-items: center;
-        height: 100%;
+        -webkit-align-items: center;
+        height: auto;
         width: 100%;
         /*background-color: #dfe3ee; */
-        margin: 30px 0 80px 0;
+        margin: 30px 0 180px 0;
     }
     .options {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         /*background-color: #f7f7f7; */
         height: 50%;
         width: 100%;
@@ -171,15 +202,20 @@
     }
     .topics {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
+        -webkit-flex-direction:  column;
         margin: 15px;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .title {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         width: 100%;
         font-size: 34px;
         padding-bottom: -40px;
@@ -192,18 +228,25 @@
 
     .holder {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
+        -webkit-flex-direction: column;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
-        height: 100%;
+        -webkit-algin-items: center;
+        height: auto;
         width: 100%;
         /*background-color: #dfe3ee;*/
-        margin: 30px 0 80px 0;
+        margin: 30px 0 180px 0;
     }
     .options {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         /*background-color: #f7f7f7; */
         height: 50%;
         width: 100%;
@@ -227,7 +270,9 @@
     }
     .topics {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
+        -webkit-flex-direction: column;
         margin: 15px;
     }
 
@@ -235,8 +280,11 @@
 @media only screen and (min-width: 1200px) {
     .title {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         width: 100%;
         font-size: 34px;
         padding-bottom: -40px;
@@ -248,18 +296,25 @@
     }
     .holder {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
+        -webkit-flex-direction: column;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
-        height: 100%;
+        -webkit-align-items: center;
+        height: auto;
         width: 100%;
         /*background-color: #dfe3ee;*/
-        margin: 30px 0 140px 0;
+        margin: 30px 0 180px 0;
     }
     .options {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         /*background-color: #f7f7f7; */
         height: 50%;
         width: 100%;
@@ -283,7 +338,9 @@
     }
     .topics {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
+        -webkit-flex-direction: column;
         margin: 15px;
     }
 
