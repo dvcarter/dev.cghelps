@@ -416,7 +416,7 @@
         -webkit-align-items: center;
         width: 100%;
         height: 40px;
-        margin: 0 0 0 0;
+        margin: 0 0 0 -2px;
 
     }
     .socialItem {
