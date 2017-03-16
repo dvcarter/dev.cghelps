@@ -1,12 +1,17 @@
 .page {
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
 }
 
 .wrapper {
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   align-self: center;
+  -webkit-align-self: center;
   width: 100%;
   max-width: var(--maxWidth);
  /* padding: 1rem 0.75rem; */
@@ -36,15 +41,20 @@
   .hero {
       height: 50vh;
       display: flex;
+      display: -webkit-flex;
       justify-content: center;
+      -webkit-justify-content: center;
       align-items: center;
+      -webkit-align-items: center;
       background-color: var(--colorSecondary);
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .hero {
         display: flex;
+        display: -webkit-flex;
         justify-content: right;
+        -webkit-justify-content: right;
         margin: 0 auto;
         /*height:400px; */
         width: 100%;
@@ -55,6 +65,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .hero {
         display: flex;
+        display: -webkit-flex;
         margin: 0 auto;
         width: 100%;
         background-color: var(--colorSecondary);
@@ -98,8 +109,11 @@
   height: 100%;
   width: 100%;
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   justify-content: left;
+  -webkit-justify-content: left;
   padding: 5rem 0;
   padding: 10vh 0;
   text-align: center;

@@ -1,9 +1,11 @@
 .list {
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
-
+  -webkit-flex-direction: column;
   list-style: none;
   padding: 0;
+  margin: 0 0 180px 0;
 }
 
 /*@media only screen and (max-width:575px) {}
