@@ -38,7 +38,7 @@ const Footer = () => (
                <span> { "2017 \u00A9 Common Ground " }</span>
         </a>}
         {<a 
-            href={`#`}
+            href={'/contact'}
             className={styles.items}
          >
              <span> {"Contact Us"} </span>

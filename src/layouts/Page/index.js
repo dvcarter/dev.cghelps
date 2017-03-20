@@ -51,7 +51,7 @@ const Page = (
         title={ metaTitle }
         meta={ meta }
       />
-      {
+      { (head.title !== "Terms of Service and Privacy Policy") ? 
         <div
           className={ styles.hero }
           style={ head.hero && {
@@ -72,6 +72,11 @@ const Page = (
             </div>
           </div>
         </div>
+        : <div className={styles.header}>
+            <div className={styles.wrapper }>
+                <h1 className={styles.privacyHeading}> {head.title}</h1>
+            </div>
+          </div>
       }
       <div className={ styles.wrapper + " " + styles.pageContent }>
         { header }
