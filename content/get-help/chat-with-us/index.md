@@ -1,6 +1,6 @@
 ---
 title: Chat with Us
-hero: /assets/newcrop.png
+hero: /assets/groupsupport.jpg
 ---
+<iframe id="iCarolMessagingBadge" src="http://webapp.icarol.com/pub/Messaging/StatusBadge.aspx?orgNum=2194&pid=204&cc=en-US" frameborder="0" scrolling="no"></iframe>
 
-<iframe id="iCarolMessagingBadge" src="http://webapp.icarol.com/pub/Messaging/StatusBadge.aspx?OrgNum=2194" width="320" height="240" frameborder="0" scrolling="no"></iframe>

@@ -1,7 +1,7 @@
 ---
 title: Volunteer Today
 layout: Post
-hero: /assets/crop_huh.png
+hero: /assets/groupvolunteer.jpg
 ---
 
-this is a post
+If you would like to learn about volunteer opportunities, please contact Rose Gaddis by phone at ... or by email at rgaddis@commongroundhelps.org

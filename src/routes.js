@@ -13,6 +13,7 @@ import Post from "./layouts/Post"
 import Locations from "./layouts/LocationsPage"
 import Groups from "./layouts/GroupPage"
 import FaqQ from "./layouts/FAQPage"
+import About from "./layouts/AboutPage"
 
 const PageContainer = (props) => (
   <PhenomicPageContainer
@@ -27,6 +28,7 @@ const PageContainer = (props) => (
       Resources,
       Locations,
       Groups,
+      About,
       Post,
     }}
   />
