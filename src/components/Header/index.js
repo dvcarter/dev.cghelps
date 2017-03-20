@@ -127,11 +127,12 @@ export default class Header extends Component {
                                                         {"Suicide Prevention"}
                                                     </Link>
                                                 </li>
+                                                {/*
                                                 <li>
                                                     <Link to='/resources/substance-abuse-support' className={styles.link}>
                                                         {"Substance Abuse Support"}
                                                     </Link>
-                                                </li>
+                                                </li> */}
                                                 <li>
                                                     <Link to='/resources/youth-and-family' className={styles.link}>
                                                         {"Youth & Family Support"}

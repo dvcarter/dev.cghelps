@@ -51,7 +51,7 @@ class Contact extends Component {
   sendFormData(json) {
     // Send the form data.
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open('POST', 'https://formspree.io/ask@commongroundhelps.org', true);
+    xmlhttp.open('POST', 'https://formspree.io/askcommonground@commongroundhelps.org', true);
     xmlhttp.setRequestHeader('Accept', 'application/json');
     xmlhttp.setRequestHeader('Content-Type', 'application/json');
 
@@ -70,7 +70,7 @@ class Contact extends Component {
                             name: '', email: '', message: '' });
         }
         else {
-          _this.setState({ alert: { show: true, type: 'danger', text: 'Sorry, there has been an error. Please send your message to ask@commongroundhelps.org'} });
+          _this.setState({ alert: { show: true, type: 'danger', text: 'Sorry, there has been an error. Please send your message to askcommonground@commongroundhelps.org'} });
         }
       }
     };

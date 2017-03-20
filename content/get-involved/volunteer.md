@@ -1,6 +1,6 @@
 ---
 title: Volunteer Today
-layout: Post
+layout: Contact
 hero: /assets/groupvolunteer.jpg
 ---
 

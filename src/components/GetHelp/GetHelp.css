@@ -386,6 +386,10 @@
 .holder *:first-child a img {
     display: none;
 }
+.holder *:first-child a.onlybtn:hover {
+    background-color: #ab162b;
+}
+
 .holder *:nth-child(2) h2.subtitle {
     color: #ab162b;
 }
