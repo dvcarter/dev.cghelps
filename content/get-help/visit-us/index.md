@@ -1,6 +1,6 @@
 ---
 title: Visit Us
-hero: /assets/crop_huh.png
+hero: /assets/groupvolunteer.jpg
 cta: 
    label: Visit Our Locations
    link: "about"

@@ -5,7 +5,7 @@ const FaqQ = ({ askFaq }) => {
     return (
             <div>
                 <div className={styles.title}>
-                    <h1> Frequently Asked Questions </h1>
+                {/* <h1> Frequently Asked Questions </h1> */}
                 </div>
                 <div className={styles.holder}>
                     {askFaq.map((faqr) => (
