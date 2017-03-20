@@ -9,9 +9,8 @@ getHelp:
   id: 1
   subtitle: Coping with a Crisis
   description: What happened to you? Whatever it is, we're here to listen, to care, and to help- with out Resource & Crisis Helpline/Text/Chat, crisis intervention services, legal clinics, and more.
-  image: /assets/button.png
   btn:
-        label: 
+        label:  
         link: tel:18002311127
 
 

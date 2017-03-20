@@ -16,11 +16,9 @@ const GetHelp = ({ getHelp }) => {
                                    <div className={styles.description}>{helper.description}</div>
                                    {/*<MoreText/> */}
                                 </div>
-                                <a href={helper.btn.link}>
+                                <a href={helper.btn.link} className={styles.onlybtn}>
                                     <img className={styles.imgs} src={helper.image} />
-                                    <div>
                                         {helper.btn.label}
-                                    </div>
                                 </a>
                             </div>
                         ))} 

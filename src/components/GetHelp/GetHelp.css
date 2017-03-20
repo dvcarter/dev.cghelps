@@ -40,9 +40,9 @@
         -webkit-flex-direction: row;
         text-align: left;
         /*background-color: #f7f7f7;*/
-        height: 200px;
+        height: 300px;
         width: 100%;
-        margin: 25px 15px 60px 15px;
+        margin: 25px -5px 60px 15px;
         padding: 20px;
         border-bottom: 0.25px solid #dfe3ee;
     }
@@ -53,12 +53,35 @@
         margin: -15px 0 15px 0;
     }
     .imgs {
-        width: 100%;
-        height: auto;
+        width: 50px;
     }
 
     .topics {
         margin-right: 55px;
+    }
+
+    .holder *:first-child a.onlybtn {
+        white-space: nowrap;
+        width: 250px;
+        border: none;
+        border-radius: 8px;
+        background-color: #8b0000;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 1.75vh;
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        align-items: center;
+        -webkit-align-items: center;
+        -ms-flex-align:center;
+    }
+    .holder *:first-child a.onlybtn:before {
+        content: "Call";
     }
 
 }
@@ -113,6 +136,29 @@
     }
     .topics {
         margin-right: 55px;
+    }
+    .holder *:first-child a.onlybtn {
+        white-space: nowrap;
+        width:250px;
+        border: none;
+        border-radius: 8px;
+        background-color: #8b0000;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 1.75vh;
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        align-items: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    }
+    .holder *:first-child a.onlybtn:before {
+        content: "Call";
     }
 }
 
@@ -170,6 +216,27 @@
     .topics {
         margin-right: 65px;
     }
+    .holder *:first-child a.onlybtn {
+        white-space: nowrap;
+        width:250px;
+        border: none;
+        border-radius: 8px;
+        background-color: #8b0000;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 1.75vh;
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        align-items: center;
+    }
+    .holder *:first-child a.onlybtn:before {
+        content: "Call 1-800-231-1127";
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .title {
@@ -223,6 +290,29 @@
     .topics {
         margin-right: 65px;
     }
+    .holder *:first-child a.onlybtn {
+        white-space: nowrap;
+        width: 50%;
+        border: none;
+        border-radius: 8px;
+        background-color: #8b0000;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 1.75vh;
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        align-items: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    }
+    .holder *:first-child a.onlybtn:before {
+        content: "Call 1-800-231-1127";
+    }
 }
 @media only screen and (min-width: 1200px) {
     .title {
@@ -274,8 +364,28 @@
     .topics {
         margin-right: 65px;
     }
+    .holder *:first-child a.onlybtn {
+        white-space: nowrap;
+        width: 50%;
+        margin-top: 5px;
+        border: none;
+        border-radius: 8px;
+        background-color: #8b0000;
+        color: white;
+        text-decoration: none;
+        padding: 5px 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25vh;
+    }
+    .holder *:first-child a.onlybtn:before {
+        content: "Call 1-800-231-1127";
+    }
 }
-
+.holder *:first-child a img {
+    display: none;
+}
 .holder *:nth-child(2) h2.subtitle {
     color: #ab162b;
 }
