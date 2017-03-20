@@ -51,7 +51,7 @@ const Page = (
         title={ metaTitle }
         meta={ meta }
       />
-      { (head.title !== "Terms of Service and Privacy Policy") ? 
+      { ((head.title !== "Terms of Service and Privacy Policy") && (head.layout !== "FaqQ") && (head.title !== "Contact Us")) ? 
         <div
           className={ styles.hero }
           style={ head.hero && {
