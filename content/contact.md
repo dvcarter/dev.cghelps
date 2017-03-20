@@ -1,5 +1,4 @@
 ---
-title: Contact
 layout: Contact
 hero: /assets/groupvolunteer.jpg
 ---
