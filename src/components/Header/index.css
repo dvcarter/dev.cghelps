@@ -5,15 +5,35 @@
   /*  background: transparent;*/
   font-family: 'Avenir Next W00', sans-serif;
   font-weight: normal;
+  margin: 0 0 140px 0;
 }
 
+.supHeader {
+
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    margin: 0 0 60px 0;
+    background-color: #fff;
+    background-color: #482864;
+    color: #fff;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 550px 0 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
 $navHeight: 80px;
 .bumper {
-  height: 64px;
+  height: 80px;
   width: 100%;
 }
 .navFixed, .navWrapper, .navItems, .navItem {
-  height: 64px;
+  height: 80px;
 }
 .navFixed {
   /*background: #191919; */
@@ -22,10 +42,10 @@ $navHeight: 80px;
   position: fixed;
   left: 0;
   right: 0;
-  top: 0;
+  top: 60px;
   z-index: 10;
   padding-top: 5px;
-  height: 64px;
+  height: 80px;
 }
 
 .navWrapper {
@@ -154,7 +174,7 @@ $navHeight: 80px;
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 54px;
+  top: 65px;
   left: -50%;
   background: #f7f7f7;
   width: 285px;

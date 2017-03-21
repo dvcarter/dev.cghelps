@@ -15,10 +15,11 @@ const GetInvolved = ({getInvolved }) => {
                                     <h3 className={styles.subtitle}> {involver.subtitle} </h3>
                                     <div className={styles.description}>{involver.description} </div>
                                 </div>
-                                <button className={styles.button}>
-                                   <a href={involver.btn.link}> {involver.btn.label}
-                                   </a>
-                                </button>
+                                <a href={involver.btn.link}>
+                                    <button className={styles.button}>
+                                        {involver.btn.label}
+                                    </button>
+                                </a>
                             </div>
                         ))}
                     </div>

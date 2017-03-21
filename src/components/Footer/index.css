@@ -28,6 +28,21 @@
         height: 100%;
         margin: -10px 120px 0 0px;
     }
+    .footText {
+        position: relative;
+        width: 200px;
+        white-space: nowrap;
+        margin: 0 20px 0 150px;
+    }
+    .footText:before {
+        content: "Connect with Us";
+    }
+    .line {
+        margin: -45px -40px;
+        position: absolute;
+        width: 60%;
+        background-color: #fff;
+    }
     .link {
         display: flex;
         display: -webkit-flex;
@@ -121,6 +136,21 @@
         width: 50%;
         height: 100%;
         margin: -10px -30px 0 10px;
+    }
+    .footText {
+        position: relative;
+        width: 200px;
+        white-space: nowrap;
+        margin: 0 20px 0 150px;
+    }
+    .footText:before {
+        content: "Connect with Us";
+    }
+    .line {
+        margin: -45px -40px;
+        position: absolute;
+        width: 90%;
+        background-color: #fff;
     }
     .link {
         display: flex;
@@ -223,6 +253,24 @@
           height: 100%;
           margin: -10px -30px 0 10px;
       }
+      .footText {
+          position: relative;
+          width: 200px;
+          white-space: nowrap;
+          margin: 0 20px 0 150px;
+      }
+      .footText:before {
+          content: "Connect with Us";
+      }
+
+      .line {
+          margin: 92px -5px;
+          position: absolute;
+          height: 1px;
+          width: 93%;
+          background-color: #fff;
+      }
+
       .link {
           display: flex;
           display: -webkit-flex;
@@ -463,5 +511,8 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     .footer {
         background-color: #f1f2f2;
+        background-color: #7a5d95;
+        background-color: #482864;
+        color: #fff;
     }
 }

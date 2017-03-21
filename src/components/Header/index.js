@@ -58,6 +58,10 @@ export default class Header extends Component {
         const containerStyle = ( fullWidth ) ? styles.fullWidth : ''
         return (
                 <header className={styles.header}>
+                        <div className={styles.supHeader}>
+                            Do you need help? We're here for you 24 / 7.&nbsp;  
+                            <span>Call <strong>1.800.231.1127</strong></span>
+                        </div>
                         <div className={styles.bumper}/>
                         <div className={styles.navFixed}>
                             <div className={`${styles.navWrapper} ${containerStyle}`}>
