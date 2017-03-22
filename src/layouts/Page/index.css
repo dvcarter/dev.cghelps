@@ -12,10 +12,17 @@
   -webkit-flex-direction: column;
   align-self: center;
   -webkit-align-self: center;
-  height: 100%;
   width: 100%;
   max-width: var(--maxWidth);
- /* padding: 1rem 0.75rem; */
+ padding: 1rem 0.75rem;
+}
+
+_:-ms-lang(x), .wrapper {
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    -ms-align-self: center;
+    width: 100%;
+    height: 100%;
 }
 
 @media only screen and (max-width:575px) {
