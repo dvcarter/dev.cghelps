@@ -35,6 +35,10 @@ html {
   background: color(var(--colorPrimary) l(99%));
 }
 
+_:-ms-lang(x), body {
+    height: 100%;
+    width: 100%;
+}
 body {
   color: var(--colorText);
   font-size: 1rem;
