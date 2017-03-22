@@ -8,25 +8,6 @@
   margin: 0 0 70px 0;
 }
 
-.supHeader {
-
-    position: fixed;
-    height: 60px;
-    width: 100%;
-    top: 0;
-    margin: 0 0 60px 0;
-    background-color: #fff;
-    background-color: #482864;
-    color: #fff;
-    z-index: 10;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0 550px 0 0;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-}
 $navHeight: 80px;
 .bumper {
   height: 80px;
@@ -89,6 +70,29 @@ $navHeight: 80px;
     .navRight {
         margin: 0 250px 0 250px;
     }
+    .supHeader {
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        top: 0;
+        margin: 0 0 60px 0;
+        background-color: #482864;
+        color: #fff;
+        z-index: 10;
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        align-items: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        padding: 0 0 0 0;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 90%;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -98,6 +102,29 @@ $navHeight: 80px;
     .navRight {
         margin: 0 50px 0 30px;
     }
+    .supHeader {
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        top:  0;
+        margin: 0 0 60px 0;
+        background-color: #482864;
+        color: #fff;
+        z-index: 10;
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        align-items: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        padding: 0 0 0 0;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 90%;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 991px) {
@@ -106,6 +133,30 @@ $navHeight: 80px;
     }
     .navRight {
         margin: 0 10px 0 30px;
+    }
+    .supHeader {
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        top: 0;
+        margin: 0 0 60px 0;
+        background-color: #482864;
+        color: #fff;
+        z-index: 10;
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        align-items: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        /*padding: 0 150px 0 0;*/
+        padding: 0 0 0 0;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 90%;
     }
 }
 .logo, .logo img {
@@ -334,6 +385,28 @@ $lineHeight: 2px;
 @media (max-width: 768px) {
   .noMobile {
     display: none !important;
+  }
+  .supHeader {
+      white-space: nowrap;
+      position: fixed;
+      height: 60px;
+      width: 100%;
+      top: 0;
+      margin: 0 0 60px 0;
+      background-color: #482864;
+      color: #fff;
+      z-index: 10;
+      display: flex;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      justify-content: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      align-items: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      font-weight: 300;
+      font-size: 65%;
   }
   .auth {
     width: 100%;
