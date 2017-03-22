@@ -39,7 +39,7 @@
         display: -webkit-flex;
         flex-direction: column;
         -webkit-flex-direction: column;
-        max-width: 40rem;
+        max-width: 35rem;
         width: 100vh;
         justify-content: center;
         -webkit-justify-content: center;

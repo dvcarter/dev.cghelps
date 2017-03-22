@@ -405,7 +405,24 @@
         -webkit-flex-direction: column;
         width: 50%;
         height: 100%;
-        margin: -10px 90px 0 10px;
+        margin: -5px 90px 0 10px;
+    }
+    .footText {
+        position: relative;
+        width: 200px;
+        margin: 0 20px 0 105px;
+        white-space: nowrap;
+        font-size: 1.5vh;
+    }
+    .footText:before {
+        content: "Connect with Us"
+    }
+    .line {
+        position: absolute;
+        margin: -95px 5px;
+        height: 1px;
+        width: 82%;
+        background-color: #fff;
     }
     .link {
         display: flex;
@@ -444,7 +461,7 @@
         -webkit-justify-content: center;
         align-items: center;
         -webkit-align-items: center;
-        height: 300px;
+        height: 200px;
         width: 100%;
         margin-top: 40px;
         left: 0;
@@ -464,7 +481,7 @@
         -webkit-align-items: center;
         width: 100%;
         height: 40px;
-        margin: 0 0 0 -2px;
+        margin: -10px 0 0 -180px;
 
     }
     .socialItem {
@@ -480,7 +497,7 @@
     }
     .socialItem img {
         width: 32px;
-        margin: 0 0 -8px 0;
+        margin: 0 0 -8px 10px;
     }
     .footerItems {
         display: flex;
@@ -493,7 +510,21 @@
         width: 100%;
         margin: 0 10px 0 10px;
     }
-
+    .footText {
+        position: relative;
+        width: 200px;
+        white-space: nowrap;
+        margin: 90px 0 75px 177px;
+    }
+    .footText:before {
+        content: "Connect with Us";
+    }
+   .line {
+       margin: -45px 0;
+       position: absolute;
+       width: 100%;
+       background-color: #fff;
+   }
     .link img {
         width: 66px;
     }
@@ -515,4 +546,11 @@
         background-color: #482864;
         color: #fff;
     }
+}
+
+.socialItem img {
+    transition: all 0.5s ease;
+}
+.socialItem img:hover {
+    background:rgba( 192,192,192, 0.3);
 }
