@@ -37,7 +37,6 @@ html {
 
 _:-ms-lang(x), body {
     height: 50%;
-    width: 100%;
     background-color: blue;
 }
 body {
