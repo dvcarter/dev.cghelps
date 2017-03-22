@@ -36,7 +36,7 @@ html {
 }
 
 _:-ms-lang(x), body {
-    height: 50%;
+    min-height: 100vh;
     background-color: blue;
 }
 body {
