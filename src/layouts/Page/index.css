@@ -12,6 +12,7 @@
   -webkit-flex-direction: column;
   align-self: center;
   -webkit-align-self: center;
+  height: 100%;
   width: 100%;
   max-width: var(--maxWidth);
  /* padding: 1rem 0.75rem; */

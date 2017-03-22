@@ -2,6 +2,7 @@
 @media only screen and (min-width: 1200px) {
 
     .footer {
+        background-color: #482864;
         display: flex;
         display: -webkit-flex;
         flex-direction: row;
@@ -112,6 +113,7 @@
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
 
     .footer {
+        background-color: #482864;
         display: flex;
         display: -webkit-flex;
         justify-content: center;
@@ -226,6 +228,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer {
+        background-color: #482864;
         display: flex;
         display: -webkit-flex;
         flex-direction: row;
@@ -350,6 +353,7 @@
 @media only screen and (min-width: 576px) and (max-width: 767px){
 
     .footer {
+          background-color: #482864;
           display: flex;
           display: -webkit-flex;
           display: -ms-flexbox;
@@ -473,6 +477,7 @@
 
 @media only screen and (max-width: 575px) {
     .footer {
+        background-color: #482864;
         display: flex;
         display: -webkit-flex;
         display: -ms-flexbox;
