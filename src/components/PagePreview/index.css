@@ -161,6 +161,7 @@
 @media only screen and (min-width: 1200px) {
 
     .wrapper {
+        position: relative;
         display: flex;
         display: -webkit-flex;
         flex-direction: column;
@@ -171,7 +172,9 @@
         justify-content: center;
         -webkit-justify-content: center;
         margin: 1rem auto;
-        padding: 1rem 0;
+        padding: 2rem 0;
+        padding: 20px 0 100px 0;
+        margin-bottom: -90px;
     }
 
     .title {

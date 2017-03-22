@@ -304,9 +304,10 @@
         align-items: center;
         -webkit-align-items: center;
         height: auto;
+        height: 100%;
         width: 100%;
         /*background-color: #dfe3ee;*/
-        margin: 30px 0 180px 0;
+        margin: 30px 0 80px 0;
     }
     .options {
         display: flex;
