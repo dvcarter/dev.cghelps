@@ -10,7 +10,6 @@
         -webkit-justify-content: center;
         align-items: center;
         -webkit-align-items: center;
-        background-color: #f1f2f2;
         height: 300px;
         width: 100%;
         padding: 15px 0 0 0;
@@ -119,7 +118,6 @@
         -webkit-justify-content: center;
         align-items: center;
         -webkit-align-items: center;
-        background-color: #f1f2f2;
         height: 300px;
         width: 100%;
         padding-top: 15px;
@@ -234,7 +232,6 @@
         -webkit-flex-direction: row;
         justify-content: center;
         -webkit-justify-content: center;
-        background-color: #f1f2f2;
         height: 300px;
         width: 100%;
         padding-top: 15px;
@@ -325,12 +322,16 @@
       .socialItem {
           display: flex;
           display: -webkit-flex;
+          display: -ms-flexbox;
           flex-direction: row;
           -webkit-flex-direction: row;
+          -ms-flex-direction: row;
           justify-content: center;
           -webkit-justify-content: center;
+          -ms-flex-pack: center;
           align-items: center;
           -webkit-align-items: center;
+          -ms-flex-align: center;
           width: 50px;
       }
       .socialItem img {
@@ -351,13 +352,16 @@
     .footer {
           display: flex;
           display: -webkit-flex;
+          display: -ms-flexbox;
           flex-direction: row;
           -webkit-flex-direction: row;
+          -ms-flex-direction: row;
           justify-content: center;
           -webkit-justify-content: center;
+          -ms-flex-pack: center;
           align-items: center;
           -webkit-align-items: center;
-          background-color: #f1f2f2;
+          -ms-flex-align: center;
           height: 300px;
           width: 100%;
           padding-top: 15px;
@@ -369,12 +373,16 @@
     .socialItems {
         display: inline-flex;
         display: -webkit-inline-flex;
+        display: -ms-inline-flex;
         flex-direction: row;
         -webkit-flex-direction: row;
+        -ms-flex-direction: row;
         justify-content: center;
         -webkit-justify-content: center;
+        -ms-flex-pack: center;
         align-items: center;
         -webkit-align-items: center;
+        -ms-flex-align: center;
         width: 30%;
         height: 40px;
         margin: 10px -20px 0 20px;
@@ -382,10 +390,13 @@
     .socialItem {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         justify-content: center;
         -webkit-justify-content: center;
+        -ms-flex-pack: center;
         align-items: center;
         -webkit-align-items: center;
+        -ms-flex-align: center;
         width: 40px;
         height: 32px;
         margin: 0 2px 0 2px;
@@ -397,12 +408,16 @@
     .footerItems {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         justify-content: flex-start;
         -webkit-justify-content: flex-start;
+        -ms-flex-pack: flex-start;
         align-items: flex-start;
         -webkit-align-items: flex-start;
+        -ms-flex-align: flex-start;
         flex-direction: column;
         -webkit-flex-direction: column;
+        -ms-flex-direction: column;
         width: 50%;
         height: 100%;
         margin: -5px 90px 0 10px;
@@ -427,7 +442,10 @@
     .link {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         align-items: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
         padding: 0;
         color: inherit;
         text-decoration: none !important;
@@ -457,28 +475,34 @@
     .footer {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         justify-content: center;
         -webkit-justify-content: center;
+        -ms-flex-pack: center;
         align-items: center;
         -webkit-align-items: center;
+        -ms-flex-align: center;
         height: 200px;
         width: 100%;
         margin-top: 40px;
         left: 0;
         right: 0;
-        background-color: #f1f2f2;
         font-size: 50%;
     }
     .socialItems {
         position: relative;
         display: inline-flex;
         display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
         flex-direction: row;
         -webkit-flex-direction: row;
+        -ms-flex-direction: row;
         justify-content: flex-start;
         -webkit-justify-content: flex-start;
+        -ms-flex-pack: flex-start;
         align-items: center;
         -webkit-align-items: center;
+        -ms-flex-align: center;
         width: 100%;
         height: 40px;
         margin: -10px 0 0 -180px;
@@ -487,10 +511,13 @@
     .socialItem {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         justify-content: center;
         -webkit-justify-content: center;
+        -ms-flex-pack: center;
         align-items: center;
         -webkit-align-items: center;
+        -ms-flex-align: center;
         width: 40px;
         height: 32px;
         margin: 0 0 0 0;
@@ -502,10 +529,13 @@
     .footerItems {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         justify-content: center;
         -webkit-justify-content: center;
+        -ms-flex-pack: center;
         flex-direction: column;
         -webkit-flex-direction: column;
+        -ms-flex-direction: column;
         height: 100%;
         width: 100%;
         margin: 0 10px 0 10px;
@@ -541,8 +571,6 @@
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     .footer {
-        background-color: #f1f2f2;
-        background-color: #7a5d95;
         background-color: #482864;
         color: #fff;
     }

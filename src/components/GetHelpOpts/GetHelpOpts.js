@@ -4,7 +4,7 @@ import styles from './GetHelpOpts.css'
 const GetHelpOpts = ({ getHelpOpts }) => {
         return (
 
-            <div>
+            <div className={styles.bigHolder}>
                 <div className= {styles.title}> Get Help</div>
                 {/* <hr className={styles.topline} /> */}
                 <div className= {styles.help}>
