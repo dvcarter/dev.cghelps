@@ -1,28 +1,19 @@
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .bigHolder {
-        height: 40%;
-        width: 100%;
-        margin: 0 0 0 0;
-        background-color: red;
-    }
-    .help {
-        height: 80%;
-        width: 100%;
-        background-color: green;
-    }
-
-
 }
 
 
 
 
 @media only screen and (min-width: 1200px) {
-    /*.bigHolder {
-        height: 100%;
+    _:ms-lang(x), .bigHolder {
+        height: 40%;
+        height: 100;
+    }
+    _:ms-lang(x), .help {
+        height: 80%;
         width: 100%;
-    }*/
+    }
     .help {
         display: flex;
         display: -webkit-flex;
