@@ -35,6 +35,9 @@ html {
   background: color(var(--colorPrimary) l(99%));
 }
 
+_:ms-lang(x), body {
+    background-color: red;
+}
 body {
   color: var(--colorText);
   font-size: 1rem;
