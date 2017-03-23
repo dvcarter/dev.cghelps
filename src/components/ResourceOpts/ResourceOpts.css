@@ -357,21 +357,6 @@
             padding: 0 10px 10px 10px;
             margin: 5px 0 5px 0;
         }
-        .button {
-            width: 200px;
-            white-space: nowrap;
-            position: relative;
-            margin: 5px 0 5px 0;
-            padding: 15px 20px;
-            border: none;
-            border-radius: 8px;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 1.25vh;
-        }
-        .topics {
-            margin: 14px;
-        }
 
 }
 .button {
