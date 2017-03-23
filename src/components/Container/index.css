@@ -6,7 +6,7 @@
 
 @media screen and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
     .container {
-        height: 300vh;
+        height: 80%;
         display: -ms-flexbox;
         -ms-flex-direction: column;
         background-color: red;
