@@ -25,7 +25,8 @@ _:-ms-lang(x), .wrapper {
     -ms-flex-direction: column;
     -ms-align-self: center;
     width: 100%;
-    min-height: 50vh;
+    min-height: 50%;
+    background-color: yellow;
 }
 
 @media only screen and (max-width:575px) {
