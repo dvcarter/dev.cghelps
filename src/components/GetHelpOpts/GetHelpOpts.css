@@ -1,5 +1,11 @@
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .bigHolder {
+        max-height: 700px;
+    }
+
+
+
 }
 
 
