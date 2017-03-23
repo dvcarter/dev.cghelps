@@ -324,9 +324,11 @@
     
     _:ms-lang(x), .holder {
         height: 50%;
+        background-color: blue;
     }
     _:ms-lang(x), .options {
         height: 20%;
+        background-color: red;
     }
     .imgs {
         width: 20%;
