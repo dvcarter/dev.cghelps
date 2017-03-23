@@ -10,5 +10,5 @@ _:ms-lang(x) .content {
     display: -ms-flebox;
     -ms-flex-direction: column;
     -ms-flex: 1 1 auto;
-    align-items: stretch;
+    /*align-items: stretch;*/
 }
