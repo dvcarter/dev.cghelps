@@ -4,6 +4,16 @@
   flex-direction: column;
   -webkit-flex-direction: column;
 }
+@media screen and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+    .page {
+        height: 200vh;
+        background-color: red;
+    }
+    .wrapper {
+        height: 200vh;
+        background-color: blue;
+    }
+}
 
 .wrapper {
   display: flex;
@@ -16,8 +26,8 @@
   max-width: var(--maxWidth);
   /*padding: 1rem 0.75rem;*/
 }
-/*
-@media screen and (-ms-high-contrast: active) and (-ms-high-contrast:none) {
+
+/*@media screen and (-ms-high-contrast: active) and (-ms-high-contrast:none) {
     .wrapper {
         display: -ms-flexbox;
         -ms-flex-direction: column;
@@ -26,8 +36,7 @@
         height: 100vh;
         background-color: yellow;
   }
-}
-*/
+}*/
 @media only screen and (max-width:575px) {
 .body {
       & a { 

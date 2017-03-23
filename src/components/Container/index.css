@@ -4,10 +4,10 @@
   flex-direction: column;
 }
 
-@media screen and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+/*@media screen and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
     .container {
-        height: 80%;
+        height: ;
         display: -ms-flexbox;
         -ms-flex-direction: column;
     }
-}
+}*/

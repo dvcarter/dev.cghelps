@@ -10,7 +10,6 @@ const Homepage = (props) => {
     <Page { ...props }>
       <GetHelpOpts getHelpOpts={ getHelpOpts }/>
       <LatestPosts numberOfPosts="2"/>
-      <LatestPosts numberOfPosts="2"/>
     </Page>
     )
 }
