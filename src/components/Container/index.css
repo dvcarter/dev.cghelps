@@ -5,7 +5,8 @@
 }
 
 _:ms-lang(x), .container {
-    min-height: 80%;
+    height: 300vh;
     display: -ms-flexbox;
     -ms-flex-direction: column;
+    background-color: red;
 }
