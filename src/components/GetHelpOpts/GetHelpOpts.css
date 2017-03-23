@@ -6,14 +6,14 @@
 
 
 @media only screen and (min-width: 1200px) {
-    _:ms-lang(x), .bigHolder {
+    /*_:ms-lang(x), .bigHolder {
         height: 40%;
         height: 100;
     }
     _:ms-lang(x), .help {
         height: 80%;
         width: 100%;
-    }
+    }*/
     .help {
         display: flex;
         display: -webkit-flex;
