@@ -46,11 +46,28 @@
 
     @-moz-document url-prefix() { 
         .line    {
-        margin: -132px -40px -45px -95px;
+        margin: -132px -40px -45px -145px;
         position: absolute;
         width: 60%;
         background-color: #fff;
         }
+        .footer {
+            color: white;
+        }
+    }
+    _::-webkit-full-page-media, _:future, :root .footer {
+    }
+    _::-webkit-full-page-media, _:future, :root .footText {
+        position: relative;
+        margin: 0 -20px 0 -130px;
+        padding: 0 20px 0 30px;
+        width: 100%;
+    }
+    _::-webkit-full-page-media, _:future, :root .socialItems {
+        margin: 0 0 0 200px;
+    }
+    _::-webkit-full-page-media, _:future, :root .socialItem {
+        margin: 0 -30px 0 40px;
     }
     .link {
         display: flex;
@@ -156,10 +173,34 @@
         content: "Connect with Us";
     }
     .line {
+        height: 1px;
         margin: -45px -40px;
         position: absolute;
         width: 90%;
         background-color: #fff;
+    }
+    @-moz-document url-prefix() {
+        .line {
+            margin: -132px -40px -45px -95px;
+        }
+
+        .footer {
+            color: white;
+        }
+    }
+      _::-webkit-full-page-media, _:future, :root .footer {
+    }   
+    _::-webkit-full-page-media, _:future, :root .footText {
+        position: relative;
+        margin: 0 -20px 0 -130px;
+        padding: 0 20px 0 30px;
+        width: 100%;
+    }   
+    _::-webkit-full-page-media, _:future, :root .socialItems {
+        margin: 0 0 0 110px;
+    }   
+    _::-webkit-full-page-media, _:future, :root .socialItem {
+        margin: 0 -30px 0 40px;
     }
     .link {
         display: flex;
@@ -279,7 +320,28 @@
           width: 93%;
           background-color: #fff;
       }
-
+      @-moz-document url-prefix() {
+          .line {
+              margin: 90px -40px -45px -55px;
+          }
+          .footer {
+              color: white;
+          }
+      }
+      _::-webkit-full-page-media, _:future, :root .footer {
+      }   
+      _::-webkit-full-page-media, _:future, :root .footText {
+          position: relative;
+          margin: 0 -20px 0 -130px;
+          padding: 0 20px 0 30px;
+          width: 100%;
+      }   
+      _::-webkit-full-page-media, _:future, :root .socialItems {
+          margin: 0 0 0 110px;
+      }   
+      _::-webkit-full-page-media, _:future, :root .socialItem {
+          margin: 0 -30px 0 40px;
+      }
       .link {
           display: flex;
           display: -webkit-flex;
@@ -452,6 +514,31 @@
         width: 82%;
         background-color: #fff;
     }
+    @-moz-document url-prefix() {
+        .line {
+            margin: -232px -40px -45px -25px;
+        }
+        .footer {
+            color: white;
+        }
+        .footText {
+            font-size: 11px;
+        }
+    }
+      _::-webkit-full-page-media, _:future, :root .footer {
+        }   
+      _::-webkit-full-page-media, _:future, :root .footText {
+          position: relative;
+          margin: 0 -10px 0 -125px;
+          padding: 0 20px 0 30px;
+          width: 100%;
+      }   
+      _::-webkit-full-page-media, _:future, :root .socialItems {
+          margin: 0 0 0 110px;
+      }   
+      _::-webkit-full-page-media, _:future, :root .socialItem {
+          margin: 0 -30px 0 40px;
+      }
     .link {
         display: flex;
         display: -webkit-flex;
@@ -569,6 +656,18 @@
        width: 100%;
        background-color: #fff;
    }
+   @-moz-document url-prefix() {
+       .line { 
+            margin: -130px -55px -45px -65px;
+            width: 93%;
+        }
+        .footer {
+           color: white;
+        }
+        .footText {
+           font-size: 9px;
+        }
+    }
     .link img {
         width: 66px;
     }

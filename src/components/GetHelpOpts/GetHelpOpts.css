@@ -1,8 +1,19 @@
-@media only screen and (min-width: 1200px) {
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .bigHolder {
         height: 100%;
         width: 100%;
     }
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+    /*.bigHolder {
+        height: 100%;
+        width: 100%;
+    }*/
     .help {
         display: flex;
         display: -webkit-flex;
@@ -49,7 +60,7 @@
     }
 
      .options {
-        height: 100%;
+       /* height: 100%;*/
         width: 100%;
         display: flex;
         display: -webkit-flex;
