@@ -19,7 +19,7 @@ const GetHelpOpts = ({ getHelpOpts }) => {
                         </div>
                     ))}
                 </div>
-                <hr className={styles.bottomline}/>
+                {/*<hr className={styles.bottomline}/>*/}
             </div>
             )
 }
