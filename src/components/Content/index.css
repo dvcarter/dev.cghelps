@@ -6,7 +6,6 @@
 }
 
 _:ms-lang(x) .content {
-    margin: 0 0 -20em 0;
     display: -ms-flebox;
     -ms-flex-direction: column;
     -ms-flex: 1 1 auto;
