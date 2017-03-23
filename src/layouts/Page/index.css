@@ -116,7 +116,7 @@ _:-ms-lang(x), .wrapper {
         display: -ms-flexbox;
         -ms-flex-direction: column;
         -ms-align-self: center;
-        height: 200vh;
+        height: 150vh;
         width: 100%;
         background-color: yellow;
     }
