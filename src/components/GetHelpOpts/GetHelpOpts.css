@@ -1,14 +1,14 @@
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .bigHolder {
-        height: 50%;
+        height: 10%;
         width: 100%;
-        margin: 0 0 0 0;
+        margin: 0 0 -200px 0;
         background-color: red;
     }
     .help {
-        height: 30%;
-        width: 100%;
+        height: 100%;
+        width: 80%;
         background-color: green;
     }
 
