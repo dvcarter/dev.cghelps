@@ -321,13 +321,13 @@
         margin: 15px 15px 0 15px;
         padding: 20px;
     }
-    /*
+    
     _:ms-lang(x), .holder {
-        height: 100%;
+        height: 50%;
     }
     _:ms-lang(x), .options {
         height: 20%;
-    }*/
+    }
     .imgs {
         width: 20%;
         height: auto;
