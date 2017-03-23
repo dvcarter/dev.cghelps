@@ -4,7 +4,8 @@
   flex-direction: column;
 }
 
-_:ms-lang(x), .container {
+@media screen and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+    .container {
     height: 300vh;
     display: -ms-flexbox;
     -ms-flex-direction: column;
