@@ -323,7 +323,7 @@
         margin: 15px 15px 0 15px;
         padding: 20px;
     }
-    html[data-useragent*='MSIE 10.0'] .options {
+    html[data-useragent*='MSIE 11.0'] .options {
         height: 75%;
         background-color: blue;
     }
