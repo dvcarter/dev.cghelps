@@ -40,6 +40,5 @@
         height: 10%;
     }
     _:ms-lang(x), .latestPosts {
-        margin: -300px 0 0 0;
     }
 }

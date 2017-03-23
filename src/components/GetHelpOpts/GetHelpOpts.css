@@ -33,7 +33,7 @@
         margin-top: 15px;
     }
     _:ms-lang(x), .help {
-        margin-bottom: -100px;
+        margin-bottom: -1px;
     }
     .title {
         display: flex;
@@ -52,8 +52,8 @@
         padding-bottom: -40px;
     }
 
-    hr {
-        margin:10px;
+    /*hr {
+        margin:1px;
     }
     .topline {
         margin-bottom: -15px;
@@ -61,7 +61,7 @@
     .bottomline {
         margin-top: -15px;
     }
-
+    */
      .options {
         height: 100%;
         width: 100%;
