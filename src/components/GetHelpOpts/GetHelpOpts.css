@@ -3,12 +3,12 @@
     .bigHolder {
         height: 40%;
         width: 100%;
-        margin: 0 0 -100px 0;
+        margin: 0 0 0 0;
         background-color: red;
     }
     .help {
         height: 100%;
-        width: 100%;
+        width: 80%;
         background-color: green;
     }
 
