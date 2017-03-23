@@ -384,6 +384,3 @@
 .button:hover {
     background-color: #ab162b;
 }
-.holder *:nth-child(3) {
-    border-bottom: none;
-}

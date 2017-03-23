@@ -32,6 +32,9 @@
         margin-bottom: 55px;
         margin-top: 15px;
     }
+    _:ms-lang(x), .help {
+        margin-bottom: 1px;
+    }
     .title {
         display: flex;
         display: -webkit-flex;
