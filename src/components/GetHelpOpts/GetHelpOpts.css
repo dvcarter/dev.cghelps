@@ -140,6 +140,9 @@
 
 /* Wide */
 @media only screen and (min-width: 992px) and (max-width: 1199px){
+    .bigHolder {
+        max-height: 700px;
+    }
     .help {
         display: flex;
         display: -webkit-flex;
@@ -265,6 +268,9 @@
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
+    .bigHolder {
+        max-height: 700px;
+    }
     .help {
         display: flex;
         justify-content: center;
@@ -350,6 +356,10 @@
 
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .bigHolder {
+        max-height: 451px;
+    }
+    
     .help {
         display: flex;
         justify-content: center;
@@ -449,6 +459,10 @@
 
 
 @media only screen and (max-width: 575px) {
+    .bigHolder {
+        max-height: 1403px;
+    }
+    
     .help {
         display: flex;
         justify-content: center;
