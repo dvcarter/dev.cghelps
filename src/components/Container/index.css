@@ -3,3 +3,9 @@
   display: flex;
   flex-direction: column;
 }
+
+_:ms-lang(x), .container {
+    min-height: 80%;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+}
