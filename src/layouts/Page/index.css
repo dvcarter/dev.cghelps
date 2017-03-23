@@ -16,7 +16,7 @@
   max-width: var(--maxWidth);
   /*padding: 1rem 0.75rem;*/
 }
-
+/*
 @media screen and (-ms-high-contrast: active) and (-ms-high-contrast:none) {
     .wrapper {
         display: -ms-flexbox;
@@ -27,7 +27,7 @@
         background-color: yellow;
   }
 }
-
+*/
 @media only screen and (max-width:575px) {
 .body {
       & a { 

@@ -8,9 +8,7 @@ const Homepage = (props) => {
 
   return (
     <Page { ...props }>
-      <GetHelpOpts
-        getHelpOpts={ getHelpOpts }
-      />
+      <GetHelpOpts getHelpOpts={ getHelpOpts }/>
       <LatestPosts numberOfPosts="2"/>
     </Page>
     )
