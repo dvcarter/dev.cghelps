@@ -25,7 +25,6 @@ _:-ms-lang(x), .wrapper {
     -ms-flex-direction: column;
     -ms-align-self: center;
     width: 100%;
-    min-height: 50%;
     background-color: yellow;
     margin: 0 0 -300px 0;
 }
