@@ -303,11 +303,19 @@
         -webkit-justify-content: center;
         align-items: center;
         -webkit-align-items: center;
-        height: 100%;
+        height: auto;
         width: 100%;
         background-color: red;
         /*background-color: #dfe3ee;*/
         margin: 30px 0 180px 0;
+    }
+    _:ms-lang(x), .holder {
+        height: 40%;
+        background-color: red;
+    }
+    _:ms-lang(x), .options {
+        height: 20%;
+        background-color: blue;
     }
     .options {
         display: flex;
@@ -317,7 +325,7 @@
         align-items: center;
         -webkit-align-items: center;
         /*background-color: #f7f7f7; */
-        height: 50%;
+        height: 40%;
         width: 100%;
         margin: 15px 15px 0 15px;
         padding: 20px;
