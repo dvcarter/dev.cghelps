@@ -4,3 +4,12 @@
   align-items: stretch;
   flex-direction: column;
 }
+
+_:ms-lang(x) .content {
+    background-color: blue;
+    margin: 0 0 -20em 0;
+    display: -ms-flebox;
+    -ms-flex-direction: column;
+    -ms-flex: 1 1 auto;
+    align-items: stretch;
+}
