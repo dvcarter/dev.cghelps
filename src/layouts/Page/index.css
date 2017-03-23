@@ -23,6 +23,7 @@ _:-ms-lang(x), .wrapper {
     -ms-align-self: center;
     width: 100%;
     min-height: 50vh;
+    background-color: blue;
 }
 
 @media only screen and (max-width:575px) {
