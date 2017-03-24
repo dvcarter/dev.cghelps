@@ -63,9 +63,9 @@
         margin-top: -15px;
     }
     */
-    _::-webkit-:not(:root:root), .help {
+    /*_::-webkit-:not(:root:root), .help {
         max-height: 400px;
-        height: 300px;
+        height: 300px;*/
     }
      .options {
         height: 100%;
