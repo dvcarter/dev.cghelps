@@ -4,11 +4,28 @@
         max-height: 700px;
     }
 
-
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 1199px) and (min-width: 992px) {
+    .bigHolder {
+        max-height: 500px;
+    }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 991px) and (min-width: 768px) {
+    .bigHolder {
+        max-height: 400px;
+    }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 767px) and (min-width: 576px) {
+    .bigHolder {
+        max-height: 400px;
+    }
 
 }
-
-
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 575px) {
+    .bigHolder {
+        max-height: 1200px;
+    }
+}
 
 @media only screen and (min-width: 1200px) {
     .help {
@@ -59,11 +76,10 @@
         margin-top: -15px;
     }
     */
-    /*_::-webkit-:not(:root:root), .help {
+    _::-webkit-:not(:root:root), .help {
         max-height: 400px;
         height: 300px;
     }
-     */
      .options {
         height: 100%;
         width: 100%;
@@ -522,8 +538,9 @@
             font-size: 1vh;
             border-bottom: 0.25px solid #dfe3ee;
         }
+        /* safari 9 hack */
         _::-webkit-:not(:root:root), .help {
-            height: 1450px;
+            height: 1250px;
         }
         .glyphs {
             display: flex;
