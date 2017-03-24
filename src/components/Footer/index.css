@@ -6,7 +6,7 @@
         position: relative;
         margin: 0 2px 0 5px;
         padding: 0 20px 0 30px;
-        width: 200px;
+        width: 20px;
         color: white;
     }
     hr.line {
@@ -16,6 +16,7 @@
         min-height: 0px;
     }
     .socialItems {
+        width:40px;
         margin: 0 155px 0 200px;
      }
     .socialItem {
