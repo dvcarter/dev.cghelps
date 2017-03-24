@@ -6,11 +6,11 @@
         position: relative;
         margin: 0 -300px 0 -330px;
         padding: 0 20px 0 30px;
-        width: 100%;
+        width: 200px;
         color: white;
     }
     hr.line {
-        margin: -52px 100px 45px 200px;
+        margin: -40px 100px 45px 200px;
         background-color: #fff;
         width: 60%;
         min-height: 0px;
