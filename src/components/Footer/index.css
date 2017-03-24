@@ -1,10 +1,18 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width:1200px) {
+    .footer {
+        color: white;
+    }
     .footText {
         position: relative;
         margin: 0 -20px 0 -330px;
+        padding: 0 20px 0 30px;
         width: 100%;
-        background-color: red;
-        color: blue;
+        color: white;
+    }
+    .line {
+        margin: -132px -40px 45px -200px;
+        background-color: #fff;
+        width: 60%;
     }
     .socialItems {
         margin: 0 0 0 100px;
