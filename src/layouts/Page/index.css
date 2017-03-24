@@ -122,10 +122,16 @@
 }
 
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1200px) {
+    .hero {
+        margin: 0 auto;
+        height: 60vh;
+        width: 70vw;
+    }
+}
 
-
-
-
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width:767px ) and (min-width:576px) {
+}
 
 
 .header {

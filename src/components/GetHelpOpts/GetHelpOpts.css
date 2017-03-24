@@ -141,7 +141,7 @@
         margin-top: 5px;
         border: none;
         border-radius: 8px;
-        background-color: #7a5d94;
+        background-color: #482864;
         color: white;
         padding: 12px 40px;
         text-decoration: none;
@@ -271,7 +271,7 @@
         margin-top: 5px;
         border: none;
         border-radius: 8px;
-        background-color:#7a5d94;
+        background-color:#482864;
         color: white;
         padding: 12px 40px;
         text-decoration: none;
@@ -359,7 +359,7 @@
         margin-top: 5px;
         border: none;
         border-radius: 8px;
-        background-color: #7a5d94;
+        background-color: #482864;
         color: white;
         padding: 15px 40px 15px 40px;
         text-decoration: none;
@@ -458,7 +458,7 @@
             margin-top: 5px;
             border: none;
             border-radius: 8px;
-            background-color:#7a5d94;
+            background-color:#482864;
             color: white;
             padding: 12px 40px;
             text-decoration: none;
@@ -566,7 +566,7 @@
               margin-top: 5px;
               border: none;
               border-radius: 8px;
-              background-color: #7a5d94;
+              background-color: #482864;
               color: white;
               padding: 15px 20px;
               text-decoration: none;
@@ -585,7 +585,7 @@
 
 
 button:hover {
-    background-color: #c6b3e1;
+    background-color: #7a5d94;
 }
 
 .help *:nth-child(1) .button, .help *:nth-child(3) .button {

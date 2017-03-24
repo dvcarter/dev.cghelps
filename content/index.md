@@ -16,9 +16,18 @@ getHelpOpts:
   btn: 
         label: "Call 1.800.231.1127"
         link: tel:18002311127
+
+- name: visit-helps
+  title: VISIT
+  description: You're also welcome to visit one of our Oakland County facilities to talk with us in person.
+  image: /assets/InPerson_White_purple.png
+  btn:
+        label: Find Crisis Center
+        link: "get-help/visit"
+
 - name: text-helps
   title : TEXT
-  description: If you're not ready to talk, you can use a mobile phone to text with us instead 
+  description: If you're not ready to talk, you can use a mobile phone to text with us instead. Available from 4pm to 10pm Monday through Friday 
   image: /assets/Chate_White_purple.png
   btn: 
         label: Text "Hello"
@@ -31,12 +40,4 @@ getHelpOpts:
   btn: 
         label: Chat Sign-in
         link: "get-help/chat-with-us"
-
-- name: visit-helps
-  title: VISIT
-  description: You're also welcome to visit one of our Oakland County facilities to talk with us in person.
-  image: /assets/InPerson_White_purple.png
-  btn: 
-        label: Find Crisis Center
-        link: "get-help/visit-us-today"
 ---

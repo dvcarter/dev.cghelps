@@ -163,6 +163,18 @@ export default class Header extends Component {
                                             <Link to='/about-us' className={styles.link}>
                                                 {"About Us"}
                                             </Link>
+                                            <ul className={styles.subNavItems}>
+                                                <li>
+                                                    <Link to='/about-us/our-story' className={styles.link}>
+                                                        {'Our Story'}
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link to='/about-us/visit-us-today' className={styles.link}>
+                                                        {"Locations"}
+                                                    </Link>
+                                                </li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </nav>
