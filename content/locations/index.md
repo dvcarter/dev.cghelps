@@ -28,7 +28,7 @@ locations:
 - name: admin-locator
   subtitle: Administration
   address: 1410 S Telegraph R Bloomfield Hills, MI
-  description: this is a description
+  description: Home to Common Ground's administrative departments, this office also hosts Legal Clinic on Tuesday evenings beginning at 5pm. To learn more, call 1.248.8150.
   placement:
             lat: 42.617848
             lng: -83.317782

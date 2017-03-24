@@ -1,5 +1,5 @@
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+/*@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .bigHolder {
         max-height: 700px;
     }
@@ -7,19 +7,14 @@
 
 
 }
-
+*/
 
 
 
 @media only screen and (min-width: 1200px) {
-    /*_:ms-lang(x), .bigHolder {
-        height: 40%;
-        height: 100;
+    _:ms-lang(x), .bigHolder {
+        max-height: 700px;
     }
-    _:ms-lang(x), .help {
-        height: 80%;
-        width: 100%;
-    }*/
     .help {
         display: flex;
         display: -webkit-flex;
@@ -68,6 +63,10 @@
         margin-top: -15px;
     }
     */
+    _::-webkit-:not(:root:root), .help {
+        max-height: 400px;
+        height: 300px;
+    }
      .options {
         height: 100%;
         width: 100%;
@@ -190,7 +189,10 @@
     .bottomline {
         margin-top: -15px;
     }
-
+    /* Safari 9 Hack */
+    _::-webkit-:not(:root:root), .help {
+        height: 300px;
+    }
     .options {
         height: 100%;
         width: 100%;
@@ -299,6 +301,10 @@
     .bottomline {
         margin-top: 15px;
     }
+    _::-webkit-:not(:root:root), .help {
+        height: 250px;
+        margin-bottom: 20px;
+    }
     .options {
         height: 100%;
         width: 100%;
@@ -356,10 +362,6 @@
 
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .bigHolder {
-        max-height: 451px;
-    }
-    
     .help {
         display: flex;
         justify-content: center;
@@ -398,6 +400,9 @@
         }   
         .bottomline {
             margin-top: 15px;
+        }
+        _::-webkit-:not(:root:root), .help {
+            height: 200px;
         }
         .options {
             display: flex;
@@ -459,15 +464,16 @@
 
 
 @media only screen and (max-width: 575px) {
-    .bigHolder {
-        max-height: 1403px;
-    }
     
     .help {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
+        -webkit-justify-content: center;
         align-items: center;
+        -webkit-align-items: center;
         flex-direction: column;
+        -webkit-flex-direction: column;
         padding: 0;
         width: 100%;
         margin-top: 50px;
@@ -475,11 +481,14 @@
 
  .title {
      display: flex;
+     display: -webkit-flex;
      justify-content: center;
+     -webkit-justify-content: center;
      align-items: center;
+     -webkit-align-items: center;
      text-align: center;
      height: 40px;
-     width:100%;;
+     width:100%;
      font-size: 34px;
      font-weight: 700;
      padding-bottom: -40px;
@@ -499,11 +508,16 @@
             margin-top: 15px;
         }
         .options {
+            width: 100%;
             height: 100%;
             display: flex;
+            display: -webkit-flex;
             justify-content: center;
+            -webkit-justify-content: center;
             align-items: center;
+            -webkit-align-items: center;
             flex-direction: column;
+            -webkit-flex-direction: column;
             /*margin-right: 10px;*/
             /*         margin-left: 50px; */
             /* border: 1px solid black; */
@@ -516,6 +530,9 @@
             margin-bottom: 25px;
             font-size: 1vh;
             border-bottom: 0.25px solid #dfe3ee;
+        }
+        _::-webkit-:not(:root:root), .help {
+            height: 1450px;
         }
         .glyphs {
             display: flex;
