@@ -1,14 +1,14 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width:1200px) {
-    .footText{
+    .footText {
         position: relative;
         margin: 0 -20px 0 -130px;
         width: 100%;
         background-color: red;
     }
-    .socialItems{
+    .socialItems {
         margin: 0 0 0 200px;
-    }
-    .socialItem{
+     }
+    .socialItem {
         margin: 0 -30px 0 40px;
     }
 }
