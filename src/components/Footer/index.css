@@ -4,19 +4,19 @@
     }
     .footText {
         position: relative;
-        margin: 0 -300px 0 -330px;
+        margin: 0 2px 0 5px;
         padding: 0 20px 0 30px;
         width: 200px;
         color: white;
     }
     hr.line {
-        margin: -40px 100px 45px 200px;
+        margin: -62px 350px 45px 300px;
         background-color: #fff;
         width: 60%;
         min-height: 0px;
     }
     .socialItems {
-        margin: 0 200px 0 300px;
+        margin: 0 155px 0 200px;
      }
     .socialItem {
         margin: 0 30px 0 30px;
