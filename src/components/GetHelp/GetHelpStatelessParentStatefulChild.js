@@ -23,7 +23,7 @@ class MoreText extends Component {
                                 <div className={styles.topics}>
                                     <h2 className={styles.subtitle}> {getHelp.subtitle}</h2>
                                     <div onClick={ () => this.toggleHidden() }> Learn More </div>
-                                    {this.state.isHidden && <div className={styles.description}> {this.props.children} </div> }
+                                    {this.state.isHidden && <div className={styles.description}> {getHelp.id} </div> }
                                 </div>
                             </div>
                     ))}
@@ -31,31 +31,25 @@ class MoreText extends Component {
     }
 }    
 
-const GetHelp = ({ getHelp }) => (
-    render() {
-        return (   
-    
-                <div>
-                    <div className={styles.title}>
+const GetHelp = ({ getHelp }) => {
+     <div>
+               <div className={styles.title}>
                         <h1>Help is here</h1>
-                    </div>
-                    <div>
-                    {getHelp.map((getHelp) =>(
-                                <MoreText getHelpr={getHelp} key={getHelp.id}/>
-                    ))}
-                        
-                    </div>
-                    <img className={styles.imgs} src={getHelp.image} />
-
                 </div>
-    
-                )
-    }   
-)
+                <div>
+                        {getHelp.map((getHelp) =>(
+                                <MoreText getHelpr={getHelp} key={getHelp.id}/>
+                        ))}
+                        
+                </div>
+                <img className={styles.imgs} src={getHelp.image} />
 
+
+            </div>
+}
 
 GetHelp.propTypes = {
-   getHelp: PropTypes.array.isRequired,
+   getHelp: PropTypes.array.isRequired
 }
 
 export default GetHelp

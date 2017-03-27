@@ -107,10 +107,11 @@
 @media only screen and (min-width: 1200px) {
     .hero {
         margin: 0 auto;
-        height: 65vh;
-        width: 75vw;
+        height: 55vh;
+        width: 55vw;
         background-color: var(--colorSecondary);
     }
+
    /*
     _:-ms-lang(x), .wrapper {
         display: -ms-flexbox;

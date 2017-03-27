@@ -5,7 +5,7 @@ import Page from "../Page"
 
 const GetHelpPage = (props) => {
         const getHelp = props.head.getHelp
-
+        
         return (
             <Page {...props }>
                
