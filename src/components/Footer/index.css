@@ -10,14 +10,14 @@
         color: white;
     }
     hr.line {
-        margin: -62px 350px 45px 300px;
+        margin: -35px 350px 45px 300px;
         background-color: #fff;
         width: 60%;
         min-height: 0px;
     }
     .socialItems {
         width:40px;
-        margin: 0 155px 0 200px;
+        margin: 0 155px 0 -300px;
      }
     .socialItem {
         margin: 0 30px 0 30px;
