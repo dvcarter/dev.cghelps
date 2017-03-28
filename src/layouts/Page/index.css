@@ -126,8 +126,8 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1200px) {
     .hero {
         margin: 0 auto;
-        height: 60vh;
-        width: 70vw;
+        height: 55vh;
+        width: 55vw;
     }
 }
 
