@@ -96,7 +96,7 @@
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
         padding-bottom: 5px;
-        margin: 15px 25px 2px 25px;
+        margin: 15px 25px 1px 25px;
         font-size: 1vh;
         border-bottom: 0.25px solid #dfe3ee;
     }
@@ -110,13 +110,13 @@
     }
 
     img {
-        width: 15%;
+        width: 5%;
         height: auto;
         margin-right: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 1px;
     }
     .svgClass {
-        width: 15%;
+        width: 120px;
         /*opacity: 0.4;
         filter: grayscale(10%);*/
     }
@@ -128,8 +128,8 @@
         text-align: left;
         width: 33%;
         position: relative;
-        margin-left: 50px;
-        margin-right: 20px;
+        margin-left: 60px;
+        margin-right: 10px;
         margin-top: 5px;
         margin-bottom: 5px;
         font-size: 1.25em;
