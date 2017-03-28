@@ -307,7 +307,7 @@
             -webkit-align-items: center;
             font-size: 34px;
             font-weight: 700;
-            padding-bottom: -40px;
+            padding-bottom: -10px;
         }
 
         h3.subtitle {
@@ -326,10 +326,10 @@
             -webkit-justify-content: center;
             align-items: center;
             -webkit-align-items: center;
-            height: 600px;
+            height: auto;
             width: 100%;
             /*background-color: #dfe3ee;*/
-            margin: 30px 0 180px 0;
+            margin: 60px 0 180px 0;
         }
 
         .options {
@@ -342,7 +342,7 @@
             flex-direction: row;
             -webkit-flex-direction: row;
             /*background-color: #f7f7f7; */
-            height: 200px;
+            height: auto;
             width: 100%;
             margin: 15px 15px 0 15px;
             padding: 20px;
@@ -372,6 +372,53 @@
         .topics {
             margin: 14px;
         }
+
+        .boxes {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            background-image: url("./ourstory.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            height: 200px;
+            width: 400px;
+            margin: 5px 5px 0 5px;
+            display: flex;
+            align-items: flex-end;
+            transition: all .2s ease-in-out;
+        }
+
+        .box:nth-child(3) {
+            background-image: url("./bookheart.jpeg");
+        }
+        .box:nth-child(2) {
+            background-image: url("./events.jpeg");
+        }
+
+        .box:nth-child(4) {
+           background-image: url("./groupvolunteer.jpg");
+           filter: grayscale(80%);
+        }
+
+        .box:hover { transform: scale(1.05); }
+        .headline {
+            height: auto;
+            width: 60%;
+            color: white;
+            font-size: 2.24vh;
+            font-weight: 700;
+            letter-spacing: 1px;
+            white-space: nowrap;
+            margin: 0 20px 20px 60px;
+            text-decoration: none;
+        }
+
 
 }
 

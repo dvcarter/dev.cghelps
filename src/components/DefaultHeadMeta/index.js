@@ -23,7 +23,9 @@ const DefaultHeadMeta = (props, { metadata: { pkg } }) => (
     <Helmet
       meta={ [ {
         name: "viewport", content: "width=device-width, initial-scale=1",
-      } ] }
+      },
+          {name:"cache-control", content: "no-cache"}
+          ] }
     />
     <style>{ "@-ms-viewport { width: device-width; }" }</style>
   </div>

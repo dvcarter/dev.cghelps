@@ -174,6 +174,16 @@ export default class Header extends Component {
                                                         {"Locations"}
                                                     </Link>
                                                 </li>
+                                                <li>
+                                                    <Link to='/get-help' className={styles.link}>
+                                                        {"Programs and Services"}
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link to='/posts' className={styles.link}>
+                                                        {"News and Events"}
+                                                    </Link>
+                                                </li>
                                             </ul>
                                         </li>
                                     </ul>
