@@ -1,4 +1,4 @@
-# Non-profit back-up site.
+# Common Ground back-up site.
 
 This static site was constructed to be used as a stand-in for a redevelopment of crisis support organization's site. As such, it only contains features that are absolutely essential to performing its mission statement.
 
