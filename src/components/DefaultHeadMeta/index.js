@@ -24,8 +24,9 @@ const DefaultHeadMeta = (props, { metadata: { pkg } }) => (
       meta={ [ {
         name: "viewport", content: "width=device-width, initial-scale=1",
       },
-          {name:"cache-control", content: "no-cache"}
-          ] }
+          {name:"cache-control", content: "no-cache"},
+          { name: "X-UA-Compatible", content: "IE=edge"}    
+      ] }
     />
     <style>{ "@-ms-viewport { width: device-width; }" }</style>
   </div>
