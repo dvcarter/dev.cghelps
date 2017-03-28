@@ -4,13 +4,13 @@
     }
     .footText {
         position: relative;
-        margin: 0 2px 0 5px;
+        margin: 0 20px 0 20px;
         padding: 0 20px 0 30px;
         width: 20px;
         color: white;
     }
     hr.line {
-        margin: -40px 350px 45px 300px;
+        margin: -45px 350px 45px 300px;
         background-color: #fff;
         width: 60%;
         min-height: 0px;
