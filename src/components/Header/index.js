@@ -155,7 +155,7 @@ export default class Header extends Component {
                                             </ul>
                                         </li>
                                         <li className={styles.navItem}>
-                                            <Link to='https://donatenow.networkforgood.org/commongroundhelps?code=website' className={styles.link}>
+                                            <Link to='/donate' className={styles.link}>
                                                 {"Donate"}
                                             </Link>
                                         </li>

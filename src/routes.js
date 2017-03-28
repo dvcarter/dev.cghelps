@@ -15,6 +15,7 @@ import Groups from "./layouts/GroupPage"
 import FaqQ from "./layouts/FAQPage"
 import About from "./layouts/AboutPage"
 import Contact from "./layouts/ContactPage"
+import Donate from "./layouts/DonatePage"
 
 const PageContainer = (props) => (
   <PhenomicPageContainer
@@ -23,6 +24,7 @@ const PageContainer = (props) => (
       Page,
       PageError,
       Homepage,
+      Donate,
       GetHelp,
       FaqQ,
       GetInvolved,

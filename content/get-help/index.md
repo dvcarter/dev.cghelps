@@ -30,7 +30,7 @@ getHelp:
   image: /assets/marker.png
   btn: 
         label: 
-        link: "/get-help/visit-us-today"
+        link: "/get-help/visit"
   subsubtitle1: The Sanctuary
   subdescription1: Common Ground operates a free and safe 24-hour shelter for at-risk youth. The Sanctuary offers a 3-week residential program, out-patient counseling, and provides trauma-informed care to youth and families in crisis. The goal of this program is family reunification. To learn more, call 1.248.547.2260.
 

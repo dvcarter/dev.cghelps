@@ -5,7 +5,7 @@ const ResourceOpts = ({ resourceOpts }) => {
     return (
                 <div>
                     <div className={styles.title}>
-                        Give a Hand
+                        Find Support
                     </div>
                     <div className={styles.holder}>
                         {resourceOpts.map((resourcer) => (
