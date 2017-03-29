@@ -23,7 +23,7 @@
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 575px) {
     .bigHolder {
-        max-height: 1200px;
+        max-height: 900px;
     }
 }
 
