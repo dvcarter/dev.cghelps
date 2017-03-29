@@ -25,7 +25,7 @@ const Post = (props) => {
         </div>
       }
     >
-      <hr />
+        { pageDate && <hr /> }
       <LatestPosts numberOfPosts="2"/>
     </Page>
   )

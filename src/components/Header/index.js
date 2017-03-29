@@ -105,7 +105,7 @@ export default class Header extends Component {
                                             </Link>
                                             <ul className={styles.subNavItems}>
                                                 <li>
-                                                    <Link to='/get-involved/Crisis-to-Hope' className={`${styles.link} ${styles.noMobile}`}>
+                                                    <Link to='/get-involved/crisis-to-hope' className={`${styles.link} ${styles.noMobile}`}>
                                                         {"Crisis to Hope"}
                                                     </Link>
                                                 </li>

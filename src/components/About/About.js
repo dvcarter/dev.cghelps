@@ -18,7 +18,7 @@ const About = () => {
                                 <span>Our Story</span>
                             </div>
                         </a>
-                        <a href='#' className={styles.box}>
+                        <a href='/posts' className={styles.box}>
                             <div className={styles.headline}>
                                 News & Events
                             </div>
