@@ -1,6 +1,7 @@
 import React, { PropTypes, Component } from 'react'
 import styles from './GetHelp.css'
 //import MoreText from './../MoreText'
+import './findHelper.js'
 
 export default class GetHelp extends Component {
     render() {
