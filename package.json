@@ -133,6 +133,7 @@
     "whatwg-fetch": "^0.11.0"
   },
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
     "flexbox-react": "^4.2.1",
     "google-map-react": "^0.22.3",
     "normalize.css": "^5.0.0",

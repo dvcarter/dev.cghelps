@@ -8,8 +8,8 @@ const About = () => {
                 <div className={styles.title}>
                     <h5> About Us</h5>
                 </div>
-                <div>
-                    <p> At Common Ground, we're dedicated to helping people move from crisis to hope. </p>
+                <div className={styles.aboutText}>
+                    At Common Ground, we're dedicated to helping people move from crisis to hope.
                 </div>
                 <div className={styles.holder}>
                     <div className={styles.boxes}>
