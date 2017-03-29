@@ -18,7 +18,7 @@ getHelp:
   subdescription2: At our Resource & Crisis Center in Pontiac, Michigan, Common Ground provides trauma-informed, recovery focused, face-to-face assessment, crisis intervention and stabilization services to individuals, including children, 24 hours a day, seven days a week. We focus on problem-solving and assertive crisis resolution strategies tailored to each person's specific needs. Visit us today.
 
   subsubtitle3: Mobile Crisis Intervention & Recovery Teams
-  subdescription3: Our mobile teams provide recovery oriented crisis intervention to people throughout Oakland and Genesee Counties, 24 hours a day, 7 days a week. Service is available regardless of income, insurance, or permanent residence. To learn more, call 1.800.231.1127.
+  subdescription3: Our mobile teams provide recovery oriented crisis intervention to people throughout Oakland and Genesee Counties. Service is available regardless of income, insurance, or permanent residence. To learn more, call 1.800.231.1127.
 
   subsubtitle4: Victim Assistance Program
   subdescription4: Common Ground provides 24-hour access to counselors and advocates for victims of crime, domestic and sexual abuse, and workplace violence. We offer on-site advocacy, death notification, personal protection order assistance, and accompaniment of victims to hospitals, police stations, and court rooms. To learn more, call 1.800.231.1127.

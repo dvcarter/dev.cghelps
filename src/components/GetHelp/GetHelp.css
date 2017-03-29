@@ -381,7 +381,7 @@
         -ms-flex-pack: flex-start;
         align-items: flex-start;
         -webkit-align-items: flex-start;
-        -ms-flex-align: center;
+        -ms-flex-align:flex-start;
         flex-direction: row;
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
