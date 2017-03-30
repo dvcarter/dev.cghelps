@@ -735,7 +735,14 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width:1200px) {
         .footer {
             color: white;
-        }   
+        }  
+        .centerer {
+            display: -ms-flexbox;
+            -ms-flex-pack: center;
+            height: auto;
+            width: 100%;
+            -ms-flex-align: center;
+        }
         .footText {
             position: relative;
             margin: 0 105px 0 150px;
@@ -747,8 +754,7 @@
             margin: -45px 200px 45px 350px;
             background-color: #fff;
             color: #fff;
-            min-width: 60%;
-            max-width: 60%;
+            width: 60%;
             min-height: 0px;
         }   
         .socialItems {

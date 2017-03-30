@@ -10,7 +10,7 @@ import Carf from "./CARF-logo.png"
 const Footer = () => (
   <footer className={ styles.footer }>
     { /* If you like Phenomic, this is a way to share the love ;) */ }
-    <hr className={styles.line}/>
+    <div className={styles.centerer}><hr className={styles.line}/> </div>
     <div className={ styles.footerItems}>
         <div className={styles.socialItems}>
             <div className={styles.footText}></div>
