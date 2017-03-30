@@ -33,7 +33,6 @@ const Footer = () => (
             </a>
             }
         </div>
-        <hr className={styles.line}/>
         {<a
                href={ `#` }
                 className={ styles.items }
