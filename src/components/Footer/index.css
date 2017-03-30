@@ -822,4 +822,26 @@
     .socialItem {
         margin-right: 50px;
     }
+
+    .line {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 575px) {
+    .footer {
+        color: white;
+    }
+    .footText {
+        position: relative;
+        margin: 0 105px 0 1px;
+        width: 20px;
+        color: white;
+    }
+    .socialItem {
+        margin-right: 40px;
+    }
+    .line {
+        margin-left: 10px;
+    }
 }
