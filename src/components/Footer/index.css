@@ -774,8 +774,8 @@
     }
     .footText {
         position: relative;
-        margin: 0 105px 0 150px;
-        padding: 0 20px 0 30px;
+        margin: 0 100px 0 1px;
+        padding: 0 2px 0 30px;
         width: 20px;
         color: white;
     }
@@ -790,6 +790,6 @@
         margin: 0 530px 0 6px;
     }
     .socialItem {
-        margin: 0 20px 0 20px;
+        margin: 0 30px 0 20px;
     }
 }
