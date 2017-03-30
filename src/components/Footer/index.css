@@ -756,7 +756,7 @@
             margin: -45px 200px 45px 350px;
             background-color: #fff;
             color: #fff;
-            width: 60%;
+            width: 60%; 
             min-height: 0px;
         }   
         .socialItems {
@@ -780,6 +780,11 @@
         width: 20px;
         color: white;
     }
+    .line {
+        margin-left: 40px;
+
+    }
+
     .socialItems {
         height: auto;
         width: 40px;
