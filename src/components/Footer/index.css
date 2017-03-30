@@ -755,8 +755,7 @@
             position: absolute;
             margin: -45px 200px 45px 350px;
             background-color: #fff;
-            color: #fff;
-            width: 60%; 
+            color: #fff; 
             min-height: 0px;
         }   
         .socialItems {
