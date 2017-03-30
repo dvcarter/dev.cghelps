@@ -745,9 +745,10 @@
         }   
         hr.line {
             margin: -45px 200px 45px 350px;
+            padding: 0 30px 0 30px;
             background-color: #fff;
             color: #fff;
-            width: 900px;
+            width: 96px;
             min-height: 0px;
         }   
         .socialItems {
