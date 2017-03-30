@@ -451,7 +451,7 @@ $lineHeight: 2px;
    /* height: 70px; */
   }
   .navItems {
-    margin-top: 40px;
+    margin-top: 80px;
     flex-direction: column;
     -webkit-flex-direction: column;
     height: 103vh;

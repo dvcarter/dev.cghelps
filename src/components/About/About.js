@@ -39,13 +39,24 @@ const About = () => {
                     <h5> Contact Us  </h5>
                 </div>
                 <div className={styles.aboutText}>
-                    Contact text here
-                </div>
-                <div className={styles.title}>
-                    <h5>Locations</h5>
-                </div>
-                <div className={styles.aboutText}>
-                    Location Text here
+                    <ul>
+                        <li>
+                            Administration Building
+                            <ul>
+                                <li> 1-800-231-1127</li>
+                            </ul>
+                        </li>
+                        <li> Resource and Crisis Center
+                            <ul>
+                                <li>1-800-231-1127</li>
+                            </ul>
+                        </li>
+                        <li> The Sanctuary 
+                            <ul>
+                                <li> 1-800-231-1127</li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
                 <div className={styles.title}>
                     <h5>Careers </h5>

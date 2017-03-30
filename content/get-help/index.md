@@ -73,6 +73,6 @@ getHelp:
   subdescription5:  Join other parents for a 6-week parenting workshop that combines education, parent support, group discussions, and workbook activities. Call 1.248.456.8150 to register and pay $25 pp fee.
 
   subsubtitle6: SayYes Theatre Troupe
-  subdescription6: This prevention-based program does performances on issues facing children, teens, young adults, and families. Topics include, but are not limited to- peer pressure, bullying, teasing, substance abuse, dating violence, positive relationships, teen pregnancy, conflict resolution, and stress. The SayYes Theatre Troupe is made up of trained peer mentors between the ages of 15 and 25.
+  subdescription6: This prevention-based program showcases performances on issues facing children, teens, young adults, and families. Topics include, but are not limited to- peer pressure, bullying, teasing, substance abuse, dating violence, positive relationships, teen pregnancy, conflict resolution, and stress. The SayYes Theatre Troupe is made up of trained peer mentors between the ages of 15 and 25.
 
 ---
