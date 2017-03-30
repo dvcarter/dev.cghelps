@@ -838,6 +838,9 @@
         width: 20px;
         color: white;
     }
+    .socialItems {
+        margin-right: 10px;
+    }
     .socialItem {
         margin-right: 10px;
     }
