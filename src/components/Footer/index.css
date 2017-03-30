@@ -744,10 +744,10 @@
             color: white;
         }   
         hr.line {
-            margin: -85px 200px 45px 350px;
+            margin: -45px 200px 45px 350px;
             background-color: #fff;
             color: #fff;
-            width: 900px;
+            width: 80%;
             min-height: 0px;
         }   
         .socialItems {
