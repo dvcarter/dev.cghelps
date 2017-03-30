@@ -736,13 +736,14 @@
         .footer {
             color: white;
         }  
-        .centerer {
+        /*.centerer {
+            position: absolute;
             display: -ms-flexbox;
             -ms-flex-pack: center;
             height: auto;
             width: 100%;
             -ms-flex-align: center;
-        }
+        }*/
         .footText {
             position: relative;
             margin: 0 105px 0 150px;
