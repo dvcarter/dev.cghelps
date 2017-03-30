@@ -768,3 +768,24 @@
             margin: 0 30px 0 30px;
         }   
     }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 1199px) and (min-width: 992px) {
+    .footer {
+        color: white;
+    }
+    .footText {
+        position: relative;
+        margin: 0 105px 0 150px;
+        padding: 0 20px 0 30px;
+        width: 20px;
+        color: white;
+    }
+    .socialItems {
+        height: auto;
+        width: 40px;
+        margin: 0 530px 0 6px;
+    }
+    .socialItem {
+        margin: 0 20px 0 20px;
+    }
+}
