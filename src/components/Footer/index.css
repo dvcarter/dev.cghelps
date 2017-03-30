@@ -16,7 +16,8 @@
         min-height: 0px;
     }
     .socialItems {
-        width:40px;
+        height: auto;
+        width:100px;
         margin: 0 321px 0 375px;
      }
     .socialItem {
