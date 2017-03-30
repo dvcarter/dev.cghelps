@@ -109,6 +109,9 @@
         margin: 30px 0 80px 0;
 
     }
+    _::-webkit-:not(:root:root), .holder {
+        height: 300px;
+    }
     .options {
         display: flex;
         display: -webkit-flex;
@@ -235,6 +238,9 @@
         margin: 30px 0 80px 0;
         /*background-color: #dfe3ee; */
     }
+    _::-webkit-:not(:root:root), .holder {
+        height: 300px;
+    }
     .options {
         display: flex;
         display: -webkit-flex;
@@ -335,10 +341,16 @@
             -webkit-justify-content: center;
             align-items: center;
             -webkit-align-items: center;
+            height: auto;
             width: 100%;
             font-size: 34px;
             font-weight: 700;
+            margin: 20px 0 20px 0;
             padding-bottom: -40px;
+        }
+
+        _::-webkit-:not(:root:root), .title {
+           /* background-color: red; */
         }
         h3.subtitle {
             font-weight: 500px;
@@ -355,10 +367,13 @@
             -webkit-justify-content: center;
             align-items: center;
             -webkit-align-items: center;
-            height: 100%;
+            height: auto;
             width: 100%;
             /*background-color: #dfe3ee;*/
             margin: 30px 0 80px 0;
+        }
+        _::-webkit-:not(:root:root), .holder {
+            height: 400px;
         }
         .options {
             display: flex;
@@ -449,7 +464,7 @@
         .aboutText {
             height: auto;
             width: 100%;
-            margin: 0 0 80px 0;
+            margin: 0 0 10px 0;
         }
 }
 @media only screen and (min-width: 1200px) {
@@ -486,7 +501,9 @@
             /*background-color: #dfe3ee;*/
             margin: 60px 0 80px 0;
         }
-
+        _::-webkit-:not(:root:root), .holder {
+            height: 500px;
+        }
         .options {
             display: flex;
             display: -webkit-flex;
@@ -532,9 +549,17 @@
             height: 50%;
             width: 100%;
             display: flex;
+            display: -webkit-flex;
+            display: -ms-flexbox;
             flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
             justify-content: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
             align-items: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
         }
         .box {
             background-repeat: no-repeat;
@@ -544,7 +569,10 @@
             width: 400px;
             margin: 5px 5px 0 5px;
             display: flex;
+            display: -webkit-flex;
+            display: -ms-flexbox;
             align-items: flex-end;
+            -webkit-align-items: flex-end;
             transition: all .2s ease-in-out;
         }
         .box:hover { transform: scale(1.05); }
