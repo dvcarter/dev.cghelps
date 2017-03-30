@@ -809,3 +809,17 @@
     }
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 767px) and (min-width: 576px) {
+    .footer {
+        color: white;
+    }
+    .footText {
+        position: relative;
+        margin: 0 75px 0 1px;
+        width: 20px;
+        color: white;
+    }
+    .socialItem {
+        margin-right: 50px;
+    }
+}
