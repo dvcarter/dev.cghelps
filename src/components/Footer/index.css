@@ -780,7 +780,7 @@
         color: white;
     }
     .line {
-        margin-left: 40px;
+        margin-left: 20px;
 
     }
 
@@ -793,3 +793,19 @@
         margin: 0 30px 0 20px;
     }
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 991px) and (min-width: 768px) {
+    .footer {
+        color: white;
+    }
+    .footText {
+        position: relative;
+        margin: 0 200px 0 15px;
+        width: 20px;
+        color: white;
+    }
+    .socialItem {
+        margin-right: 50px;
+    }
+}
+
