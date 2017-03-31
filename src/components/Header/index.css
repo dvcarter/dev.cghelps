@@ -452,18 +452,18 @@ $lineHeight: 2px;
   }
   .navItems {
     background-color: red;
-    margin-top: 110px;
+    margin-top: 80px;
     flex-direction: column;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    height: 103vh;
+    height: 150vh;
     overflow-y: scroll;
     overflow-x: hidden;
     overflow-scrolling: touch;
     -webkit-overflow-scrolling: touch;
     width: 105%;
     padding-bottom: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     }
     .navItems .subNavItems {
       background: none;
