@@ -451,12 +451,15 @@ $lineHeight: 2px;
    /* height: 70px; */
   }
   .navItems {
+    background-color: red;
     margin-top: 80px;
     flex-direction: column;
     -webkit-flex-direction: column;
-    height: 103vh;
+    -ms-flex-direction: column;
+    height: 90vh;
     overflow-y: scroll;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
     width: 105%;
     padding-bottom: 100px;
     }
