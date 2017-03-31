@@ -149,7 +149,7 @@
         -webkit-align-self: left;
         display: inline-flex;
         display: -webkit-inline-flex;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         border-radius: 3px;
         font-size: 0.8rem;
         text-align: center;
@@ -197,7 +197,7 @@
         -webkit-align-self: left;
         display: inline-flex;
         display: -webkit-inline-flex;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         border-radius: 3px;
         font-size: 0.8rem;
         text-align: center;
