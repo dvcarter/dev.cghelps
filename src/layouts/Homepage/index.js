@@ -9,7 +9,7 @@ const Homepage = (props) => {
   return (
     <Page { ...props }>
       <GetHelpOpts getHelpOpts={ getHelpOpts }/>
-      <LatestPosts numberOfPosts="2"/>
+      <LatestPosts numberOfPosts="3"/>
     </Page>
     )
 }

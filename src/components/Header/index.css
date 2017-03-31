@@ -467,12 +467,11 @@ $lineHeight: 2px;
     _::-webkit-full-page-media, _:future, :root .navItems {
         margin-top: 80px;
         margin-bottom: 200px;
-        background-color: red;
-        overflow-y: scroll;
+        overflow: scroll;
         -webkit-overflow-scrolling: touch;
-        height: 100%;
-        padding-top: 10px;
+        height: auto;
         padding-bottom: 200px;
+        padding-top: 10px;
     }
     .navItems .subNavItems {
       background: none;
