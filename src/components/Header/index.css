@@ -465,9 +465,14 @@ $lineHeight: 2px;
     padding-top:300px;
     }
     _::-webkit-full-page-media, _:future, :root .navItems {
-        margin-bottom: 40px;
+        margin-top: 80px;
+        margin-bottom: 200px;
         background-color: red;
-        height: 500px;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        height: 100%;
+        padding-top: 10px;
+        padding-bottom: 200px;
     }
     .navItems .subNavItems {
       background: none;
