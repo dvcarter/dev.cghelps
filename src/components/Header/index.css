@@ -456,14 +456,13 @@ $lineHeight: 2px;
     flex-direction: column;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    height: 150vh;
+    height: 110vh;
     overflow-y: scroll;
     overflow-x: hidden;
     overflow-scrolling: touch;
     -webkit-overflow-scrolling: touch;
     width: 105%;
     padding-bottom: 100px;
-    margin-bottom: 20px;
     }
     .navItems .subNavItems {
       background: none;
