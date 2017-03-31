@@ -462,6 +462,7 @@ $lineHeight: 2px;
     -webkit-overflow-scrolling: touch;
     width: 105%;
     padding-bottom: 300px;
+    padding-top:100px;
     }
     .navItems .subNavItems {
       background: none;

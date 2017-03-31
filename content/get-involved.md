@@ -18,7 +18,7 @@ getInvolved:
     image: /assets/bonding.jpg
     description: The annual Birmingham Street Art Fair is our largest fundraiser, and we're always looking for enthusiastic volunteers to help make it a success.
     btn: 
-        label: donate today
+        label: Help us Today
         link: "/get-involved/fundraising"
 
 - subtitle: Community Outreach
