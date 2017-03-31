@@ -452,7 +452,7 @@ $lineHeight: 2px;
   }
   .navItems {
     background-color: red;
-    margin-top: 80px;
+    margin-top: 110px;
     flex-direction: column;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
