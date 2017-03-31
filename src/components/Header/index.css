@@ -462,6 +462,7 @@ $lineHeight: 2px;
     overflow-scrolling: touch;
     -webkit-overflow-scrolling: touch;
     width: 105%;
+    padding-top: 20px;
     padding-bottom: 100px;
     }
     .navItems .subNavItems {
