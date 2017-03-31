@@ -451,7 +451,6 @@ $lineHeight: 2px;
    /* height: 70px; */
   }
   .navItems {
-    background-color: red;
     margin-top: 80px;
     flex-direction: column;
     -webkit-flex-direction: column;
@@ -462,7 +461,7 @@ $lineHeight: 2px;
     overflow-scrolling: touch;
     -webkit-overflow-scrolling: touch;
     width: 105%;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     }
     .navItems .subNavItems {
       background: none;
