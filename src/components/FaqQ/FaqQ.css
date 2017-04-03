@@ -392,12 +392,12 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast:none) and (min-width: 576px) and (max-width: 767px) {
     .holder {
         margin-top: -80px;
-        height: 1000px;
+        height: 100%;
         margin-bottom: 200px;
     }
     .options {
-        height: 200px;
-        margin: 10px 0 10px 0;
+        height: 300px;
+        margin: -10px 0 -10px 0;
     }
 }
 
