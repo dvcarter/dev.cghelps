@@ -70,8 +70,8 @@ export default class Header extends Component {
                                         <Svg 
                                             svg={Logo} 
                                             draggable='false'
-                                            height="90px"
-                                            width="265px"                            
+                                            height="100px"
+                                            width="315px"                            
                                             />
                                     </Link>
                                 </div>
