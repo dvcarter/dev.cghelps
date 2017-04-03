@@ -285,6 +285,7 @@
         align-items: center;
         -webkit-align-items: center;
         -ms-flex-align: center;
+        margin: 0 0 20px 0;
     }
    h2.question {
         font-weight: 500;

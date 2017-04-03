@@ -8,7 +8,7 @@ route: /resources/youth-and-family
 groupOpts:
 - subtitle: Workshops, Classes, & Support Groups
   sub:
-        subsubtitle: Love & Logic Support Group (Parents of Teens/Pre-teens)
+        subsubtitle: Becoming a Love & Logic Parent® 
         description: Expand your parenting knowledge and skill set at this six-week program featuring discussion, video, support, and guest speakers. For upcoming dates, times, and locations, call 1.800.231.1127. 
 
 - sub:
