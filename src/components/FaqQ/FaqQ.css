@@ -352,11 +352,22 @@
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1200px) {
     .holder {
-        margin-top: -200px;
+        margin-top: -100px;
     }
     .options {
-        height: 200px;
+        height: 100px;
     }
 
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 992px) and (max-width: 1199px) {
+    .holder {
+        margin-top: -100px;
+    }
+    .options {
+        height: 100px;
+    }
 
 }
+
+
