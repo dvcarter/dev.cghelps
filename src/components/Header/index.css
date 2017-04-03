@@ -161,7 +161,7 @@ $navHeight: 80px;
 }
 .logo, .logo img {
   max-height: auto;
-  width: 200px;
+  width: 100%;
   position: relative;
   z-index: 12;
 }

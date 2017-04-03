@@ -1,7 +1,7 @@
 import React, { PropTypes, Component } from "react"
 import { Link } from "phenomic"
 // import MediaQuery from "react-responsive"
-// import Svg from "react-svg-inline"
+import Svg from "react-svg-inline"
 import Logo from "./cg-logo.svg"
 //import Phone from "./telephone-handle-silhouette.png"
 //import People from "./group-profile-users.png"
@@ -67,7 +67,12 @@ export default class Header extends Component {
                             <div className={`${styles.navWrapper} ${containerStyle}`}>
                                 <div className={styles.navLeft}>
                                     <Link to='/' className={styles.logo}>
-                                        <img src={Logo} draggable='false'/>
+                                        <Svg 
+                                            svg={Logo} 
+                                            draggable='false'
+                                            height="102px"
+                                            width="215px"                            
+                                            />
                                     </Link>
                                 </div>
                                 <div ref='toggle' onClick={this.handleClick} className={styles.toggle}>
