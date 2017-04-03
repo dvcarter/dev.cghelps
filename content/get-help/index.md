@@ -69,7 +69,7 @@ getHelp:
   subsubtitle4: Growth & Healing Support Group
   subdescription4: This free 10-week empowerment group is for girls who have experienced sexual abuse, date rape, or incest. This group usually meets on Mondays. To register or learn more, call 1.248.451.2621.
   
-  subsubtitle5: Becoming a Love & Logic Parent
+  subsubtitle5: Becoming a Love & Logic Parent®
   subdescription5:  Join other parents for a 6-week parenting workshop that combines education, parent support, group discussions, and workbook activities. Call 1.248.456.8150 to register and pay $25 pp fee.
 
   subsubtitle6: SayYes Theatre Troupe
