@@ -356,7 +356,8 @@
         height: 100%;
     }
     .options {
-        height: 150px;
+        height: 200px;
+        margin: 10px 0 10px 0;
     
     }
 }
@@ -367,7 +368,8 @@
         height: 100%;
     }
     .options {
-        height: 150px;
+        height: 200px;
+        margin: 10px 0 10px 0;
     }
 
 }
@@ -379,7 +381,8 @@
         height: 100%;
     }
     .options {
-        height: 150px;
+        height: 200px;
+        margin: 10px 0 10px 0;
     }
 }
 
@@ -389,7 +392,8 @@
         height: 100%;
     }
     .options {
-        height: 100px;
+        height: 200px;
+        margin: 10px 0 10px 0;
     }
 }
 
@@ -399,6 +403,7 @@
         height: 100%;
     }
     .options {
-        height: 100px;
+        height: 200px;
+        margin: 10px 0 10px 0;
     }
 }
