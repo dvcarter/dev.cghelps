@@ -160,8 +160,8 @@ $navHeight: 80px;
     }
 }
 .logo, .logo img {
-  max-height: 35px;
-  width: 80px;
+  max-height: auto;
+  width: 200px;
   position: relative;
   z-index: 12;
 }
