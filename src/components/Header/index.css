@@ -467,6 +467,7 @@ $lineHeight: 2px;
     _::-webkit-full-page-media, _:future, :root .navItems {
         margin-top: 80px;
         margin-bottom: 200px;
+        overflow: auto;
         -webkit-overflow-scrolling: touch;
         height: 100%;
         padding-bottom: 200px;
@@ -516,3 +517,5 @@ $lineHeight: 2px;
     display: none !important;
   }
 }
+
+

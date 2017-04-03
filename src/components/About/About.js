@@ -43,17 +43,17 @@ const About = () => {
                         <li>
                             Administration Building
                             <ul>
-                                <li> 1-800-231-1127</li>
+                                <li> 1-248-456-8150</li>
                             </ul>
                         </li>
                         <li> Resource and Crisis Center
                             <ul>
-                                <li>1-800-231-1127</li>
+                                <li>1-248-451-2600</li>
                             </ul>
                         </li>
                         <li> The Sanctuary 
                             <ul>
-                                <li> 1-800-231-1127</li>
+                                <li> 1-248-547-2260</li>
                             </ul>
                         </li>
                     </ul>
