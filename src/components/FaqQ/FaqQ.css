@@ -356,7 +356,7 @@
         height: 100%;
     }
     .options {
-        height: 100px;
+        height: 200px;
     }
 
 }
@@ -364,10 +364,10 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 992px) and (max-width: 1199px) {
     .holder {
         margin-top: -100px;
-        height: 400px;
+        height: 600px;
     }
     .options {
-        height: 100px;
+        height: 200px;
     }
 
 }
@@ -378,8 +378,15 @@
         margin-top: -100px;
     }
     .options {
-        height: 100px;
+        height: 200px;
     }
 }
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast:none) and (min-width: 576px) and (max-width: 767px) {
+    .holder {
+        margin-top: -20px;
+    }
+    .options {
+        height: 100px;
+    }
+}
