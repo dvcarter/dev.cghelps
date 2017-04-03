@@ -31,5 +31,5 @@ donateOpts:
   image: /assets/envelope.png
   btn: 
         label: Download Form
-        link: sms:18002311127
+        link: /assets/2013OnlineMailDonationForm.pdf
 ---

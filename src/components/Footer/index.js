@@ -58,7 +58,7 @@ const Footer = () => (
                <span> {"FAQ"}</span>
         </a>}
         {<a
-              href={`https://donatenow.networkforgood.org/commongroundhelps`}
+              href={"/donate"}
               className={styles.items}    
         >
            <span> {"Donate"}</span>
