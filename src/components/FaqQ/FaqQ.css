@@ -352,18 +352,18 @@
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1200px) {
     .holder {
-        margin-top: -100px;
+        margin-top: -80px;
         height: 100%;
     }
     .options {
-        height: 150px;
+        height: 50%;
     }
 
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 992px) and (max-width: 1199px) {
     .holder {
-        margin-top: -100px;
+        margin-top: -80px;
         height: 100%;
     }
     .options {
@@ -375,30 +375,30 @@
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 768px) and (max-width: 991px) {
     .holder {
-        margin-top: -100px;
+        margin-top: -80px;
         height: 100%;
     }
     .options {
-        height: 100px;
+        height: 50%;
     }
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast:none) and (min-width: 576px) and (max-width: 767px) {
     .holder {
-        margin-top: -20px;
+        margin-top: -80px;
         height: 100%;
     }
     .options {
-        height: 100px;
+        height: 50%;
     }
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 575px) {
     .holder {
-        margin-top: -10px;
+        margin-top: -80px;
         height: 100%;
     }
     .options {
-        height: 100px;
+        height: 50%;
     }
 }
