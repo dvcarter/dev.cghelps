@@ -451,6 +451,7 @@
 .learnMore {
     font-style: italic;
     text-decoration: underline;
+    cursor: pointer;
 }
 .holder:first-child:first-child a img {
     display: none;
