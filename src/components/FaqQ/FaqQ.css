@@ -349,3 +349,10 @@
 .holder *:nth-child(17) {
     border-bottom: none;
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1200px) {
+    .holder {
+        margin-top: -200px;
+    }
+
+}
