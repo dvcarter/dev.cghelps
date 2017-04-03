@@ -38,9 +38,9 @@
         display: flex;
         display: -webkit-flex;
         display: -ms-flexbox;
-        justify-content: left;
-        -webkit-justify-content: left;
-        -ms-flex-pack: left;
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: flex-start;
         align-items: left;
         -webkit-align-items: left;
         -ms-flex-align: left;
@@ -79,10 +79,13 @@
     .title {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         justify-content: center;
         -webkit-justify-content: center;
+        -ms-flex-pack: center;
         align-items: center;
         -webkit-align-items: center;
+        -ms-flex-align: center;
         margin: 20px 0 -20px 20px;
     }
    h2.question {
@@ -94,10 +97,13 @@
     .holder {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         flex-direction: column;
         -webkit-flex-direction: column;
-        justify-content: left;
-        -webkit-justify-content: left;
+        -ms-flex-direction: column;
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: flex-star;
         align-items: left;
         -webkit-align-items: left;
         height: 100%;
@@ -108,13 +114,17 @@
     .options {
         display: flex;
         display: -webkit-flex;
-        justify-content: left;
-        -webkit-justify-content: left;
+        display: -ms-flexbox;
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: flex-start;
         align-items: left;
         -webkit-align-items: left;
         flex-direction: row;
         -webkit-flex-direction: row;
+        -ms-flex-direction: row;
         /* background-color: #f7f7f7; */
+        height: auto;
         width: 100%;
         margin: 2px 15px -10px 15px;
         padding: 20px;
@@ -133,10 +143,13 @@
     .title {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         justify-content: center;
         -webkit-justify-content: center;
+        -ms-flex-pack: center;
         align-items: center;
         -webkit-align-items: center;
+        -ms-flex-align: center;
         margin: 20px 0 -20px 20px;
     }
    
@@ -149,10 +162,13 @@
     .holder {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         flex-direction: column;
         -webkit-flex-direction: column;
-        justify-content: left;
-        -webkit-justify-content: left;
+        -ms-flex-direction: column;
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: flex-start;
         align-items: left;
         -webkit-align-items: left;
         height: 100%;
@@ -163,19 +179,24 @@
     .options {
         display: flex;
         display: -webkit-flex;
-        justify-content: left;
-        -webkit-justify-content: left;
+        display: -ms-flexbox;
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: flex-start;
         align-items: left;
         -webkit-align-items: left;
         flex-direction: row;
         -webkit-flex-direction: row;
+        -ms-flex-direction: row;
         /*background-color: #f7f7f7;*/
+        height: auto;
         width: 100%;
         margin: 2px 15px -10px 15px;
         padding: 20px;
         border-bottom: 0.25px solid #dfe3ee;
     }
     .description {
+        height: auto;
         width: 100%;
         padding: 0 10px 0 10px;
         margin: 15px 10px 1px 0;
@@ -192,10 +213,13 @@
     .title {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         justify-content: center;
         -webkit-justify-content: center;
+        -ms-flex-pack: center;
         align-items: center;
         -webkit-align-items: center;
+        -ms-flex-align: center;
         margin: 20px 0 -20px 20px;
     }
     h2.question {
@@ -207,10 +231,13 @@
     .holder {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         flex-direction: column;
         -webkit-flex-direction: column;
-        justify-content: left;
-        -webkit-justify-content: left;
+        -ms-flex-direction: column;
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: flex-start;
         align-items: left;
         -webkit-align-items: leftr;
         height: 100%;
@@ -221,19 +248,24 @@
     .options {
         display: flex;
         display: -webkit-flex;
-        justify-content: left;
-        -webkit-justify-content: left;
+        display: -ms-flexbox;
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: flex-start;
         align-items: left;
         -webkit-align-items: left;
         flex-direction: row;
         -webkit-flex-direction: row;
+        -ms-flex-direction: row;
         /* background-color: #f7f7f7; */
+        height: auto;
         width: 100%;
         margin: 2px 15px -10px 15px;
         padding: 20px;
         border-bottom: 0.25px solid #dfe3ee;
     }
     .description {
+        height: auto;
         width: 100%;
         padding: 0 10px 0 10px;
         margin: 15px 10px 1px 0;
@@ -246,10 +278,13 @@
     .title {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         justify-content: center;
         -webkit-justify-content: center;
+        -ms-flex-pack: center;
         align-items: center;
         -webkit-align-items: center;
+        -ms-flex-align: center;
     }
    h2.question {
         font-weight: 500;
@@ -260,12 +295,16 @@
     .holder {
         display: flex;
         display: -webkit-flex;
+        display: -ms-flexbox;
         flex-direction: column;
         -webkit-flex-direction: column;
+        -ms-flex-direction: column;
         justify-content: center;
         -webkit-justify-content: center;
+        -ms-flex-pack: center;
         align-items: center;
         -webkit-align-items: center;
+        -ms-flex-align: center;
         height: 100%;
         width: 100%;
         /*background-color: #dfe3ee;*/
@@ -274,19 +313,24 @@
     .options {
         display: flex;
         display: -webkit-flex;
-        justify-content: left;
-        -webkit-justify-content: left;
+        display: -ms-flexbox;
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: flex-start;
         align-items: left;
         -webkit-align-items: left;
         flex-direction: row;
         -webkit-flex-direction: row;
+        -ms-flex-direction: row;
         /* background-color: #f7f7f7;*/
+        height: auto;
         width: 100%;
         margin: 15px 15px 0 15px;
         padding: 20px;
         border-bottom: 0.25px solid #dfe3ee;
     }
     .description {
+        height: auto;
         width: 100%;
         padding: 0 10px 0 10px;
         margin: 15px 10px 1px 35px;
