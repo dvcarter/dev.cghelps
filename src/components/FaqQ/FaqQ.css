@@ -393,10 +393,10 @@
     .holder {
         margin-top: -80px;
         height: 100%;
-        margin-bottom: 180px;
+        margin-bottom: 400px;
     }
     .options {
-        height: 150px;
+        height: 250px;
         margin: 10px 0 10px 0;
     }
 }
@@ -405,10 +405,10 @@
     .holder {
         margin-top: -80px;
         height: 100%;
-        margin-bottom: 200px;
+        margin-bottom: 500px;
     }
     .options {
-        height: 150px;
+        height: 300px;
         margin: 10px 0 10px 0;
     }
 }
