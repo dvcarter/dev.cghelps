@@ -354,10 +354,11 @@
     .holder {
         margin-top: -80px;
         height: 100%;
+        margin-bottom: 80px;
     }
     .options {
         height: 200px;
-        margin: 10px 0 10px 0;
+        margin: -10px 0 -10px 0;
     
     }
 }
@@ -366,10 +367,11 @@
     .holder {
         margin-top: -80px;
         height: 100%;
+        margin-bottom: 80px;
     }
     .options {
         height: 200px;
-        margin: 10px 0 10px 0;
+        margin: -10px 0 -10px 0;
     }
 
 }
@@ -379,6 +381,7 @@
     .holder {
         margin-top: -80px;
         height: 100%;
+        margin-bottom: 80px;
     }
     .options {
         height: 200px;
@@ -390,6 +393,7 @@
     .holder {
         margin-top: -80px;
         height: 100%;
+        margin-bottom: 80px;
     }
     .options {
         height: 200px;
@@ -401,6 +405,7 @@
     .holder {
         margin-top: -80px;
         height: 100%;
+        margin-bottom: 80px;
     }
     .options {
         height: 200px;
