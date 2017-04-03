@@ -353,21 +353,21 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1200px) {
     .holder {
         margin-top: -80px;
-        height: 100%;
+        height: 800px;
     }
     .options {
-        height: 50%;
+        height: 200px;
+    
     }
-
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 992px) and (max-width: 1199px) {
     .holder {
         margin-top: -80px;
-        height: 100%;
+        height: 600px;
     }
     .options {
-        height: 150px;
+        height: 200px;
     }
 
 }
@@ -376,17 +376,17 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 768px) and (max-width: 991px) {
     .holder {
         margin-top: -80px;
-        height: 100%;
+        height: 600px;
     }
     .options {
-        height: 50%;
+        height: 150px;
     }
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast:none) and (min-width: 576px) and (max-width: 767px) {
     .holder {
         margin-top: -80px;
-        height: 100%;
+        height: 600px;
     }
     .options {
         height: 50%;
@@ -399,6 +399,9 @@
         height: 100%;
     }
     .options {
-        height: 50%;
+        height: 200px;
+    }
+    .topics {
+        height: 100%;
     }
 }
