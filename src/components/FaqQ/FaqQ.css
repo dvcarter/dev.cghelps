@@ -355,5 +355,9 @@
         margin-top: -400px;
         background-color: red;
     }
+    .options {
+        height: 200px;
+    }
+
 
 }
