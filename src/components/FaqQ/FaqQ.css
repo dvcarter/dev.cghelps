@@ -353,7 +353,7 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1200px) {
     .holder {
         margin-top: -80px;
-        height: 800px;
+        height: 100%;
     }
     .options {
         height: 200px;
@@ -364,7 +364,7 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 992px) and (max-width: 1199px) {
     .holder {
         margin-top: -80px;
-        height: 600px;
+        height: 100%;
     }
     .options {
         height: 200px;
