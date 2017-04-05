@@ -464,6 +464,9 @@ $lineHeight: 2px;
     padding-bottom: 300px;
     padding-top:300px;
     }
+    _::-webkit-full-page-media, _:future, :root .navWrapper {
+        background-color: red;
+    }
     _::-webkit-full-page-media, _:future, :root .navItems {
         margin-top: 80px;
         margin-bottom: 200px;
