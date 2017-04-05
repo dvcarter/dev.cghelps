@@ -429,7 +429,6 @@ $lineHeight: 2px;
   .open {
     display: block;
     width: 100%;
-    background-color: blue;
     background: #fff;
     position: absolute;
     left: 0px;
@@ -466,12 +465,14 @@ $lineHeight: 2px;
     padding-top:300px;
     }
     _::-webkit-full-page-media, _:future, :root .navRight {
-        background-color: red;
         position: fixed;
         top: 0;
         left: 0;
         height: 100%;
         width: 100%;
+    }
+    _::-webkit-full-page-media, _:future :root .open {
+        background-color: blue;
     }
     _::-webkit-full-page-media, _:future, :root .navItems {
         /*margin-top: 80px;
