@@ -467,6 +467,10 @@ $lineHeight: 2px;
     _::-webkit-full-page-media, _:future, :root .navRight {
         background-color: red;
         position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
     _::-webkit-full-page-media, _:future, :root .navItems {
         /*margin-top: 80px;
