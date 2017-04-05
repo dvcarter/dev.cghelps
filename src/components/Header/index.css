@@ -465,7 +465,6 @@ $lineHeight: 2px;
     padding-top:300px;
     }
     _::-webkit-full-page-media, _:future, :root .navRight {
-        position: fixed;
         top: 0;
         left: 0;
         height: 100%;
@@ -475,13 +474,14 @@ $lineHeight: 2px;
         background-color: blue;
     }
     _::-webkit-full-page-media, _:future, :root .navItems {
-        /*margin-top: 80px;
-        margin-bottom: 200px;*/
+        margin-top: 80px;
+        margin-bottom: 200px;
         overflow-y: scroll;
+        -webkit-overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
         height: 100%;
-        /*padding-bottom: 200px;
-        padding-top: 10px;*/
+        padding-bottom: 200px;
+        padding-top: 10px;
     }
     .navItems .subNavItems {
       background: none;
