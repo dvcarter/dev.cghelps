@@ -429,6 +429,7 @@ $lineHeight: 2px;
   .open {
     display: block;
     width: 100%;
+    background-color: blue;
     background: #fff;
     position: absolute;
     left: 0px;
