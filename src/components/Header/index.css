@@ -469,7 +469,7 @@ $lineHeight: 2px;
         left: 0;
         height: 100%;
         width: 100%;
-        background:#fff
+        background:#fff;
         position: fixed;
     }
     _::-webkit-full-page-media, _:future :root .open {
