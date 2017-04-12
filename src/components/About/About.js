@@ -59,7 +59,7 @@ const About = () => {
                     </ul>
                 </div>
                 <div className={styles.title}>
-                    <h5>Careers </h5>
+                    <h5 id="Careers">Careers </h5>
                 </div>
                 <div className={styles.aboutText}>
                     <p>

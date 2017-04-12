@@ -42,3 +42,15 @@
     _:ms-lang(x), .latestPosts {
     }
 }
+
+.eventBanner {
+    background-image: url("./LegacyOfHopeInvitation.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width:41%;
+    height: 250px;
+    background-color: #dfe3ee;
+}

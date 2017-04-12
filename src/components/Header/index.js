@@ -189,6 +189,11 @@ export default class Header extends Component {
                                                         {"News and Events"}
                                                     </Link>
                                                 </li>
+                                                <li>
+                                                    <Link to='/about-us/#Careers' className={styles.link}>
+                                                        {"Careers"}
+                                                    </Link>
+                                                </li>
                                             </ul>
                                         </li>
                                     </ul>
