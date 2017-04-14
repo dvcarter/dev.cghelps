@@ -551,6 +551,7 @@ _::-webkit-:not(:root:root), .help {
         }
         _::-webkit-:not(:root:root), .options {
             margin-bottom: 100px;
+            height: 400px;
         }
         /* safari 9 hack */
         _::-webkit-:not(:root:root), .help {
