@@ -549,7 +549,7 @@
         }
         /* safari 9 hack */
         _::-webkit-:not(:root:root), .help {
-            height: 1250px;
+            height: 1350px;
         }
         .glyphs {
             display: flex;
