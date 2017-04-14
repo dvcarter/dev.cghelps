@@ -549,6 +549,9 @@ _::-webkit-:not(:root:root), .help {
             font-size: 1vh;
             border-bottom: 0.25px solid #dfe3ee;
         }
+        _::-webkit-:not(:root:root), .options {
+            margin-bottom: 100px;
+        }
         /* safari 9 hack */
         _::-webkit-:not(:root:root), .help {
             height: 1350px;
