@@ -487,7 +487,9 @@
         width: 100%;
         margin-top: 50px;
     }
-
+_::-webkit-:not(:root:root), .help {
+    height: 1300px;
+}
  .title {
      display: flex;
      display: -webkit-flex;
@@ -550,6 +552,7 @@
         /* safari 9 hack */
         _::-webkit-:not(:root:root), .help {
             height: 1350px;
+            margin-bottom: 300px;
         }
         .glyphs {
             display: flex;
