@@ -487,8 +487,8 @@
         width: 100%;
         margin-top: 50px;
     }
-_::-webkit-:not(:root:root), .help {
-    height: 1300px;
+_::-webkit-full-page-media, _:future, :root .help {
+    height: 2000px;
 }
 _::-webkit-:not(:root:root), .bigHolder {
     height: 2000px;
