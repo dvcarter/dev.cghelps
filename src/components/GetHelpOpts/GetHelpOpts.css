@@ -558,8 +558,7 @@ _::-webkit-:not(:root:root), .bigHolder {
         }
         /* safari 9 hack */
         _::-webkit-:not(:root:root), .help {
-            height: 1350px;
-            margin-bottom: 300px;
+            height: 2000px;
         }
         .glyphs {
             display: flex;
