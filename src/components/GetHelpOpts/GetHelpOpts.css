@@ -490,6 +490,9 @@
 _::-webkit-:not(:root:root), .help {
     height: 1300px;
 }
+_::-webkit-:not(:root:root), .bigHolder {
+    height: 2000px;
+}
  .title {
      display: flex;
      display: -webkit-flex;
