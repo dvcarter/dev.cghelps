@@ -2,7 +2,7 @@
 title: Free Legal Aid
 date: 2017-03-25
 layout: Post
-hero:
+hero: /assets/gethelp.jpg
 ---
 Get Free Legal Advice from Common Ground's Legal Clinic
 

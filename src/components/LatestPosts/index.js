@@ -21,7 +21,11 @@ const LatestPosts = (props, { collection }) => {
         { "Latest News and Events" }
       </h2>
       <div className={styles.eventBanner}>
-        {"Event Banner Here"}
+        <a href="/posts/legacy-of-hope-breakfast/">
+            <button className={styles.eventButton}>
+                Click here to learn more
+            </button>
+        </a>
       </div>
       <PagesList pages={ latestPosts } />
     </div>
