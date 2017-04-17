@@ -15,7 +15,7 @@ donateOpts:
   image: /assets/OnlineDonate_white.png
   btn:
         label: Give Now
-        link: https://donatenow.networkforgood.org/commongroundhelps?code=website
+        link: https://commongroundhelps.z2systems.com/np/clients/commongroundhelps/donation.jsp?campaign=1096&
 
 - name: phone-donates
   title: By PHONE
