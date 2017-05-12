@@ -4,6 +4,7 @@
   "homepage": "https://commongroundhelps.com",
   "twitter": "cghelps",
   "repository": "https://github.com/dvcarter/cghelps.git",
+  "googleAnalyticsUA": "UA-25042886-2",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",
     "lint:css": "stylelint \"src/**/*.css\"",
@@ -15,9 +16,6 @@
   },
   "phenomic": {
     "CNAME": false
-  },
-  "config": {
-    "ga": "UA-25042886-2"
   },
   "#babel": "webpack-(development|production) are useful for webpack 2, otherwise use development|production",
   "babel": {
