@@ -5,7 +5,6 @@ import { BodyContainer, joinUri, Link } from "phenomic"
 
 import Button from "../../components/Button"
 import Loading from "../../components/Loading"
-
 import styles from "./index.css"
 
 const Page = (
@@ -51,7 +50,7 @@ const Page = (
         title={ metaTitle }
         meta={ meta }
       />
-      { ( (head.title !== "News and Events") && (head.title !== "Terms of Service and Privacy Policy") && (head.title !== "Frequently Asked Questions") && (head.title !== "Contact Us")) ? 
+      { ( (head.title !== "Leadership") && (head.title !== "News and Events") && (head.title !== "Terms of Service and Privacy Policy") && (head.title !== "Frequently Asked Questions") && (head.title !== "Contact Us")) ? 
         <div
           className={ styles.hero }
           style={ head.hero && {

@@ -49,20 +49,20 @@ class MoreText extends Component {
                                     <div className={styles.description}>{getHelp.getHelp.description}</div>
                                     <div className={styles.learnMore} onClick={ this.toggleHidden }> Learn More >> </div>
                                     {this.state.isHidden && <div className={styles.moreText}>
-                                                                <h3> {getHelp.getHelp.subsubtitle1}</h3>
-                                                                <div> {getHelp.getHelp.subdescription1}</div>
-                                                                <h3> {getHelp.getHelp.subsubtitle2}</h3>
-                                                                <div> {getHelp.getHelp.subdescription2}</div>
-                                                                <h3> {getHelp.getHelp.subsubtitle3}</h3>
-                                                                <div> {getHelp.getHelp.subdescription3}</div>
-                                                                <h3> {getHelp.getHelp.subsubtitle4}</h3>
+                                                                <h3>  {getHelp.getHelp.subsubtitle1}    </h3>
+                                                                <div> {getHelp.getHelp.subdescription1} </div>
+                                                                <h3>  {getHelp.getHelp.subsubtitle2}    </h3>
+                                                                <div> {getHelp.getHelp.subdescription2} </div>
+                                                                <h3>  {getHelp.getHelp.subsubtitle3}    </h3>
+                                                                <div> {getHelp.getHelp.subdescription3} </div>
+                                                                <h3>  {getHelp.getHelp.subsubtitle4}    </h3>
                                                                 <div> {getHelp.getHelp.subdescription4} </div>
-                                                                <h3> {getHelp.getHelp.subsubtitle5}</h3>
-                                                                <div> {getHelp.getHelp.subdescription5}</div>
-                                                                <h3>{getHelp.getHelp.subsubtitle6}</h3>
-                                                                <div>{getHelp.getHelp.subdescription6}</div>
-                                                                <h3>{getHelp.getHelp.subsubtitle7}</h3>
-                                                                <div>{getHelp.getHelp.subdescription7}</div>
+                                                                <h3>  {getHelp.getHelp.subsubtitle5}    </h3>
+                                                                <div> {getHelp.getHelp.subdescription5} </div>
+                                                                <h3>  {getHelp.getHelp.subsubtitle6}    </h3>
+                                                                <div> {getHelp.getHelp.subdescription6} </div>
+                                                                <h3>  {getHelp.getHelp.subsubtitle7}    </h3>
+                                                                <div> {getHelp.getHelp.subdescription7} </div>
                                                             </div>
                                     }
                                     </div>

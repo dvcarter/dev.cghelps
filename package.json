@@ -16,6 +16,9 @@
   "phenomic": {
     "CNAME": false
   },
+  "config": {
+    "ga": "UA-25042886-2"
+  },
   "#babel": "webpack-(development|production) are useful for webpack 2, otherwise use development|production",
   "babel": {
     "env": {
@@ -140,6 +143,8 @@
     "react-bootstrap": "^0.30.7",
     "react-controllable": "^0.1.1",
     "react-fontawesome": "^1.5.0",
+    "react-ga": "^2.2.0",
+    "react-google-analytics": "^0.2.0",
     "react-icons": "^2.2.3"
   }
 }

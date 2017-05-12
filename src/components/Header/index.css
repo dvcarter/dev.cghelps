@@ -470,20 +470,24 @@ $lineHeight: 2px;
         height: 100%;
         width: 100%;
         background:#fff;
-        position: fixed;
+        background-color: green;
+        margin-top: 60px;
     }
     _::-webkit-full-page-media, _:future :root .open {
     }
     _::-webkit-full-page-media, _:future, :root .navItems {
         margin-top: 80px;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
         overflow-y: scroll;
         -webkit-overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
-        height: 100%;
-        padding-bottom: 200px;
-        padding-top: 10px;
+        height:1000px;
+        padding-bottom: -10px;
+        padding-top: 5px;
         z-index: -1;
+        background-color: red;
+    }
+    _::-webkit-full-page-media, _:future, :root body {
     }
     .navItems .subNavItems {
       background: none;

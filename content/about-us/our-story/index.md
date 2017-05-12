@@ -10,3 +10,9 @@ askFaq:
 
 
 ---
+
+<h1> Our Story </h1>
+<h3> Past </h3>
+<h3> Present </h3>
+<h3> Future </h3>
+
