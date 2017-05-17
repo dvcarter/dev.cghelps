@@ -310,13 +310,6 @@
             padding-bottom: -40px;
         }
 
-        h3.subtitle {
-            font-weight: 500;
-            font-size: 150%;
-            margin: 4px 10px 0 10px;
-        }
-
-
         .holder {
             display: flex;
             display: -webkit-flex;

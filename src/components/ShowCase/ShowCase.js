@@ -9,10 +9,10 @@ const ShowCase = ({ showCase }) => {
                             <div className={styles.options}> 
                                 <div className={styles.topics}>
                                     <img className={styles.imgs} src={ shower.image}/>
-                                    <p className={styles.descriptor}>
+                                    <div className={styles.descriptor}>
                                         <h3 className={styles.pair}> { shower.subtitle } </h3>
                                         <h5 className={styles.pair}> <em>{shower.subsubtitle}</em></h5>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div className={styles.copy}>
                                     <div className={styles.description}> {shower.description }</div>
