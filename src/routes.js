@@ -19,6 +19,7 @@ import Donate from "./layouts/DonatePage"
 import ShowCase from "./layouts/ShowCasePage"
 import Governance from "./layouts/GovernancePage"
 import DocHold from "./layouts/DocumentPage"
+import ListHold from "./layouts/ListPage"
 
 const PageContainer = (props) => (
   <PhenomicPageContainer
@@ -35,6 +36,7 @@ const PageContainer = (props) => (
       ShowCase,
       Governance,
       DocHold,
+      ListHold,
       Locations,
       Groups,
       About,
