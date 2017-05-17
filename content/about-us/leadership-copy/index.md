@@ -1,7 +1,7 @@
 ---
 title: Leadership
 layout: FaqQ
-route: /about-us/leadership
+route: /about-us/leaderships
 
 askFaq:
 -   subtitle:

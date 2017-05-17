@@ -16,6 +16,9 @@ import FaqQ from "./layouts/FAQPage"
 import About from "./layouts/AboutPage"
 import Contact from "./layouts/ContactPage"
 import Donate from "./layouts/DonatePage"
+import ShowCase from "./layouts/ShowCasePage"
+import Governance from "./layouts/GovernancePage"
+import DocHold from "./layouts/DocumentPage"
 
 const PageContainer = (props) => (
   <PhenomicPageContainer
@@ -29,6 +32,9 @@ const PageContainer = (props) => (
       FaqQ,
       GetInvolved,
       Resources,
+      ShowCase,
+      Governance,
+      DocHold,
       Locations,
       Groups,
       About,
