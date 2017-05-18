@@ -45,34 +45,37 @@ hero: /assets/groupsupport.jpg
         </p>
     </dd>
 </dl>
-<dl>
+<dl style="margin: 0 -50px 0 -190px;padding: 10px;">
     <dt></dt>
     <dd>
         <p style="padding-right: 10px; padding-left: 30px; width: 70%;">
-            <h3 style="color: black; padding: 0 60px 0 20px;"> If Chat is not available online, please send an email
+            <h3 style="color: black; padding: 0 20px 0 20px;margin: 0 20px 0 50px;"> If Chat is not available online, please send an email
                                        to chat@commongroundhelps.org or see below for other
                                        available resources.
             </h3>
-            <ul style=" padding: 0 80px 0 100px;">
-                <li> Common Ground's Resource and Crisis Hotline: 24/7
-                    <ul>
-                        <li> options </li>
+            <ul style=" padding: 0 80px 0 100px; list-style: none;">
+                <li> Common Ground's Resource and Crisis Hotline
+                    <ul style="list-style:none;">
+                        <li> <p>Please call, 1-800-231-1127 </p></li>
                     </ul>
                 </li>
-                <li> National Suicide Prevention Hotline: 24/7
-                    <ul>
-                        <li> options </li>
+                <li> National Suicide Prevention Hotline
+                    <ul style="list-style:none;">
+                        <li> <p>Please Call, 1-800-273-TALK [8255] </p></li>
                     </ul>
                 </li>
                 <li> Lifeline Crisis Chat-National Suicide Prevention Lifeline
-                    <ul>
-                        <li> options </li>
-                        <li> options </li>
+                    <ul style="list-style: none;">
+                        <li> <p><a href="http://www.suicidepreventionlifeline.org"> http://www.suicidepreventionlifeline.org</a> </p></li>
                     </ul>
                 </li>
-                <li> Crisis Text Line: 24/7
-                    <ul>
-                        <li> Users should text "Hello" to 741741. Preferable for ages 13-25 </li>
+                <li> Crisis Text Line
+                    <ul style="list-style: none;">
+                        <li> 
+                            <p>
+                            Users should text "Hello" to <strong>741741</strong>. Preferable for ages 13-25 
+                            </p>
+                            </li>
                     </ul>
                 </li>
             </ul>
