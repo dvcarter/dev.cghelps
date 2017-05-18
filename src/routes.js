@@ -20,6 +20,7 @@ import ShowCase from "./layouts/ShowCasePage"
 import Governance from "./layouts/GovernancePage"
 import DocHold from "./layouts/DocumentPage"
 import ListHold from "./layouts/ListPage"
+import ChatHold from "./layouts/ChatPage"
 
 const PageContainer = (props) => (
   <PhenomicPageContainer
@@ -37,6 +38,7 @@ const PageContainer = (props) => (
       Governance,
       DocHold,
       ListHold,
+      ChatHold,
       Locations,
       Groups,
       About,
