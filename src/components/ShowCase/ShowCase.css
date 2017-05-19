@@ -369,6 +369,7 @@
             width: 300px;
             margin: 0 10px 0 0;
             padding: 20px;
+            border: 1px solid #dfe3ee;
         }
         .description {
             width: 100%;
