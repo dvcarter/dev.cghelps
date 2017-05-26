@@ -11,40 +11,48 @@ const ChatHolder =({ chatHolder }) => {
                         </div>
                         <div className={styles.lowHolder}>
                             <div className={styles.options}>
-                                <ul>
-                                    <li>{chatter.box0}
-                                        <ul>
-                                           <li> {chatter.subBox0}</li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <a href={chatter.link0}>
+                                    <ul>
+                                        <li className={styles.betterVersion}>{chatter.box0}
+                                            <ul>
+                                                <li className={styles.contactInfo}> {chatter.subBox0}</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </a>
                             </div>    
                             <div className={styles.options}>    
-                                <ul>
-                                    <li>{chatter.box1}
-                                        <ul>
-                                            <li> {chatter.subBox1}</li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <a href={chatter.link1}>
+                                    <ul>
+                                        <li className={styles.betterVersion}>{chatter.box1}
+                                            <ul>
+                                                <li className={styles.contactInfo}> {chatter.subBox1}</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </a>
                             </div>
                             <div className={styles.options}>
-                                <ul>
-                                    <li>{chatter.box2}
-                                        <ul>
-                                            <li>{chatter.subBox2}</li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <a href={chatter.link2}>
+                                    <ul>
+                                        <li className={styles.betterVersion}>{chatter.box2}
+                                            <ul>
+                                                <li className={styles.contactInfo}>{chatter.subBox2}</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </a>
                             </div>
                             <div className={styles.options}>
-                                <ul>
-                                    <li>{chatter.box3}
-                                        <ul>
-                                            <li>{chatter.subBox3}</li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <a href={chatter.link3}>    
+                                    <ul>
+                                        <li className={styles.betterVersion}>{chatter.box3}
+                                            <ul>
+                                                <li className={styles.contactInfo}>{chatter.subBox3}</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </a>
                             </div>
                         </div>
                     </div>
