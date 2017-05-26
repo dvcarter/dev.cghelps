@@ -1,24 +1,4 @@
 @media only screen and  (max-width: 575px) {
-    .title {
-        display: flex;
-        display: -webkit-flex;
-        justify-content:center;
-        -webkit-justify-content: center;
-        align-items: center;
-        -webkit-align-items: center;
-        text-align: center;
-        width: 100%;
-        font-size: 34px;
-        font-weight: 700;
-        padding-bottom: -40px;
-    }
-
-    h3.subtitle {
-        font-weight: 500;
-        font-size: 150%;
-        margin-left: 10px;
-    }
-
     .holder {
         display: flex;
         display: -webkit-flex;
@@ -440,7 +420,6 @@
             font-size: 20px;
         }
         .lowHolder .options:nth-child(3) {
-            background-color: red;
         }
 
 }

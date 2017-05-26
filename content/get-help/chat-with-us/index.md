@@ -36,8 +36,7 @@ chatHolder:
 
 ---
 
-
-<div style="margin: 0 20px 0 40px;padding: 30px;width:80%; 
+<div class="avail" style="margin: 0 20px 0 40px;padding: 30px;width:80%; 
 
            display: flex;
             display: -webkit-flex;
@@ -47,17 +46,14 @@ chatHolder:
             -webkit-justify-content: center;
             -moz-justify-content: center;
             -ms-flex-pack: center; 
-            backgrouond: blue;
             
-">
-    
+"> 
     <iframe id="iCarolMessagingBadge" src="http://webapp.icarol.com/pub/Messaging/StatusBadge.aspx?orgNum=2194&pid=204&cc=en-US" frameborder="0" scrolling="no"></iframe>
     <div style="
                 height: 100%;
                 width: 60%;
-                background-color: red;
                 margin: 0 0 0 -100px;
-    ">
+    " class="available">
         <p> Availability </p>
         <ul>
             <li> 4-10pm Eastern Standard Time, Weekdays (Monday through Friday), excluding holidays </li>
