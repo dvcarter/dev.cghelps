@@ -285,6 +285,11 @@
         }
 }
 @media only screen and (min-width: 1200px) {
+        .divHolder {
+            height: 900px;
+            width: 100%;
+            margin: 0 0 100px;
+    }
         .newAvail {
             height: 100%;
             width: 50%;
