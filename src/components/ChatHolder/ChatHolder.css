@@ -37,7 +37,7 @@
         text-align: center;
         /*background-color:#f7f7f7;*/
         height:100px ;
-        width: 90%;
+        width: 80%;
         padding: 40px 0 10px 0;
         margin: 10px 15px 25px 15px;
         border-bottom: 0.25px solid #dfe3ee;
@@ -90,7 +90,7 @@
         -webkit-flex-direction: column;
         text-align: left;
         /*background-color: #f7f7f7; */
-        width: 90%;
+        width: 80%;
         padding: 40px 0 10px 0;
         margin: 10px 15px 25px 15px;
         border-bottom: 0.25px solid #dfe3ee;
@@ -148,7 +148,7 @@
         -webkit-align-items: center;
         height: 800px;
         width: 100%;
-        margin: 30px 0 180px 0;
+        margin: -30px 0 180px 0;
         /*background-color: #dfe3ee; */
     }
     .options {
