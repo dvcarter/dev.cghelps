@@ -1,4 +1,10 @@
 @media only screen and  (max-width: 575px) {
+    .newAvail {
+            height: 100%;
+            width: 100%;
+            margin: -100px 100px -150px 0px;   
+        } 
+
     .holder {
         display: flex;
         display: -webkit-flex;
@@ -58,24 +64,11 @@
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .title {
-        display: flex;
-        display: -webkit-flex;
-        justify-content: center;
-        -webkit-justify-content: center;
-        align-items: center;
-        -webkit-align-items: center;
-        text-align: center;
-        font-size: 34px;
-        font-weight: 700;
-        padding-bottom: -40px;
-    }
-
-    h3.subtitle {
-        font-weight: 500;
-        font-size: 150%;
-    }
-    
+   .newAvail {
+            height: 100%;
+            width: 50%;
+            margin: -200px 20px 50px 200px;   
+        }  
     .holder {
         display: flex;
         display: -webkit-flex;
@@ -101,7 +94,7 @@
         -webkit-flex-direction: column;
         text-align: left;
         /*background-color: #f7f7f7; */
-        width: 100%;
+        width: 90%;
         padding: 40px 0 10px 0;
         margin: 10px 15px 25px 15px;
         border-bottom: 0.25px solid #dfe3ee;
@@ -131,6 +124,12 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .newAvail {
+            height: 100%;
+            width: 50%;
+            padding: 20px;
+            margin: -200px 0px -100px 300px;   
+        } 
     .holder {
         display: flex;
         display: -webkit-flex;
@@ -154,39 +153,32 @@
         -webkit-align-items: center;
         /*background-color: #f7f7f7; */
         height: 50%;
-        width: 100%;
+        width: 90%;
         margin-left: 15px;
         margin-right: 15px;
         padding: 20px;
         border-bottom: 0.25px solid #dfe3ee;
     }
-    .imgs {
-        width: 20%;
-        height: auto;
-
-    }
-    .description {
-        width: 90%;
-        padding: 0 10px 10px 10px;
-        margin: 5px 0 5px 0;
-    }
-    .button {
-        width: 200px;
-        white-space: nowrap;
-        position: relative;
-        margin: 5px 0 5px 0;
-        padding: 15px 20px;
-        border: none;
-        border-radius: 8px;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 1.25vh;
+    .availability {
+            width: 100%;
+            margin: 0 0px 0 0px;
+        } 
+    .midHolder {
+        width: 100%;
+    } 
+    .lowHolder {
+        width: 100%;
     }
     .topics {
         margin: 14px;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .newAvail {
+            height: 100%;
+            width: 50%;
+            margin: -200px 20px 50px 400px;   
+        } 
         .holder {
             display: flex;
             display: -webkit-flex;
@@ -302,6 +294,11 @@
         }
 }
 @media only screen and (min-width: 1200px) {
+        .newAvail {
+            height: 100%;
+            width: 50%;
+            margin: -200px 20px 100px 450px;   
+        }
         .holder {
             display: flex;
             display: -webkit-flex;
@@ -342,7 +339,12 @@
         .options {
             display: flex;
             display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
             flex-direction: column;
+            -webkit-flex-direction: column;
+            -moz-flex-direction: column;
+            -ms-flex-direction: column;
             /*background-color: #f7f7f7; */
             height: 200px;
             width: 25%;
@@ -353,6 +355,9 @@
             font-size: 2vh;
             /*border: 0.5px solid #555; */
             transition: transform 0.5s;
+             -webkit-transition: transform 0.5s;
+            -moz-transition: transform 0.5s;
+            -ms-transition: transform 0.5s;
         }
         .options ul {
             padding: 10px;
@@ -459,4 +464,8 @@ h1  {
 }
 .options:hover {
     font-size: 2.5vh;
+}
+.divHolder {
+    height: 100%;
+    width: 100%;
 }

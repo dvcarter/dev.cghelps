@@ -3,6 +3,14 @@ import styles from "./ChatHolder.css"
 
 const ChatHolder =({ chatHolder }) => {
     return (
+            <div className={styles.divHolder}>
+                <div className={styles.newAvail}> 
+                   <p> Availability </p>
+                        <ul>
+                            <li> 4-10pm Eastern Standard Time, Weekdays (Monday through Friday), excluding holidays </li>
+                            <li> Based on Staff/Volunteer Availability </li>
+                        </ul>
+                </div>
             <div className={styles.holder}>
                 {chatHolder.map((chatter) => (
                     <div className={styles.midHolder}>
@@ -58,6 +66,7 @@ const ChatHolder =({ chatHolder }) => {
                     </div>
                 ))}
             </div>
+          </div>
     )
 
 }
