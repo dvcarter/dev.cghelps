@@ -6,9 +6,9 @@ routes: /get-help/chat-with-us
 
 
 chatHolder:
--       availability: If chat is not available online, please send an email
-                                       to chat@commongroundhelps.org or see below for other
-                                                                              available resources.
+-       availability: If chat is not available online, please email
+                                       chat@commongroundhelps.org or click on one of the options below 
+                                                                              for further assistance.
         box0: Common Ground's Resource and Crisis Hotline
         subBox0: 1-800-231-1127
         link0: tel:18002311127

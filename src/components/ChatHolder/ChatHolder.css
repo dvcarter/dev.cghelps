@@ -37,31 +37,13 @@
         margin: 10px 15px 25px 15px;
         border-bottom: 0.25px solid #dfe3ee;
     }
-    
-    .imgs {
-        width: 90%;
-        height: auto;
-        margin-bottom: 10px;
+    .contactInfo {
+        margin: 0 0 0 -50px;
+    }
+    .options:nth-child(3) .contactInfo{
+        display: none;
     }
 
-    .description {
-        position: relative;
-        width: 100%;
-        padding: 0 10px 10px 10px;
-        margin: 5px 0 5px 0;
-    }
-
-    .button {
-        width: 200px;
-        position: relative;
-        margin: 5px 0 5px 0;
-        padding: 15px 20px;
-        border: none;
-        border-radius: 8px;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 1.25vh;
-    }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
    .newAvail {
@@ -121,6 +103,9 @@
         display: inline-block;
         font-size: 1.25vh;
     }
+     .options:nth-child(3) .contactInfo{
+        display: none;
+    } 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -172,6 +157,9 @@
     .topics {
         margin: 14px;
     }
+     .options:nth-child(3) .contactInfo{
+        display: none;
+    } 
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .newAvail {
@@ -292,6 +280,9 @@
             height: 20px;
             margin: 0 20px 0 -40px;
         }
+         .options:nth-child(3) .contactInfo{
+        display: none;
+        }
 }
 @media only screen and (min-width: 1200px) {
         .newAvail {
@@ -328,6 +319,7 @@
             height: auto;
             width: 100%;
             margin: 0 20px 0 20px;
+            padding: 40px;
         }
         .lowHolder {
             display: flex;
@@ -426,7 +418,9 @@
         }
         .lowHolder .options:nth-child(3) {
         }
-
+         .options:nth-child(3) .contactInfo{
+            display: none;
+         } 
 }
 .availability {
     padding: 20px;
