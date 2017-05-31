@@ -21,9 +21,11 @@ const LatestPosts = (props, { collection }) => {
         { "Latest News and Events" }
       </h2>
       <div className={styles.eventBanner}>
-        <div className={styles.eventButton}>
-            Take the Tour
-        </div>
+        <a href="https://www.eventbrite.com/e/crisis-to-hope-tour-tickets-34983470502">
+            <div className={styles.eventButton}>
+                TAKE THE TOUR
+            </div>
+        </a>
       </div>
       <PagesList pages={ latestPosts } />
     </div>

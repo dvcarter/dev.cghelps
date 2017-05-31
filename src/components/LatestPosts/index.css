@@ -8,7 +8,7 @@
         border:5px solid #8b0000;
         border-radius: 25px;
         padding: 5px 10px;
-        margin-top: 150px;
+        margin-top: 130px;
         margin-left: 5px;
         color: #8b0000;
         font-weight: 600;
@@ -136,4 +136,7 @@
 .eventButton:hover {
     background-color: #8b0000;
     color: #fff;
+}
+.eventBanner a {
+    text-decoration: none;
 }
