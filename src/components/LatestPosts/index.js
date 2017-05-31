@@ -20,6 +20,11 @@ const LatestPosts = (props, { collection }) => {
       <h2 className={ styles.latestPosts }>
         { "Latest News and Events" }
       </h2>
+      <div className={styles.eventBanner}>
+        <div className={styles.eventButton}>
+            Take the Tour
+        </div>
+      </div>
       <PagesList pages={ latestPosts } />
     </div>
   )
