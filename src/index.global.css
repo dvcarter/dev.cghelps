@@ -10,8 +10,27 @@
 @import "normalize.css";
 @import "//cdn-images.mailchimp.com/embedcode/slim-10_7.css";
 
-
-
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #mc-embedded-subscribe-form {
+        margin: 0 10px 0 100px;
+        padding: 0 10px 0 200px;
+        width: 65%;
+    }
+    
+    input#mce-EMAIL.email, input#mc-embedded-subscribe.button {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    #mc-embedded-subscribe-form {
+        margin: 0 10px 0 55px;
+        padding: 0 10px 0 200px;
+        width: 65%;
+    }
+    input#mce-EMAIL.email, input#mc-embedded-subscribe.button {
+        width: 100%;
+    }
+}
 html { box-sizing: border-box; }
 
 *,
@@ -27,6 +46,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 /*

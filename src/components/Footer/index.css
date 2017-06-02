@@ -351,9 +351,11 @@
         -webkit-flex-direction: column;
         justify-content: center;
         -webkit-justify-content: center;
-        height: 300px;
+        height: 500px;
         width: 100%;
         padding-top: 15px;
+        margin-top: 200px;
+        overflow-x: hidden;
     }
 
       .footerItems {
@@ -361,31 +363,27 @@
           display: -webkit-flex;
           flex-direction: column;
           -webkit-flex-direction: column;
-          justify-content: center;
-          -webkit-justify-content: center;
-          align-items: left;
-          -webkit-align-items: left;
           width: 100%;
-          height: 100%;
-          margin: -10px -30px 0 10px;
+          height: 20%;
+          padding: 0 0 0 100px;
+          margin: -150px 0px 0 0px;
       }
       .footText {
           position: relative;
           width: 200px;
           white-space: nowrap;
-          margin: 0 20px 0 150px;
+          margin: 0 20px 0 120px;
       }
       .footText:before {
           content: "Connect with Us";
       }
-
-      .line {
-          margin: 92px -5px;
-          position: absolute;
-          height: 1px;
-          width: 93%;
-          background-color: #fff;
+      .greatDivide {
+          margin: 10px 0 0 -20px;
+          width: 90%;
+          border-bottom: 1px solid #fff;
       }
+      
+
       @-moz-document url-prefix() {
           .line {
               margin: 90px -40px -45px -55px;
@@ -432,11 +430,13 @@
       .accreditation {
           display: flex;
           display: -webkit-flex;
-          justify-content: flex-end;
-          -webkit-justify-content: flex-end;
+          justify-content: center;
           align-items: center;
           -webkit-align-items: center;
-          width: 50%;
+          width: 100%;
+          height: 50%;
+          margin: -45px 0 0 0px;
+          padding: 0 0px 0 50px;
       }
       .accreditation img {
           margin: 0 20px 0 0;
@@ -484,6 +484,19 @@
           padding: 0 10px 0 10px;
           /*margin: 0 325px 0 -265px;*/
       }
+      .column1, .column2, .column3 {
+          display: block;
+          width: 28%;
+          height: 100%;
+          font-size: 1.3vh;
+          margin: 0 40px 0 20px;
+      }
+      .column3 {
+          margin-top: 25px;
+          display: flex;
+          flex-direction: column;
+          font-size: 1.5vh;
+      }
 }
 
 
@@ -494,22 +507,21 @@
           display: flex;
           display: -webkit-flex;
           display: -ms-flexbox;
-          flex-direction: row;
-          -webkit-flex-direction: row;
-          -ms-flex-direction: row;
           justify-content: center;
           -webkit-justify-content: center;
           -ms-flex-pack: center;
           align-items: center;
           -webkit-align-items: center;
           -ms-flex-align: center;
-          height: 300px;
+          flex-direction: column;
+          height: 500px;
           width: 100%;
           padding-top: 15px;
           font-size: 50%;
           left: 0;
           right: 0;
-          margin-top: 40px;
+          margin-top: 200px;
+          overflow-x: hidden;
     }
     .socialItems {
         display: inline-flex;
@@ -524,9 +536,9 @@
         align-items: center;
         -webkit-align-items: center;
         -ms-flex-align: center;
-        width: 30%;
+        width:100%;
         height: 40px;
-        margin: 10px -20px 0 20px;
+        margin: 10px 0px 0 0px;
     }
     .socialItem {
         display: flex;
@@ -550,35 +562,27 @@
         display: flex;
         display: -webkit-flex;
         display: -ms-flexbox;
-        justify-content: flex-start;
-        -webkit-justify-content: flex-start;
-        -ms-flex-pack: flex-start;
-        align-items: flex-start;
-        -webkit-align-items: flex-start;
-        -ms-flex-align: flex-start;
         flex-direction: column;
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
-        width: 50%;
-        height: 100%;
-        margin: -5px 90px 0 10px;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        margin: -170px 10px 0 10px;
     }
     .footText {
         position: relative;
-        width: 200px;
-        margin: 0 20px 0 105px;
+        width: 100px;
+        margin: 0 20px 0 0px;
         white-space: nowrap;
         font-size: 1.5vh;
     }
     .footText:before {
         content: "Connect with Us"
     }
-    .line {
-        position: absolute;
-        margin: -95px 5px;
-        height: 1px;
-        width: 82%;
-        background-color: #fff;
+    .greatDivide {
+        width: 80%;
+        border-bottom: 1px solid #fff;
     }
     @-moz-document url-prefix() {
         .line {
@@ -633,7 +637,22 @@
         width: 66px;
     }
     .accreditation {
-        margin: 0 10px 0 90px;
+        padding:  10px 0px 20px 30px;
+        margin: -150px 10px 0 90px;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .column1, .column2 {
+        margin: 0 100px 0 0;
+    }
+    .column3 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 100px 0 0;
     }
 }
 
@@ -649,9 +668,10 @@
         align-items: center;
         -webkit-align-items: center;
         -ms-flex-align: center;
-        height: 200px;
+        flex-direction: column;
+        height: 500px;
         width: 100%;
-        margin-top: 40px;
+        margin-top: 200px;
         left: 0;
         right: 0;
         font-size: 50%;
@@ -697,31 +717,28 @@
         display: flex;
         display: -webkit-flex;
         display: -ms-flexbox;
-        justify-content: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
         flex-direction: column;
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
-        height: 100%;
+        align-items: center;
         width: 100%;
-        margin: 0 10px 0 10px;
+        height: 50%;
+        margin: -110px 10px 0 10px;
     }
     .footText {
         position: relative;
-        width: 200px;
+        width: 100px;
+        margin: 0 20px 0 150px;
         white-space: nowrap;
-        margin: 90px 0 75px 177px;
+        font-size: 1.2vh;
     }
     .footText:before {
         content: "Connect with Us";
     }
-   .line {
-       margin: -45px 0;
-       position: absolute;
-       width: 100%;
-       background-color: #fff;
-   }
+    .greatDivide {
+        width: 80%;
+        border-bottom: 1px solid #fff;
+    }
    @-moz-document url-prefix() {
        .line { 
             margin: -130px -55px -45px -65px;
@@ -739,7 +756,13 @@
     }
 
     .accreditation {
-        margin: 0 10px 0 -50px;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: -190px 10px 0 20px;
     }
     .items {
         white-space: nowrap;
@@ -752,6 +775,10 @@
     _::-webkit-:not(:root:root), .socialItem {
         margin-left: 70px;
         margin-right: -20px;
+    }
+    .column3 {
+        display: flex;
+        flex-direction: column;
     }
 
 }

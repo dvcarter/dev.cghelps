@@ -56,8 +56,8 @@ const Footer = () => (
             <p>
                 <h4><strong>Contact Information</strong></h4>
                 To reach our administrative office,
-                please call <strong>248.456.8150</strong> or
-                email <strong>ask@commongroundhelps.org</strong>
+                please call <strong><a href="tel:2484568150">248.456.8150</a></strong> or
+                email <strong><a href="mailto:ask@commongroundhelps.org">ask@commongroundhelps.org</a></strong>
                 </p>
         
         
