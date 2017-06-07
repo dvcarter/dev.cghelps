@@ -331,6 +331,9 @@
             width: 50%;
             margin: -200px 20px 100px 450px;   
         }
+        .newAvail p {
+            margin-top: 32px;
+        }
         .holder {
             display: flex;
             display: -webkit-flex;
