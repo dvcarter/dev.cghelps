@@ -36,7 +36,7 @@ chatHolder:
 
 ---
 
-<div class="avail" style="margin: 0 -5vw 0 -5vw;padding: 30px -15vh 50px -15vw;width:70%; 
+<div class="avail" style="margin: 0 1vw 0 1vw;padding: 30px -10vh 100px -10vw;width:90%; 
 
            display: flex;
             display: -webkit-flex;
