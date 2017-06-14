@@ -81,7 +81,12 @@ const Footer = () => (
             {<a
                 href="#"
                 className={styles.columnLinks}>
-                    Terms of Service & Privacy Policy
+                    Terms of Service
+            </a>}
+            {<a
+                href="#"
+                className={styles.columnLinks}>
+                    MSHMIS Privacy Policy
             </a>}
             {<a
                 href="#"
