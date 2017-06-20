@@ -9,13 +9,23 @@
 
 @import "normalize.css";
 @import "//cdn-images.mailchimp.com/embedcode/slim-10_7.css";
+
+@media only screen and (min-width: 992px) {
+    input#mce-EMAIL.email {
+        width: 90%;
+        margin: 0 0 10px -10px;
+    }
+    input#mc-embedded-subscribe.button {
+        margin: 0 0 0 -10px;
+    }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     #mc-embedded-subscribe-form {
         margin: 0 0 0 -10px;
         text-align: center;
     }
     input#mce-EMAIL.email { 
-        width: 80%;
+        width: 90%;
     }
     input#mc-embedded-subscribe.button {
         width: 70%;

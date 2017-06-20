@@ -64,32 +64,32 @@ const Footer = () => (
         </div>
         <div className={styles.column3}>
             {<a
-                href="#"
+                href="/media-toolkit"
                 className={styles.columnLinks}>
                     Media Toolkit
             </a>}
             {<a
-                href="#"
+                href="/accreditation"
                 className={styles.columnLinks}>
                     Accreditation
             </a>}
             {<a
-                href="#"
+                href="/code-of-ethics"
                 className={styles.columnLinks}>
                     Code of Ethics
             </a>}
             {<a
-                href="#"
+                href="/terms-of-service"
                 className={styles.columnLinks}>
                     Terms of Service
             </a>}
             {<a
-                href="#"
+                href="/privacy-policy"
                 className={styles.columnLinks}>
                     MSHMIS Privacy Policy
             </a>}
             {<a
-                href="#"
+                href="/copyright"
                 className={styles.columnLinks}>
                     Copyright
             </a>}

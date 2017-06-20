@@ -50,7 +50,7 @@ const Page = (
         title={ metaTitle }
         meta={ meta }
       />
-      { ( (head.title !== "Financial Statements")&& (head.title !== "Strategic Plan") && (head.title !== "Governance & Leadership") && (head.title !== "Board of Trustees") && (head.title !== "Leadership") && (head.title !== "News and Events") && (head.title !== "Terms of Service and Privacy Policy") && (head.title !== "Frequently Asked Questions") && (head.title !== "Contact Us")) ? 
+      { ( (head.layout !== "FootLink") && (head.title !== "Financial Statements")&& (head.title !== "Strategic Plan") && (head.title !== "Governance & Leadership") && (head.title !== "Board of Trustees") && (head.title !== "Leadership") && (head.title !== "News and Events") && (head.title !== "Terms of Service and Privacy Policy") && (head.title !== "Frequently Asked Questions") && (head.title !== "Contact Us")) ? 
         <div
           className={ styles.hero }
           style={ head.hero && {

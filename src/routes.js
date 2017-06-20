@@ -21,7 +21,7 @@ import Governance from "./layouts/GovernancePage"
 import DocHold from "./layouts/DocumentPage"
 import ListHold from "./layouts/ListPage"
 import ChatHold from "./layouts/ChatPage"
-
+import FootLink from "./layouts/FootPage"
 const PageContainer = (props) => (
   <PhenomicPageContainer
     { ...props }
@@ -40,6 +40,7 @@ const PageContainer = (props) => (
       ListHold,
       ChatHold,
       Locations,
+      FootLink,
       Groups,
       About,
       Contact,
