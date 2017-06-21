@@ -976,13 +976,14 @@
         color: #fff;
     }
 }
-@supports (-webkit-text-size-adjust:none) and (not( -ms-ime-align: auto)) and (not (-moz-appearance:none)) {
+/*@supports (-webkit-text-size-adjust:none) and (not( -ms-ime-align: auto)) and (not (-moz-appearance:none)) {
     .socialItems {
         margin-left: 200px;
         margin-right: 100px;
         background-color: red;
     }
 }
+*/
 .socialItem img {
     transition: all 0.5s ease;
 }
