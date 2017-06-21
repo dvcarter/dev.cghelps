@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react'
-
+import styles from "./FootOpts.css"
 const FootOpts = () => {
     return (
-            <div></div>
+            <div className={footHolder.styles}></div>
     )
 }
 
