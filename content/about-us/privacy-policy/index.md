@@ -4,7 +4,7 @@ title: Terms of Service
 route: /terms-of-service
 
 ---
-
+<div style="height:100%;width:100%;padding: 20px; margin-bottom: 200px;">
 <p style="padding-right: 20px;padding-left:20px;"> <strong>1. Terms</strong>
 <br>
 By accessing the website at http://www.commongroundhelps.org, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
@@ -66,4 +66,5 @@ It is Common Ground's policy to respect your privacy regarding any information w
 </ul>
 Please recognize that, even though Common Ground employs reasonable security measures, any personal or private information that you provide on the internet is subject to an inherent risk of unauthorized access and distribution by third parties. Please limit accordingly the extent that you elect to share any personal or private information with Common Ground over the internet, and please do not upload to or post any information on the Common Ground website that would constitute a private health record.
 We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained. Common Ground may change this privacy policy from time to time at Common Ground's sole discretion.
-</p>
+
+</div>

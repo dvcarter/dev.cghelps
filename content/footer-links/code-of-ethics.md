@@ -3,7 +3,7 @@ title: Code of Ethics
 layout: FootLink
 route: /code-of-ethics
 ---
-
+<div style="height:100%;width:100%; padding: 10px; margin-bottom: 200px;">
 <div style="text-align: left; font-size: 12px; color: blue;"><a href="./../assets/Code_of_Ethics.pdf">Pdf version</a></div>
 <div style="text-align: center; font-size: 3vh; font-weight: 800"> Policy </div>
 <br>
@@ -155,4 +155,6 @@ Staff/consultants/ students/volunteers and Board Members are informed of their r
 <div style="padding: 50px; font-size: 12px;" >Reviewed By: Kyle Glasgow, Director of Mission Impact & Data Analysis
 <br>
 Reviewed: 11/22/13, 06/16/14, 03/03/15, 07/02/15, 09/29/16, 04/10/2017
+</div>
+
 </div>
