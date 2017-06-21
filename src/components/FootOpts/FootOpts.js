@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 import styles from "./FootOpts.css"
 const FootOpts = () => {
     return (
-            <div className={footHolder.styles}></div>
+            <div className={styles.footHolder}></div>
     )
 }
 
