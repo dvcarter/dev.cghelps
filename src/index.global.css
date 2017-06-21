@@ -53,6 +53,17 @@
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 319px) {
+    #mc-embedded-subscribe-form {
+        margin: 0 10px 0 45px;
+        padding: 0 10px 0 200px;
+        width: 65%;
+    }
+    input#mce-EMAIL.email, input#mc-embedded-subscribe.button {
+        width: 100%;
+    }
+}
 html { box-sizing: border-box; }
 
 *,
