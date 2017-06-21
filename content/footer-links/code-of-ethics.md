@@ -3,7 +3,7 @@ title: Code of Ethics
 layout: FootLink
 route: /code-of-ethics
 ---
-<div style="height:100%;width:100%; padding: 10px; margin-bottom: 200px;">
+<div style="height:2000px;width:100%; padding: 10px; margin-bottom: 1200px;">
 <div style="text-align: left; font-size: 12px; color: blue;"><a href="./../assets/Code_of_Ethics.pdf">Pdf version</a></div>
 <div style="text-align: center; font-size: 3vh; font-weight: 800"> Policy </div>
 <br>

@@ -4,7 +4,7 @@ title: Terms of Service
 route: /terms-of-service
 
 ---
-<div style="height:100%;width:100%;padding: 20px; margin-bottom: 200px;">
+<div style="height:2000px;width:100%;padding: 20px; margin-bottom: 200px;">
 <p style="padding-right: 20px;padding-left:20px;"> <strong>1. Terms</strong>
 <br>
 By accessing the website at http://www.commongroundhelps.org, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
