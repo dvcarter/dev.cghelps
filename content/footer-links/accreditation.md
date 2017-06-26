@@ -1,6 +1,6 @@
 ---
 title: Accreditation
-layout: FootLink
+layout: SmallFootLink
 route: /accreditation
 ---
 <div style="display: flex; justify-content: center;align-items: center;width: 100%;height: 80%;">
