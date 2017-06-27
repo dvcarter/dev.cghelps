@@ -200,6 +200,14 @@
         flex-direction: column;
         font-size:1.5vh;
     }
+    @-moz-document url-prefix()
+    {   .column1, .column2 {
+            margin-top: 10px;
+        }
+        .column3 {
+            margin-top: 20px;
+        }
+    }
 
 }
 @media only screen and (min-width: 1200px)  and (max-width: 1399px) {
@@ -366,6 +374,11 @@
         display: flex;
         flex-direction: column;
         font-size:1.5vh;
+    }
+    @-moz-document url-prefix() {
+        .column3 a {
+            margin-top: 20px;
+        }
     }
 
 }
@@ -912,6 +925,15 @@
     }
 }
 
+@-moz-document url-prefix() {
+    .footText {
+        margin-left: 20px;
+    }
+
+    .accreditation {
+        margin-top: -100px;
+    }
+}
 @media only screen and (max-width: 575px) {
     .footer {
         background-color: #482864;
