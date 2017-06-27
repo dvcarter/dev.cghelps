@@ -105,6 +105,12 @@
         padding: 0 20px 0 30px;
         width: 100%;
     }
+    _::-webkit-full-page-media, _:future, :root .accreditation {
+        margin-left: 700px;
+    }
+    _::-webkit-full-page-media, _:future, :root .greatDivide {
+        margin-left: 100px;
+    }
     _::-webkit-full-page-media, _:future, :root .socialItems {
         margin: 0 0 0 200px;
     }
@@ -205,7 +211,18 @@
             margin-top: 10px;
         }
         .column3 {
+            margin-left: -80px;
             margin-top: 20px;
+        }
+        .greatDivide {
+            margin-left: 50px;
+        }
+        .socialItems {
+            margin-left: 100px;
+        }
+        .accreditation {
+            padding-top: 130px;
+            margin-left: 600px;
         }
     }
 
@@ -376,8 +393,14 @@
         font-size:1.5vh;
     }
     @-moz-document url-prefix() {
-        .column3 a {
-            margin-top: 20px;
+        .socialItems {
+            margin-left: 25px;
+        }
+        .column3 a:first-child {
+            margin-top: 10px;
+        }
+        .accreditation {
+            padding-top: 120px;
         }
     }
 
@@ -537,6 +560,19 @@
         flex-direction: column;
         font-size:1.5vh;
     }
+    @-moz-document url-prefix() {
+        .accreditation {
+            padding-top: 50px;
+            margin-top: 20px;
+        }
+        .socialItems {
+            margin-left: 20px;
+            margin-bottom: -10px;
+        }
+        .greatDivide {
+            margin-left: -40px;
+        }
+    }
 }
 
 
@@ -598,14 +634,11 @@
           margin: 0 -20px 0 -130px;
           padding: 0 20px 0 30px;
           width: 100%;
-          background-color: red;
       }
       _::-webkit-full-page-media, _:future, :root .footerItems {
-          background-color: blue;
           overflow: hidden;
       }
       _::-webkit-full-page-media, _:future, :root .accreditation {
-          background-color: yellow;
           overflow: hidden;
       }
       _::-webkit-full-page-media, _:future, :root .socialItems {
@@ -715,6 +748,23 @@
       }
       _::webkit-full-page-media, _:future, :root .footer {
           overflow:hidden;
+      }
+      @-moz-document url-prefix() {
+         .greatDivide {
+             margin-left: -30px;
+         }
+         .socialItems {
+             margin-left: 20px;
+         }
+          .accreditation {
+              padding-top: 50px;
+              margin-top: -20px;
+          }
+
+          .column1 h4, .column2 h4 {
+              font-weight: 900;
+              margin-bottom: -10px;
+          }
       }
 }
 
