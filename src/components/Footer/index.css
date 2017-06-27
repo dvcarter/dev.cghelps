@@ -243,13 +243,13 @@
         position: relative;
         width: 200px;
         white-space: nowrap;
-        margin: 0 20px 0 30px;
+        margin: 0 20px 0 120px;
     }
     .footText:before {
         content: "Connect with Us";
     }
     .greatDivide {
-        margin: 20px 0 0 -70px;
+        margin: 20px 0 0 -25px;
         width:80%;
         border-bottom: 1px solid #fff;
     }   
@@ -307,7 +307,7 @@
         width: 100%;
         height: 40%;
         padding:  0 0 0 0px;
-        margin: 10px 0 0 350px;
+        margin: 10px 0 0 450px;
     }
     .link img {
         width: 66px;
