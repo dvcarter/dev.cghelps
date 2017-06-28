@@ -2,7 +2,6 @@ import React, { PropTypes } from "react"
 import Helmet from "react-helmet"
 import warning from "warning"
 import { BodyContainer, joinUri, Link } from "phenomic"
-
 import Button from "../../components/Button"
 import Loading from "../../components/Loading"
 import styles from "./index.css"
