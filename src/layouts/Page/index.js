@@ -48,7 +48,6 @@ const Page = (
       <Helmet
         title={ metaTitle }
         meta={ meta }
-        script={[{src:'./../../google-analytics.js', type: 'text/javascript'}]}
       />
       { ((head.title !== "Annual Report") && (head.layout !== "SmallFootLink") && (head.layout !== "FootLink") && (head.title !== "Financial Statements")&& (head.title !== "Strategic Plan") && (head.title !== "Governance & Leadership") && (head.title !== "Board of Trustees") && (head.title !== "Leadership") && (head.title !== "News and Events") && (head.title !== "Terms of Service") && (head.title !== "Frequently Asked Questions") && (head.title !== "Contact Us")) ? 
         <div
