@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from "react"
-import ga from "react-google-analytics"
+import ga from "react-ga"
 
 const isBrowser = (typeof window !== "undefined")
 const isProduction = process.env.NODE_ENV === "production"
