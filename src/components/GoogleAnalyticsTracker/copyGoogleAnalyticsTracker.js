@@ -1,10 +1,13 @@
 import React, { Component, PropTypes } from "react"
-import ga from "react-google-analytics"
 
-const isBrowser = (typeof window !== "undefined")
+import ga from "react-google-analytics"
+const GoogleAnalyticsInitiailizer = ga.Initializer
+
 const isProduction = process.env.NODE_ENV === "production"
+const isClient = typeof window !== "undefined"
 
 export default class GoogleAnalyticsTracker extends Component {
+
   static propTypes = {
     children: PropTypes.oneOfType([ PropTypes.array, PropTypes.object ]),
     params: PropTypes.object.isRequired,
@@ -15,16 +18,17 @@ export default class GoogleAnalyticsTracker extends Component {
   };
 
   componentWillMount() {
-    const { pkg } = this.context.metadata
-
-    if (isProduction && isBrowser) {
-      ga.create(pkg.googleAnalyticsUA, "auto")
-    }
-    if (!isProduction && isBrowser) {
+    if (isClient) {
+      const { pkg } = this.context.metadata
+      if (isProduction) {
+        ga("create", pkg.googleAnalyticsUA, "auto")
+      }
+      else {
         // eslint-disable-next-line no-console
-      console.info("ga.create", pkg.googleAnalyticsUA)
+        console.info("ga.create", pkg.googleAnalyticsUA)
+      }
+      this.logPageview()
     }
-    this.logPageview()
   }
 
   componentWillReceiveProps(props) {
@@ -34,20 +38,24 @@ export default class GoogleAnalyticsTracker extends Component {
   }
 
   logPageview() {
-    if (isProduction && isBrowser) {
-      ga.pageview(window.location.href)
-    }
-    if (!isProduction && isBrowser) {
+    if (isClient) {
+      if (isProduction) {
+        ga("set", "page", window.location.pathname)
+        ga("send", "pageview")
+      }
+      else {
         // eslint-disable-next-line no-console
-      console.info("New pageview", window.location.href)
+        console.info("New pageview", window.location.href)
+      }
     }
   }
 
   render() {
-    return React.createElement(
-      "div",
-      {},
-      this.props.children,
+    return (
+      <div>
+        { this.props.children }
+        <GoogleAnalyticsInitiailizer />
+      </div>
     )
   }
 }

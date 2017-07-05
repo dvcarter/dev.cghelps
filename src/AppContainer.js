@@ -1,4 +1,4 @@
-import React, { PropTypes } from "react"
+import React, {Component, PropTypes } from "react"
 
 import "./index.global.css"
 import "./highlight.global.css"
@@ -9,22 +9,39 @@ import Header from "./components/Header"
 import Content from "./components/Content"
 import Footer from "./components/Footer"
 
-const AppContainer = (props) => (
-  <Container>
-    <GATracker params={ props.params }>
-    <DefaultHeadMeta />
-    <Header />
-    <Content>
-      { props.children }
-    </Content>
-    <Footer />
-    </GATracker>
-  </Container>
-)
+//const AppContainer = (props) => (
 
-AppContainer.propTypes = {
-  children: PropTypes.node,
-  params: PropTypes.object
+export class AppContainer extends Component {
+    static propTypes = {
+        children: PropTypes.oneOfType([ PropTypes.array, PropTypes.object ]),
+        location: PropTypes.object.isRequired,
+        params: PropTypes.object,
+    }
+
+    static contextTypes = {
+        metadata: PropTypes.object.isRequired,
+    }
+    
+    
+    render() {
+        return (
+            <GATracker params={ this.props.params }>
+                <Container>
+                    <DefaultHeadMeta />
+                    <Header />
+                    <Content>
+                        { this.props.children }
+                    </Content>
+                    <Footer />
+                </Container>
+            </GATracker>
+    )
+    }
 }
+
+// AppContainer.propTypes = {
+//   children: PropTypes.node,
+//   params: PropTypes.object
+// }
 
 export default AppContainer
