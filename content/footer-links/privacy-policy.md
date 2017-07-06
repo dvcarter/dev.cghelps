@@ -3,6 +3,7 @@ title: Privacy Policy
 layout: FootLink
 route: /privacy-policy
 ---
+<div style="height:2000px;width:100%; padding: 10px; margin-bottom: 1200px;">
 <div style="padding-left: 10px; padding-right: 10px;text-align: left; font-size: 12px; color: blue;"><a href="./../assets/MSHMIS_privacy_policy.pdf">Pdf version</a></div>
 <div style="text-align: center;">
 <h3 style="color: #000;">Michigan State Homeless Management Information System (MSHMIS) </h3>
@@ -226,4 +227,5 @@ All amendments to the Privacy Notice must be consistent with the requirements of
 that protect the privacy of consumers and guide HMIS implementation and operation.</em></p>
 </div>
 
+</div>
 </div>
