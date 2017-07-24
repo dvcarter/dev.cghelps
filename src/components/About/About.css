@@ -34,6 +34,16 @@
         /*background-color: #dfe3ee;*/
     }
 
+     _::-webkit-:not(:root:root), .holder {
+        height: 200px;
+        padding-bottom: 600px;
+    }
+    @-moz-document url-prefix() {
+        .holder {
+            height: 500px;
+            padding-bottom: 550px;
+        }
+    }
     .options {
         display: flex;
         display: -webkit-flex;
@@ -75,6 +85,57 @@
         display: inline-block;
         font-size: 1.25vh;
     }
+    .boxes {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        align-items: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    }
+    .box {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        height: 150px;
+        width: 250px;
+        margin: 5px 0 5px 5px;
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        align-items: flex-end;
+        -webkit-align-items: flex-end;
+        -ms-flex-align: flex-end;
+        transition: all .2s ease-in-out;
+    }
+    .box:hover {
+        transform: scale(1.05);
+    }
+    .headline {
+        white-space: nowrap;
+        height: auto;
+        width: 60%;
+        color: white;
+        font-size: 2vh;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        margin: 0 10px 10px 20px;
+        text-decoration: none;
+    }
+    .aboutText {
+        height: auto;
+        width: 100%;
+        padding: 10px 20px;
+        margin: 0 10px 50px 0;
+    }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .title {
@@ -109,6 +170,13 @@
         margin: 30px 0 80px 0;
 
     }
+    @-moz-document url-prefix() {
+        .holder {
+            height: 300px;
+            padding-bottom: 100px;
+        }
+    }
+
     _::-webkit-:not(:root:root), .holder {
         height: 300px;
     }

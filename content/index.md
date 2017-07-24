@@ -1,5 +1,6 @@
 ---
-title: Common Ground Helps
+title: We listen. We care. We help.
+lowerTitle: At Common Ground, we're dedicated to helping people move from crisis to hope.
 layout: Homepage
 hero: /assets/seekhelp.jpg
 # hero: /assets/newcrop.png

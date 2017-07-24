@@ -60,6 +60,12 @@
       -webkit-align-items: center;
       background-color: var(--colorSecondary);
   }
+  .heading {
+      margin: 200px 0 0 0;
+  }
+  .lowerTitleHolder {
+      padding: 0 20px 0 20px;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .hero {
@@ -72,6 +78,12 @@
         width: 100%;
         background-color: var(--colorSecondary);
     }
+     .heading {
+        margin: 250px 0 0 0;
+    }   
+    .lowerTitleHolder {
+        padding: 0 250px 0 250px;
+    }  
 
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -85,6 +97,12 @@
         height: 400px;
         width: 800px;
     }
+     .heading {
+        margin: 180px 0 0 0;
+    }   
+    .lowerTitleHolder {
+        padding: 0 250px 0 250px;
+    }  
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
 
@@ -103,6 +121,12 @@
         var(--colorSecondary) 70%
         );
     }
+     .heading {
+        margin: 290px 0 0 0;
+    }   
+    .lowerTitleHolder {
+        padding: 0 250px 0 250px;
+    }  
 }
 
 @media only screen and (min-width: 1200px) {
@@ -127,6 +151,12 @@
         width: 100%;
         background-color: yellow;
     }*/
+    .heading {
+        margin: 270px 0 0 0;
+    }
+    .lowerTitleHolder {
+        padding: 0 250px 0 250px;
+    }
 }
 
 
@@ -167,11 +197,9 @@
   );*/
 }
 
-.heading {
-  margin: 160px 0 0 0;
-  color: var(--colorNeutralLight);
+.heading, .lowerTitle {
+ color: var(--colorNeutralLight);
   text-shadow:
-    0 0 10px var(--colorPrimaryDark),
     0 0 6px var(--colorNeutralDark),
     0 0 2px var(--colorNeutralDark)
   ;

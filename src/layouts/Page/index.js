@@ -1,8 +1,7 @@
 import React, { PropTypes } from "react"
 import Helmet from "react-helmet"
 import warning from "warning"
-import { BodyContainer, joinUri, Link } from "phenomic"
-import Button from "../../components/Button"
+import { BodyContainer, joinUri } from "phenomic"
 import Loading from "../../components/Loading"
 import styles from "./index.css"
 
@@ -49,24 +48,21 @@ const Page = (
         title={ metaTitle }
         meta={ meta }
       />
-      { ((head.title !== "Annual Report") && (head.layout !== "SmallFootLink") && (head.layout !== "FootLink") && (head.title !== "Financial Statements")&& (head.title !== "Strategic Plan") && (head.title !== "Governance & Leadership") && (head.title !== "Board of Trustees") && (head.title !== "Leadership") && (head.title !== "News and Events") && (head.title !== "Terms of Service") && (head.title !== "Frequently Asked Questions") && (head.title !== "Contact Us")) ? 
+      { ((head.title !== "About Us") && (head.title !== "Annual Report") && (head.layout !== "SmallFootLink") && (head.layout !== "FootLink") && (head.title !== "Financial Statements")&& (head.title !== "Strategic Plan") && (head.title !== "Governance & Leadership") && (head.title !== "Board of Trustees") && (head.title !== "Leadership") && (head.title !== "News and Events") && (head.title !== "Terms of Service") && (head.title !== "Frequently Asked Questions") && (head.title !== "Contact Us")) ? 
         <div
           className={ styles.hero }
           style={ head.hero && {
-            background: `#111 url(${ head.hero }) 50% 50% / cover`,
+            background: `#111 url(${head.hero }) 50% 50% / cover`,
           } }
         >
           <div className={ styles.header }>
             <div className={ styles.wrapper }>
               <h1 className={ styles.heading }>{ head.title }</h1>
-              {
-                head.cta &&
-                <Link to={ head.cta.link }>
-                  <Button className={ styles.cta } light { ...head.cta.props }>
-                    { head.cta.label }
-                  </Button>
-                </Link>
-              }
+                <div className={styles.lowerTitleHolder}>
+                    <h4 className={styles.lowerTitle}>
+                        { head.lowerTitle }
+                    </h4>
+                </div>
             </div>
           </div>
         </div>

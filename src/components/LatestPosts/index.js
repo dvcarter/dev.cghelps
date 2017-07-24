@@ -4,6 +4,7 @@ import enhanceCollection from "phenomic/lib/enhance-collection"
 import PagesList from "../../components/PagesList"
 
 import styles from "./index.css"
+import YouTube from "../../components/YouTube"
 
 const defaultNumberOfPosts = 6
 
@@ -20,13 +21,8 @@ const LatestPosts = (props, { collection }) => {
       <h2 className={ styles.latestPosts }>
         { "Latest News and Events" }
       </h2>
-      <div className={styles.eventBanner}>
-        <a href="https://www.eventbrite.com/e/crisis-to-hope-tour-tickets-34983470502">
-            <div className={styles.eventButton}>
-                TAKE THE TOUR
-            </div>
-        </a>
-      </div>
+      <YouTube video="mYFaghHyMKc" autoplay="0" rel="0" modest="1" />
+      <YouTube video="mYFaghHyMKc" autoplay="0" rel="0" modest="1" />
       <PagesList pages={ latestPosts } />
     </div>
   )
