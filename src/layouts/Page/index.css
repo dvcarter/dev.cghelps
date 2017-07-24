@@ -62,9 +62,11 @@
   }
   .heading {
       margin: 200px 0 0 0;
+      font-size: 1.25em;
   }
   .lowerTitleHolder {
       padding: 0 20px 0 20px;
+      font-size: 0.75em;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
