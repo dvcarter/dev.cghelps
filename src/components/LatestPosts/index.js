@@ -5,6 +5,7 @@ import PagesList from "../../components/PagesList"
 
 import styles from "./index.css"
 import YouTube from "../../components/YouTube"
+import VideoBox from "../../components/VideoBox"
 
 const defaultNumberOfPosts = 6
 
@@ -21,8 +22,8 @@ const LatestPosts = (props, { collection }) => {
       <h2 className={ styles.latestPosts }>
         { "Latest News and Events" }
       </h2>
-      <YouTube video="mYFaghHyMKc" autoplay="0" rel="0" modest="1" />
-      <YouTube video="mYFaghHyMKc" autoplay="0" rel="0" modest="1" />
+        <VideoBox />
+      {/*<YouTube video="mYFaghHyMKc" autoplay="0" rel="0" modest="1" />*/}
       <PagesList pages={ latestPosts } />
     </div>
   )

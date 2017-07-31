@@ -1,25 +1,46 @@
-import React, { PropTypes } from "react"
+import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 import warning from "warning"
 import { BodyContainer, joinUri } from "phenomic"
 import Loading from "../../components/Loading"
 import styles from "./index.css"
 
-const Page = (
-  {
-    isLoading,
+class Page extends Component {
+
+
+    constructor() {
+        super();
+        this.state = {
+            posts: []
+        }
+    }
+
+
+    componentDidMount() {
+        let dataURL = "http://cghelps.dev/wp-json/wp/v2/posts?"
+        fetch(dataURL)
+            .then(res => res.json())
+            .then(res => {
+                this.setState({
+                    posts: res 
+                })  
+            })  
+    }  
+
+
+  render() {
+    const { isLoading,
     __filename,
     __url,
     head,
     body,
     header,
-    footer,
+    footer, 
     children,
-  },
-  {
-    metadata: { pkg },
-  }
-) => {
+    } = this.props;
+
+    const { metadata: { pkg }} = this.context;
+
   warning(
     typeof head.title === "string",
     `Your page '${ __filename }' needs a title`
@@ -41,7 +62,22 @@ const Page = (
     { name: "twitter:description", content: head.description },
     { name: "description", content: head.description },
   ]
-
+  {/*let posts = this.state.posts.map((post, index) => {
+        return <div key={index}>
+                {post.id}
+                {post.date}
+                {post.title.rendered}
+                {post.content.rendered}
+              </div>
+        });
+    */}
+  let posts = this.state.posts.map((post, index) => {
+      return <div key={index}>
+                <p>{post.title.rendered}</p>
+                <p>{post.content.rendered.replace(/(<([^>]+)>)/ig,"")}</p>
+                <p>{post.slug}</p>
+            </div>
+  });
   return (
     <div className={ styles.page }>
       <Helmet
@@ -53,7 +89,8 @@ const Page = (
           className={ styles.hero }
           style={ head.hero && {
             background: `#111 url(${head.hero }) 50% 50% / cover`,
-          } }
+                   } 
+          }
         >
           <div className={ styles.header }>
             <div className={ styles.wrapper }>
@@ -78,14 +115,19 @@ const Page = (
           {
             isLoading
             ? <Loading />
-            : <BodyContainer>{ body }</BodyContainer>
+            :  head.layout !== "Post" ? <BodyContainer>{ body }</BodyContainer> 
+                : <div> 
+                    {posts[0]} 
+                    {posts[1]}
+                  </div> 
           }
         </div>
         { children }
         { footer }
       </div>
     </div>
-  )
+    )
+}
 }
 
 Page.propTypes = {

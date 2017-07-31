@@ -6,6 +6,8 @@ import Button from "../../components/Button"
 import styles from "./index.css"
 
 const PagePreview = ({ __url, title, date, description }) => {
+  
+    
   const pageDate = date ? new Date(date) : null
 
   return (

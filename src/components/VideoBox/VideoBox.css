@@ -1,0 +1,44 @@
+.mainHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.boxHolder {
+    background-color: blue;
+    display: flex;
+    width: 70%;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 300px;
+    background-color: #dfe3ee;
+}
+
+.red {
+    background-color: red;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.gray {
+    width: 95%;
+    height: 47%;
+    background-color: #dfe3ee;
+}
+
+.gray:first-child {
+    margin: -4px 0 4px 0; 
+}
