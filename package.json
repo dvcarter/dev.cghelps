@@ -136,6 +136,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.23.0",
+    "copy-webpack-plugin": "^4.0.1",
     "flexbox-react": "^4.2.1",
     "google-map-react": "^0.22.3",
     "normalize.css": "^5.0.0",
