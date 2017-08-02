@@ -235,7 +235,9 @@ export default (config = {}) => {
         },
       }),
       */
-
+      new CopyWebPackPlugin([
+              {from: 'admin', to: 'admin'},
+      ]),
       new PhenomicLoaderFeedWebpackPlugin({
         // here you define generic metadata for your feed
         feedsOptions: {
