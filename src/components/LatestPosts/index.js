@@ -21,8 +21,8 @@ const LatestPosts = (props, { collection }) => {
       <h2 className={ styles.latestPosts }>
         { "Latest News and Events" }
       </h2>
-      <YouTube video="mYFaghHyMKc" autoplay="0" rel="0" modest="1" />
-      <YouTube video="mYFaghHyMKc" autoplay="0" rel="0" modest="1" />
+      {/*<YouTube video="mYFaghHyMKc" autoplay="0" rel="0" modest="1" />
+      <YouTube video="mYFaghHyMKc" autoplay="0" rel="0" modest="1" /> */}
       <PagesList pages={ latestPosts } />
     </div>
   )
