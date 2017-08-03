@@ -10,12 +10,13 @@ collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Post" # Used in the UI, e.g., "New Post"
     folder: "content/posts" # The path to the folder where the documents are stored
+    sort: "date:desc"
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Hero", name: "hero", widget: "image", required: true}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Layout", name: "layout", widget: "string", default: "Post"}
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Hero", name: "hero", widget: "image", required: true}
+      - {label: "Layout", name: "layout", widget: "string", default: "Post"}
+      - {label: "Body", name: "body", widget: "markdown"}
     card: {type: "alltype", text: "title"}
