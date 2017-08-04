@@ -10,16 +10,16 @@ import Content from "./components/Content"
 import Footer from "./components/Footer"
 
 const AppContainer = (props) => (
-            <Container>
-                    <DefaultHeadMeta />
-                    <GATracker params={props.params}>
-                    <Header />
-                    <Content>
-                        { props.children }
-                    </Content>
-                    <Footer />
-                    </GATracker>
-            </Container>
+            <GATracker params={props.params}>
+                <Container>
+                        <DefaultHeadMeta />
+                        <Header />
+                        <Content>
+                            { props.children }
+                        </Content>
+                        <Footer />
+                </Container>
+            </GATracker>
     )
 
  AppContainer.propTypes = {

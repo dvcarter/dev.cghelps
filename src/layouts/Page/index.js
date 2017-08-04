@@ -73,7 +73,10 @@ class Page extends Component {
     */}
   let posts = this.state.posts.map((post, index) => {
       return <div key={index}>
-                <p>{post.title.rendered}</p>
+                <p>{post.title.rendered}</p>{
+                    post.featured_media ?
+                        <a href={post.link}><img src={post._embedded['wp:featuredmedia'][0].media_details.sizes["large"].source_url} /></a> :
+                            null }
                 <p>{post.content.rendered.replace(/(<([^>]+)>)/ig,"")}</p>
                 <p>{post.slug}</p>
             </div>
@@ -117,8 +120,7 @@ class Page extends Component {
             ? <Loading />
             :  head.layout !== "Post" ? <BodyContainer>{ body }</BodyContainer> 
                 : <div> 
-                    {posts[0]} 
-                    {posts[1]}
+                    {posts} 
                   </div> 
           }
         </div>

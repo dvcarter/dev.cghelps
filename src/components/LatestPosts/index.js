@@ -4,7 +4,7 @@ import enhanceCollection from "phenomic/lib/enhance-collection"
 import PagesList from "../../components/PagesList"
 
 import styles from "./index.css"
-import YouTube from "../../components/YouTube"
+//import YouTube from "../../components/YouTube"
 import VideoBox from "../../components/VideoBox"
 
 const defaultNumberOfPosts = 6
