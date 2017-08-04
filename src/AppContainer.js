@@ -10,13 +10,13 @@ import Footer from "./components/Footer"
 import GATracker from "./components/GoogleAnalyticsTracker"
 
 
-const AppContainer = (props, params) => (
+const AppContainer = ({children,  params}) => (
         <GATracker params={params}>
                 <Container>
                         <DefaultHeadMeta />
                         <Header />
                         <Content>
-                            { props.children }
+                            { children }
                         </Content>
                         <Footer />
                 </Container>
