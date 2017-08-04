@@ -3,9 +3,10 @@ import { PropTypes } from "react"
 
 import ga from "react-google-analytics"
 const GoogleAnalyticsInitiailizer = ga.Initializer
-
+ 
 const isProduction = process.env.NODE_ENV === "production"
 const isClient = typeof window !== "undefined"
+
 
 class GoogleAnalyticsTracker extends Component {
 
@@ -13,7 +14,7 @@ class GoogleAnalyticsTracker extends Component {
     if (isClient) {
       const { pkg } = this.context.metadata
       if (isProduction) {
-        ga("create", pkg.googleAnalyticsUA, "auto")
+        ga("create", pkg.googleAnalyticsUA, "devcommongroundhelsp.netlify.com")
       }
       else {
         // eslint-disable-next-line
