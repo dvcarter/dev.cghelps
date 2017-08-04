@@ -7,6 +7,8 @@ var Promise = require('es6-promise').Promise;
  * @module GoogleAnalytics
  * @class
  * @internal
+ *
+ *
  */
 class GoogleAnalytics {
     constructor(options = {}) {
