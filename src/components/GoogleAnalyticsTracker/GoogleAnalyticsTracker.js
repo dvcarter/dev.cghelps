@@ -5,7 +5,7 @@ import ga from "react-google-analytics"
 const GoogleAnalyticsInitiailizer = ga.Initializer
 
 const isProduction = process.env.NODE_ENV === "production"
-const isClient = typeof window == "undefined"
+const isClient = typeof window !== "undefined"
 
 class GoogleAnalyticsTracker extends Component {
 
@@ -21,6 +21,7 @@ class GoogleAnalyticsTracker extends Component {
       }
       this.logPageview()
     }
+    if (typeof window === 'undefined') { global.window = {} }
   }
 
   componentWillReceiveProps(props) {
