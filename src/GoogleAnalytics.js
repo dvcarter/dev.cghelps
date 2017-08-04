@@ -1,4 +1,3 @@
-import analytics from "analytics.js";
 var Promise = require('es6-promise').Promise;
 /**
  * Performs the tracking calls to Google Analytics.
@@ -10,6 +9,7 @@ var Promise = require('es6-promise').Promise;
  *
  *
  */
+const analytics = (typeof window !== "undefined") ? require("analytics.js") : null
 class GoogleAnalytics {
     constructor(options = {}) {
         this.name = "Google Analytics";
