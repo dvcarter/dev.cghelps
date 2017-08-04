@@ -1,4 +1,5 @@
 var Promise = require('es6-promise').Promise;
+import analytics from "analytics.js";
 /**
  * Performs the tracking calls to Google Analytics.
  * Utilizing Segment IO Analytics Integration.
@@ -9,7 +10,7 @@ var Promise = require('es6-promise').Promise;
  *
  *
  */
-const analytics = (typeof window !== "undefined") ? require("analytics.js") : null
+// const analytics = (typeof window !== "undefined") ? require("analytics.js") : null
 class GoogleAnalytics {
     constructor(options = {}) {
         this.name = "Google Analytics";

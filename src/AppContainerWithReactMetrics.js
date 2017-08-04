@@ -7,11 +7,24 @@ import DefaultHeadMeta from "./components/DefaultHeadMeta"
 import Header from "./components/Header"
 import Content from "./components/Content"
 import Footer from "./components/Footer"
-import GATracker from "./components/GoogleAnalyticsTracker"
+import GoogleAnalytics from "./GoogleAnalytics"
+import {metrics} from "react-metrics";
 
-
-const AppContainer = (props, params) => (
-        <GATracker params={params}>
+const config = {
+    vendors: [{
+                 name: "Google Analytics",
+                 api: new GoogleAnalytics({
+                     trackingId: "UA-25042886-2"
+                 })
+             }],
+    pageViewEvent: "pageLoad",
+    pageDefaults: () => {
+        return {
+            siteName: "Common Ground",
+        };
+    }
+}
+const AppContainer = (props) => (
                 <Container>
                         <DefaultHeadMeta />
                         <Header />
@@ -20,7 +33,6 @@ const AppContainer = (props, params) => (
                         </Content>
                         <Footer />
                 </Container>
-        </GATracker>
     )
 
  AppContainer.propTypes = {
@@ -28,4 +40,4 @@ const AppContainer = (props, params) => (
    params: PropTypes.object
 }
 
-export default AppContainer
+export default metrics(config)(AppContainer)

@@ -1,30 +1,26 @@
-import React, { Component, PropTypes } from "react"
-import ga from "react-ga"
+import React, { Component } from "react"
+import { PropTypes } from "react"
 
-const isBrowser = (typeof window !== "undefined")
+import ga from "react-google-analytics"
+const GoogleAnalyticsInitiailizer = ga.Initializer
+
 const isProduction = process.env.NODE_ENV === "production"
+const isClient = typeof window !== "undefined"
 
-export default class GoogleAnalyticsTracker extends Component {
-  static propTypes = {
-    children: PropTypes.oneOfType([ PropTypes.array, PropTypes.object ]),
-    params: PropTypes.object.isRequired,
-  };
-
-  static contextTypes = {
-    metadata: PropTypes.object.isRequired,
-  };
+class GoogleAnalyticsTracker extends Component {
 
   componentWillMount() {
-    const { pkg } = this.context.metadata
-
-    if (isProduction && isBrowser) {
-      ga.create(pkg.googleAnalyticsUA, "auto")
+    if (isClient) {
+      const { pkg } = this.context.metadata
+      if (isProduction) {
+        ga("create", pkg.googleAnalyticsUA, "auto")
+      }
+      else {
+        // eslint-disable-next-line
+        console.info("ga.create", pkg.googleAnalyticsUA)
+      }
+      this.logPageview()
     }
-    if (!isProduction && isBrowser) {
-        // eslint-disable-next-line no-console
-      console.info("ga.create", pkg.googleAnalyticsUA)
-    }
-    this.logPageview()
   }
 
   componentWillReceiveProps(props) {
@@ -34,20 +30,35 @@ export default class GoogleAnalyticsTracker extends Component {
   }
 
   logPageview() {
-    if (isProduction && isBrowser) {
-      ga.pageview(window.location.href)
-    }
-    if (!isProduction && isBrowser) {
-        // eslint-disable-next-line no-console
-      console.info("New pageview", window.location.href)
+    if (isClient) {
+      if (isProduction) {
+        ga("set", "page", window.location.pathname)
+        ga("send", "pageview")
+      }
+      else {
+        // eslint-disable-next-line
+        console.info("New pageview", window.location.href)
+      }
     }
   }
 
   render() {
-    return React.createElement(
-      "div",
-      {},
-      this.props.children,
+    return (
+      <div>
+        { this.props.children }
+        <GoogleAnalyticsInitiailizer />
+      </div>
     )
   }
 }
+
+GoogleAnalyticsTracker.propTypes = {
+  children: PropTypes.oneOfType([ PropTypes.array, PropTypes.object ]),
+  params: PropTypes.object.isRequired,
+}
+
+GoogleAnalyticsTracker.contextTypes = {
+  metadata: PropTypes.object.isRequired,
+}
+
+export default GoogleAnalyticsTracker
